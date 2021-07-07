@@ -1560,11 +1560,15 @@
     .apply a button{
         font-size: 3vw;
     }
+    .footer{
+        display: none;
+    }
+
 }
 
 @media screen and (max-width:768px) and (min-width:481px){
     #rocket-logo{
         width:60vw;
     }
+    
 }
-

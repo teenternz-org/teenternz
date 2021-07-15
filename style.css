@@ -448,30 +448,30 @@
 }
 
 #car1{
-    background-image: url(TGS2.png);
+    background-image: url(orgs/tgs.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #car2{
-    background-image: url(TCG2.png);
+    background-image: url(orgs/thechattergals.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 
 #car3{
-    background-image: url(LA2.png);
+    background-image: url(orgs/love\ achelois.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 #car4{
-    background-image: url(LB2.png);
+    background-image: url(orgs/Llittlebutterflies.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 #car5{
-    background-image: url(IM2.png);
+    background-image: url(orgs/IM.png);
      background-size: cover;
     background-repeat: no-repeat;
 }
@@ -1108,7 +1108,7 @@
 }
 .container-tcg{
     width: 50%;
-    height: 1400px;
+    height: max-content;
     margin: auto;
     background-image: url(aftermain.png);
     border: 1px solid black;
@@ -1572,4 +1572,7 @@
         width:60vw;
     }
     
+}
+#Amers{
+    height: 900px;
 }

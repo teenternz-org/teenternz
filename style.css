@@ -1571,11 +1571,14 @@
     #rocket-logo{
         width:60vw;
     }
-    .footer{
-        display: none;
-    }
+
     
 }
 #Amers{
     height: 900px;
+}
+@media screen and (max-width: 768px) {
+    .footer{
+        display: none;
+    }
 }

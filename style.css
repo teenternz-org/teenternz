@@ -1571,6 +1571,9 @@
     #rocket-logo{
         width:60vw;
     }
+       .footer{
+        display: none;
+    }
     
 }
 #Amers{

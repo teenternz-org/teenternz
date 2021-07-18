@@ -39,10 +39,11 @@
     width: 98%;
     height: max-content;
     margin: 20px;
+
     flex-wrap: wrap;
     flex-direction: row;
-    /* justify-content: center;
-    align-items: center; */
+    justify-content: center;
+    align-items: center;
 }
 .bc{
     width: 430px;
@@ -60,6 +61,9 @@
 #bc-1:hover{
    opacity: 0.7;
 }
+#bc-2:hover{
+    opacity: 0.7;
+}
 
 
 
@@ -70,10 +74,16 @@
         height: 70vw;
         width: 70vw;
         padding: 32px;
+        margin: auto;
 }
 
 #bc-1{
     background-image: url(blog-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bc-2{
+    background-image: url(blog-2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -96,7 +106,7 @@
             <li><a href="index.html">Home ⏳</a></li>
             <li><a href="op.html">Opportunities 🧮</a></li>
             <li><a href="course.html">Courses 📒</a></li>
-              <li><a href="Submityourreview.html">Share Feedback ✒</a></li>
+            <li><a href="Submityourreview.html">Share Feedback ✒</a></li>
             <li><a href="todo.html">To-do List 📄</a></li>
             <li><a href="blog.html">Article 💻</a></li>
             <li><a href="resourses.html">Resourses 🚀</a></li>
@@ -120,9 +130,15 @@
         <a href="blog-1.html">
             <div class="bc" id="bc-1"></div>
         </a>
-        <!-- <a href="#">
-            <div class="bc" id="bc-2"></div>
+       <a href="blog-2.html">
+            <div 
+            style="background: url(blog-2.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+             "
+            class="bc" id="bc-2"></div>
         </a>
+         <!-- 
         <a href="#">
             <div class="bc" id="bc-3"></div>
         </a> -->

@@ -502,7 +502,11 @@
     cursor: pointer;
 
 }
-
+@media screen and (max-width: 768px) {
+    .hiring h1{
+        font-size: 4vw; 
+    }
+}
 
 
 

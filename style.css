@@ -1000,7 +1000,7 @@
 }
 .container-tgs{
     width: 50%;
-    height: 1300px;
+    height: max-content;
     margin: auto;
     background-image: url(homeeee.png);
     border: 1px solid black;
@@ -1130,7 +1130,7 @@
 @media screen and (max-width:768px) and (min-width:481px){
     .container-tgs{
         width: 80%;
-        height: 1300px;
+        height: max-content;
         box-shadow: 5px 5px 30px rgb(122, 122, 122);
         margin-top: 10px;
 
@@ -1584,5 +1584,91 @@
 @media screen and (max-width: 768px) {
     .footer{
         display: none;
+    }
+}
+
+
+.opportunities-2{
+    width: 100%;
+    height: 110vh;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.orgs-22{
+    
+    width: 100%;
+    height: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.cards-22{
+    width: 270px;
+    height: 100px;
+    background-color: rgb(245, 244, 247);
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    box-shadow: 2px 2px 10px rgb(49, 49, 49);
+    border-radius: 10px;
+}
+.cards-22 .name h1{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 0.2vw;
+    color: #202020;
+  
+}
+.cards-22 .name p{
+    font-size: 13px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 0.2vw;
+    text-transform: uppercase;
+    font-weight: 750;
+    line-height: 15px;
+
+  
+}
+.cards-22 .img img{
+    padding: 4px;
+    border-radius: 10px;
+}
+.Howdoeswework{
+    width: 100%;
+    height: 80vh;
+
+}
+
+.flexbox-how{
+    width: 90%;
+    height: max-content;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card-flexbox{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 2px 2px 10px black;
+    margin: auto;
+    padding: 50px;
+    border-radius: 15px;
+}
+@media screen and (max-width:768px) {
+    .card-flexbox{
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
     }
 }

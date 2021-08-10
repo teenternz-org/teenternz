@@ -221,7 +221,7 @@
 
 .services{
     /* background-image: url(img/aftermain.png); */
-    width: 100%;
+    width: 90%;
     height: 120vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -243,7 +243,6 @@
     min-width: 400px;
     height: 500px;
     margin: 20px;
-    margin-left:  70px;
     background-color: white;
     border-radius: 40px;
     display: grid;
@@ -287,8 +286,7 @@
     background-image: url(graphics/col3.png);
 }
 #courses{
-    background-image: url(graphics/col1.png);
-    
+    background-image: url(graphics/col1.png);    
 }
 
 #card1btn{
@@ -354,8 +352,7 @@
     font-size: 5.6vw;
     font-family: 'Patrick Hand', cursive;
     letter-spacing: 1vw;
-    color: rgb(6, 12, 63);
-    
+    color: rgb(6, 12, 63); 
 }
 .photo{
    margin-left: 200px;
@@ -365,7 +362,7 @@
     margin-left: 170px;
  }
 
- .title-who{
+.title-who{
     margin-left: 200px;
     font-size: 4vw;
     font-family: 'Patrick Hand', cursive;
@@ -502,6 +499,7 @@
     cursor: pointer;
 
 }
+
 @media screen and (max-width: 768px) {
     .hiring h1{
         font-size: 4vw; 
@@ -509,22 +507,7 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* MOBILE DEVICES */
-
-
 
 
 @media screen and (max-width:480px) {
@@ -727,16 +710,8 @@
     margin: 20px;
     border-radius: 40px;
     display: block;
-
 }
-
-
-
-
-
-
 } 
-
 
 
 /* TAB DEVICES */
@@ -813,8 +788,8 @@
     }
     
 
-
     /* just tab things */
+
 
     .s-who{
         display: block;
@@ -941,11 +916,7 @@
     }
     .opportnities{
         display: none;
-     }
-    
-  
-
-    
+     }   
 }
 
 
@@ -1187,8 +1158,7 @@
     }
     .main-image{
         display: none;
-    }
-    
+    }    
 }
 
 .flex-baby{
@@ -1253,6 +1223,7 @@
 
 
 /* todo list */
+
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
@@ -1483,7 +1454,6 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-
 }
 
 @media screen and (max-width:480px) {
@@ -1544,6 +1514,7 @@
     }
 
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 #register-h1{

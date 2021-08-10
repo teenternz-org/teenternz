@@ -629,7 +629,7 @@
     margin: auto;
     background-color: white;
     border-radius: 20px;
-    background-image: url(full\ width.png);
+    background-image: url(../archive/full\ width.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -654,10 +654,10 @@
 }
 
 #cora-2{
-    background-image: url(volunteer.png);
+    background-image: url(../archive/volunteer.png);
 }
 #cora-3{
-    background-image: url(coursess.png);
+    background-image: url(../archive/coursess.png);
 }
 
 /* who can join */

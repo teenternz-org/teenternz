@@ -710,12 +710,12 @@
    
 }
 #rec1{
-    background-image: url(s-cards1.png);
+    background-image: url(../archive/s-cards1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 #rec2{
-    background-image: url(s-cards-2.png);
+    background-image: url(../archive/s-cards-2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }

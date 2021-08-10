@@ -1002,7 +1002,7 @@
     width: 50%;
     height: max-content;
     margin: auto;
-    background-image: url(homeeee.png);
+    background-image: url(graphics/homeeee.png);
     border: 1px solid black;
     border-radius: 40px;
     box-shadow: 5px 5px 30px rgb(122, 122, 122);
@@ -1114,7 +1114,7 @@
     width: 50%;
     height: max-content;
     margin: auto;
-    background-image: url(homeeee.png);
+    background-image: url(graphics/homeeee.png);
     border: 1px solid black;
     border-radius: 40px;
     box-shadow: 5px 5px 30px rgb(122, 122, 122);

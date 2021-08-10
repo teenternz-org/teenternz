@@ -134,7 +134,7 @@
 
 .main{
 
-    background-image: url(desktop.png);
+    background-image: url(graphics/desktop.png);
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -147,7 +147,7 @@
 
 .after-main{
     display: none;
-    background-image: url(../archive/aftermain.png);
+    background-image: url(graphics/aftermain.png);
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -280,14 +280,14 @@
     text-transform: uppercase;
 }
 #internships{
-    background-image: url(../archive/col2.png)
+    background-image: url(graphics/col2.png)
    ;
 }
 #Volunteer{
-    background-image: url(../archive/col3.png);
+    background-image: url(graphics/col3.png);
 }
 #courses{
-    background-image: url(../archive/col1.png);
+    background-image: url(graphics/col1.png);
     
 }
 
@@ -546,7 +546,7 @@
         color: rgb(253, 142, 142);
     }
     .after-main{
-        background-image: url(../archive/aftermain.png);
+        background-image: url(graphics/aftermain.png);
         background-repeat: no-repeat;
         background-size: cover;
         height: 960vw;
@@ -629,7 +629,7 @@
     margin: auto;
     background-color: white;
     border-radius: 20px;
-    background-image: url(../archive/full\ width.png);
+    background-image: url(graphics/full\ width.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -654,10 +654,10 @@
 }
 
 #cora-2{
-    background-image: url(../archive/volunteer.png);
+    background-image: url(graphics/volunteer.png);
 }
 #cora-3{
-    background-image: url(../archive/coursess.png);
+    background-image: url(graphics/coursess.png);
 }
 
 /* who can join */
@@ -710,12 +710,12 @@
    
 }
 #rec1{
-    background-image: url(../archive/s-cards1.png);
+    background-image: url(graphics/s-cards1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 #rec2{
-    background-image: url(../archive/s-cards-2.png);
+    background-image: url(graphics/s-cards-2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }

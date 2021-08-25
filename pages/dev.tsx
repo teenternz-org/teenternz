@@ -3,9 +3,9 @@ import NavBar from '../components/navbar'
 
 const Dev: NextPage = () => {
   return (
-    <>
-			<NavBar/>
-		</>
+    <div className="bg-pink-50 h-screen">
+    <NavBar/>
+		</div>
   )
 }
 

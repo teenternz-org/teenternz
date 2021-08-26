@@ -145,7 +145,7 @@ nav{
     background-image: url(img/homee.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: max-content;
+    height: 100vh;
     color: rgb(19, 19, 19);
 }
 .home h1{

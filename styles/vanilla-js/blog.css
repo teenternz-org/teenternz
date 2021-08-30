@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+    *{
+    margin: 0;
+    padding: 0;
+}
+
+.heading-blog01{
+    color: rgb(27, 0, 63);
+    font-family: 'Patrick Hand', cursive;
+    text-align: center;
+    font-size: 4vw;
+    padding: 25px;
+    letter-spacing: 0.7vw;
+}
+#Content{
+    color: rgb(27, 0, 63);
+    font-family: 'Arimo', sans-serif;
+    text-align: left;
+    font-size: 1.5vw;
+    padding: 270px;
+    /* letter-spacing: 0.2vw; */
+    margin-top: -90px;
+
+line-height: 50px;
+}
+
+@media screen and (max-width:770px) {
+    #Content{
+    font-size: 5vw;
+    padding: 30px;
+    margin-top: 40px;
+    font-family: 'Arimo', sans-serif;
+   
+}
+.footer{
+    display: none;
+}
+.heading-blog01{
+   font-size: 8vw;
+   letter-spacing: 0.7vw; 
+}
+}

@@ -46,7 +46,7 @@ const Graphics_Design = () => {
 
     <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200" >
         <div className="rounded-md overflow-hidden">
-        <Link href="/internships/open-call-for-artists"><a><img src="/org/bloodyDonuts.png"  alt="logo"width="90px"height="90px"/></a></Link>
+        <Link href="/internships/open-call-for-artists"><a><img src="/org/opencallforartists.jpg"  alt="logo"width="90px"height="90px"/></a></Link>
         </div>
         <div className="text-left ml-0">
             <h1 className="text-lg font-medium">OPEN CALL FOR ARTISTS</h1>

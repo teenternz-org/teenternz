@@ -43,10 +43,28 @@ const VJS_Articles = () => {
 
       <div className="card-article">
         <div className="img-article">
+            <img src="/Blogs/blog-4.png" alt="Cover"/>
+        </div>
+        <div className="text-article">
+            <p><Link href="/blogs/how-to-study-and-manage-extracurriculars"><a>HOW TO STUDY AND MANAGE EXTRACURRICULARS</a></Link></p>
+        </div>
+      </div>
+
+      <div className="card-article">
+        <div className="img-article">
             <img src="/Blogs/blog-3.png" alt="Cover"/>
         </div>
         <div className="text-article">
             <p><Link href="/blogs/how-can-students-make-the-most-out-of-their-time"><a> How to Manage time as a Student</a></Link></p>
+        </div>
+      </div>
+
+      <div className="card-article">
+        <div className="img-article">
+            <img src="/Blogs/blog-2.png" alt="Cover"/>
+        </div>
+        <div className="text-article">
+            <p><Link href="/blogs/how-to-start-an-organization-in-high-school"><a>HOW TO START AN ORGANIZATION IN HIGH SCHOOL!</a></Link></p>
         </div>
       </div>
 

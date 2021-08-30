@@ -39,7 +39,7 @@ const Web_Dev = () => {
 
     <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
         <div className="rounded-md overflow-hidden">
-        <Link href="/internships/magnify-you"><a><img src="/org/empoweringmed.png" alt="logo" width="90px" height="90px"/></a></Link>
+        <Link href="/internships/magnify-you"><a><img src="/org/Pune (3).png" alt="logo" width="90px" height="90px"/></a></Link>
         </div>
         <div className="text-left ml-0">
             <h1 className="text-lg font-medium">MAGNIFY YOU </h1>

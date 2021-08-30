@@ -137,7 +137,7 @@ const All = () => {
 
             <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
                 <div className="rounded-md overflow-hidden">
-                    <a href="thehumanitarianommunity.html"><img src="/org/Screenshot (67) - Copy.png" alt="logo" width="90px"
+                    <a href="thehumanitarianommunity.html"><img src="/org/Screenshot_67_-_Copy.png" alt="logo" width="90px"
                             height="90px"/></a>
                 </div>
                 <div className="text-left ml-0">
@@ -537,7 +537,7 @@ const All = () => {
 
             <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
                 <div className="rounded-md overflow-hidden">
-                    <a href="SWYW.html"><img src="/org/swyw.png" alt="logo" width="90px" height="90px"/></a>
+                    <a href="SWYW.html"><img src="/org/SWYW.png" alt="logo" width="90px" height="90px"/></a>
                 </div>
                 <div className="text-left ml-0">
                     <h1 className="text-lg font-medium">SPEAK WHAT YOU WEAR</h1>

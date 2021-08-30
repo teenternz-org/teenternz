@@ -1,8 +1,8 @@
 const Scalar_News = () => {
   return (
-    <div>
+    <>
       
-    </div>
+    </>
   )
 }
 

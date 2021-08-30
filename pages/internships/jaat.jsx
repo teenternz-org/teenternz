@@ -5,7 +5,7 @@ const Jaat = () => {
   return (
     <>
     <VJS_NavBar />
-    <div className="text-center mx-72">
+    <div className="text-center mx-14 md:mx-24 lg:mx-48">
     <h1 className="text-4xl mt-8">
     JAAT
     </h1>

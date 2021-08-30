@@ -4,7 +4,7 @@ const OpenCallForAllArtists = () => {
   return (
     <>
     <VJS_NavBar />
-    <div className="text-center mx-72">
+    <div className="text-center mx-14 md:mx-24 lg:mx-48">
     <h1 className="text-4xl mt-8">OPEN CALL FOR ARTISTS</h1>
     <div className="mt-8">
         <p>Open Call for Artists (@opencallforartists) was founded in 2019 on Instagram's platform that serves as a

@@ -4,7 +4,7 @@ const Bleed_Without_Barriers = () => {
   return (
     <>
       <VJS_NavBar />
-    <div className="text-center mx-72">
+    <div className="text-center mx-14 md:mx-24 lg:mx-48">
     <h1 className="text-4xl mt-8">BLEED WITHOUT BARRIERS</h1>
     <div className="mt-8">
     <p>The Stigma surrounding menstruation should end. Period.
@@ -46,7 +46,7 @@ const Bleed_Without_Barriers = () => {
             </button>
 
         
-            <button className="ml-4 bg-purple-200 p-2 rounded-md shadow-md">
+            <button className="ml-4 bg-purple-200 p-2 rounded-md shadow-md mb-8">
             <a href="https://forms.office.com/pages/responsepage.aspx?id=t66mrwAvkUCmd7q6kDIpXru_iORw0f5OrJnfH9g_O2dUNE4xMFZOWlpUWllDS09VSzJYVzFMVDZIMi4u" rel="noreferrer" target="_blank">
                 Form 2</a>
             </button>

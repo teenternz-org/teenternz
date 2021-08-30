@@ -4,7 +4,7 @@ const Sight_For_Explore_Eyes = () => {
   return (
     <>
       <VJS_NavBar />
-    <div className="text-center mx-72">
+    <div className="text-center mx-14 md:mx-24 lg:mx-48">
     <h1 className="text-4xl mt-8">SIGHT FOR EXPLORE EYES</h1>
     <div className="mt-8">
     <p>Sight for Explore Eyes is a blog that allows you to sit back, relax, and take some time to explore the

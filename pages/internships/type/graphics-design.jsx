@@ -8,7 +8,7 @@ const Graphics_Design = () => {
     <h1 className="text-center text-4xl m-8">
     FIND GRAPHIC DESIGN INTERNSHIPS HERE!</h1><br /><br />
 
-    <div className="grid grid-cols-4">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
     <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
         <div className="rounded-md overflow-hidden">
            <Link href="/internships/simply-neuroscience"><a><img src="/org/sn.png" alt="logo" width="90px" height="90px"/></a></Link>

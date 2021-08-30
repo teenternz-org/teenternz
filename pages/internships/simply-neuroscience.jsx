@@ -4,7 +4,7 @@ const Simply_Neuroscience = () => {
   return (
     <>
      <VJS_NavBar />
-    <div className="text-center mx-72">
+    <div className="text-center mx-14 md:mx-24 lg:mx-48">
     <h1 className="text-4xl mt-8">SIMPLY NEUROSCIENCE</h1>
     <div className="mt-8">
     <p>Simply Neuroscience is an international student-led organization dedicated to fostering students'

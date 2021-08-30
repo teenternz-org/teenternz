@@ -4,7 +4,7 @@ const Bloody_Donuts = () => {
   return (
     <>
     <VJS_NavBar />
-    <div className="text-center mx-72">
+    <div className="text-center mx-14 md:mx-24 lg:mx-48">
     <h1 className="text-4xl mt-8">BLOODY DONUTS</h1>
     <div className="mt-8">
         <p>We are a platform for young and creative artists, writers and poets, from all genders, races and walks of

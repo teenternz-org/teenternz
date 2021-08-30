@@ -1,4 +1,6 @@
 import VJS_NavBar from "../../components/vanilla-js/vjs-navbar"
+import Link from "next/link"
+
 const Jaat = () => {
   return (
     <>
@@ -13,19 +15,18 @@ const Jaat = () => {
     <p className="mt-2">
     - Interns <br /> - Volunteers
     </p>
+    <p className="font-medium m-4">
+                Apply now:
+            </p>
     <div className="mt-2">
-    <a className="font-medium" href="https://docs.google.com/forms/d/e/1FAIpQLScl_YwBoy6Rb_LUug6PL7WQ4DCu-UnNNp3dUcIN-C4tIMQvBQ/viewform" target="blank">
-                <button class="butt-tgs">
-                    Apply now
-                </button>
-            </a>
-    <a href="
+                <button className="ml-4 bg-purple-200 p-2 rounded-md shadow-md"><Link href="https://docs.google.com/forms/d/e/1FAIpQLScl_YwBoy6Rb_LUug6PL7WQ4DCu-UnNNp3dUcIN-C4tIMQvBQ/viewform"  target="_blank"><a>Register</a></Link>
+                  </button>
+    
+    <button className="ml-4 bg-purple-200 p-2 rounded-md shadow-md"><a href="
     https://www.instagram.com/just.ask.a.teen/
-    " rel="noreferrer" target="_blank">
-    <button className="ml-4 bg-purple-200 p-2 rounded-md shadow-md">   
-    Instagram    
-    </button>
-    </a>
+    " rel="noreferrer" target="_blank">   
+    Instagram</a></button>
+    
     </div>
     </div>
     </div>

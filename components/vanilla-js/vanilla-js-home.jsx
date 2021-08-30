@@ -1,5 +1,6 @@
 import VJS_Articles from './vjs-articles'
 import VJS_NavBar from './vjs-navbar'
+import Link from 'next/link'
 
 const Vanilla_JS_Home = () => {
   return (
@@ -38,7 +39,7 @@ const Vanilla_JS_Home = () => {
         </div>
         <div className="date-time">
           <p>Internships</p>
-          <button className="btn-2"><a href="internships.html">Explore</a></button>
+          <button className="btn-2"><Link href="/internships"><a>Explore</a></Link></button>
         </div>
       </div>
 
@@ -49,7 +50,7 @@ const Vanilla_JS_Home = () => {
 
         <div className="date-time">
           <p>Events</p>
-          <button className="btn-2"><a href="events.html">Explore</a></button>
+          <button className="btn-2"><Link href="/events"><a>Explore</a></Link></button>
         </div>
       </div>
 
@@ -59,7 +60,7 @@ const Vanilla_JS_Home = () => {
         </div>
         <div className="date-time">
           <p>Articles</p>
-          <button className="btn-2"><a href="article.html">Explore</a></button>
+          <button className="btn-2"><Link href="/articles"><a>Explore</a></Link></button>
         </div>
       </div>
     </div><br /><br /><br />

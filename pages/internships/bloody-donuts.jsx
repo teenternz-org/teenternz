@@ -15,24 +15,26 @@ const Bloody_Donuts = () => {
         <h1 className="text-xl font-bold mt-4">We are Looking for:</h1>
         <p className="mt-2">- Volunteers <br /> - Interns</p>
         <div className="mt-2">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeT7H6xK4Y92M1xhaAhDmf8Ex3QPxhTRx3O2M3dzyNUulMywQ/viewform"
-            rel="noreferrer" target="_blank"> 
-            <button className="font-medium">
+            <p className="font-medium m-4">
                 Apply now:
-            </button>
-        </a>
+            </p>
         
-        <a href="https://www.instagram.com/bloodydonuts.in/" rel="noreferrer" target="_blank">
             <button className="ml-4 bg-purple-200 p-2 rounded-md shadow-md">
-                Instagram!
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeT7H6xK4Y92M1xhaAhDmf8Ex3QPxhTRx3O2M3dzyNUulMywQ/viewform" rel="noreferrer" target="_blank">
+                Register</a>
             </button>
-        </a>
-        <a href="https://www.bloodydonuts.in" rel="noreferrer" target="_blank">
-            <button className="ml-4 bg-purple-200 p-2 rounded-md shadow-md">
-                Website
-            </button>
-        </a>
 
+        
+            <button className="ml-4 bg-purple-200 p-2 rounded-md shadow-md">
+            <a href="https://www.instagram.com/bloodydonuts.in/" rel="noreferrer" target="_blank">
+                Instagram!</a>
+            </button>
+        
+        
+            <button className="ml-4 bg-purple-200 p-2 rounded-md shadow-md">
+            <a href="https://www.bloodydonuts.in" rel="noreferrer" target="_blank">
+                Website</a>
+            </button>
         </div>
     </div>
 </div>

@@ -9,7 +9,7 @@ const Bleed_Without_Barriers = () => {
     <div className="mt-8">
     <p>The Stigma surrounding menstruation should end. Period.
 <br />
-                This International Women's Day, we choose to challenge the stigma surrounding menstruation.
+                This International Women&apos;s Day, we choose to challenge the stigma surrounding menstruation.
 <br />
                 More than 800 million people in the world menstruate daily. Despite this, menstruation is plagued by
                 cultural taboos, discrimination, lack of education and period poverty.

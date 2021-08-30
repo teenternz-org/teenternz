@@ -1,5 +1,5 @@
-import VJS_NavBar from "../../components/vanilla-js/vjs-navbar"
-import Link from "next/link"
+import VJS_NavBar from '../../components/vanilla-js/vjs-navbar'
+import Link from 'next/link'
 
 const Jaat = () => {
   return (
@@ -10,7 +10,7 @@ const Jaat = () => {
     JAAT
     </h1>
     <div className="mt-8">
-    <p>Just Ask A Teen is an advice page where common or unique issues are solved and spoken to. It's also where you can write rants and personal stories that you need to get out. It's a safe community and everyone's identity is protected. We also conduct interviews and podcasts. We also have an opportunity hub updated regularly with paid internships/programs.</p>
+    <p>Just Ask A Teen is an advice page where common or unique issues are solved and spoken to. It&apos;s also where you can write rants and personal stories that you need to get out. It&apos;s a safe community and everyone&apos;s identity is protected. We also conduct interviews and podcasts. We also have an opportunity hub updated regularly with paid internships/programs.</p>
     <h1 className="text-xl font-bold mt-4">We are Looking for:</h1>
     <p className="mt-2">
     - Interns <br /> - Volunteers

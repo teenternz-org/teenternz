@@ -36,9 +36,9 @@ const Research = () => {
             </p>
         </div>
     </div>
-    <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+    <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200" >
         <div className="rounded-md overflow-hidden">
-           <a href="jaat.html"><img src="/org/jaat.png" alt="logo" width="90px" height="90px"/></a> 
+           <Link href="/internships/jaat"><a><img src="/org/jaat.png" alt="logo" width="90px" height="90px"/></a></Link>
         </div>
         <div className="text-left ml-0">
             <h1 className="text-lg font-medium" >JAAT</h1>
@@ -50,7 +50,7 @@ const Research = () => {
     
     <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
         <div className="rounded-md overflow-hidden">
-           <a href="mindboggle.html"><img src="/org/mindboggle.png" alt="logo" width="90px" height="90px"/></a> 
+        <Link href="/internships/mind-boggle"><a><img src="/org/jaat.png" alt="logo" width="90px" height="90px"/></a></Link>
         </div>
         <div className="text-left ml-0">
             <h1 className="text-lg font-medium" >MINDBOGGLE</h1>

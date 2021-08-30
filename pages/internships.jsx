@@ -23,7 +23,7 @@ const Internships = () => {
       <div className="team-cards graphicdesign-temp"></div>
       </Link>
 
-      <Link href="/internships/type/film-making">
+      <Link href="/internships/type/video-editing-film-making">
           <div className="team-cards film-making-temp"></div>
       </Link>
 

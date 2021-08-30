@@ -7,7 +7,7 @@ const Simply_Neuroscience = () => {
     <div className="text-center mx-14 md:mx-24 lg:mx-48">
     <h1 className="text-4xl mt-8">SIMPLY NEUROSCIENCE</h1>
     <div className="mt-8">
-    <p>Simply Neuroscience is an international student-led organization dedicated to fostering students'
+    <p>Simply Neuroscience is an international student-led organization dedicated to fostering students&apos;
                 interdisciplinary interests in the brain, specifically through neuroscience and psychology education,
                 outreach, and awareness. Our aim is to empower youth to engage in brain-related fields through projects
                 and initiatives on local through global scales. Overall, we work to increase early neuroscience

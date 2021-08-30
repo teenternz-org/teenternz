@@ -32,22 +32,21 @@ const Graphics_Design = () => {
             </p>
         </div>
     </div>
-    <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200" >
+    <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
         <div className="rounded-md overflow-hidden">
-            <a href="bloodyDonuts.html"><img src="/org/bloodyDonuts.png" alt="logo" width="90px" height="90px"/></a>
+          <Link href="/internships/bloody-donuts"><a><img src="/org/bloodyDonuts.png"  alt="logo"width="90px"height="90px"/></a></Link>
         </div>
-        
         <div className="text-left ml-0">
-            <h1 className="text-lg font-medium">Bloody Donuts</h1>
-            <p className="text-sm">Hiring
-                Interns, Volunteers
-            </p>
+          <h1 className="text-lg font-medium">Bloody Donuts</h1>
+          <p className="text-sm">Hiring
+            Interns, Volunteers
+          </p>
         </div>
-    </div>
+      </div>
 
     <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200" >
         <div className="rounded-md overflow-hidden">
-            <a href="opencallforartists.html"><img src="/org/opencallforartists.jpg" alt="logo" width="90px" height="90px"/></a>
+        <Link href="/internships/open-call-for-artists"><a><img src="/org/bloodyDonuts.png"  alt="logo"width="90px"height="90px"/></a></Link>
         </div>
         <div className="text-left ml-0">
             <h1 className="text-lg font-medium">OPEN CALL FOR ARTISTS</h1>
@@ -59,7 +58,7 @@ const Graphics_Design = () => {
     
     <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200" >
         <div className="rounded-md overflow-hidden">
-           <a href="jaat.html"><img src="/org/jaat.png" alt="logo" width="90px" height="90px"/></a> 
+           <Link href="/internships/jaat"><a><img src="/org/jaat.png" alt="logo" width="90px" height="90px"/></a></Link>
         </div>
         <div className="text-left ml-0">
             <h1 className="text-lg font-medium" >JAAT</h1>

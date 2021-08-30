@@ -11,6 +11,31 @@ const All = () => {
     <br /><br />
 
         <div className="grid grid-cols-4">
+
+        <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+        <div className="rounded-md overflow-hidden">
+           <Link href="/internships/sight-for-explore-eyes"><a><img src="/org/SFEO.png" alt="logo" width="90px" height="90px"/></a></Link>
+        </div>
+        <div className="text-left ml-0">
+            <h1 className="text-lg font-medium">Sight for Explore Eyes</h1>
+            <p className="text-sm">Hiring
+                        Interns, Members
+            </p>
+        </div>
+    </div>
+
+    <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+        <div className="rounded-md overflow-hidden">
+           <Link href="/internships/bleed-without-barriers"><a><img src="/org/bwb.jpeg" alt="logo" width="90px" height="90px"/></a></Link>
+        </div>
+        <div className="text-left ml-0">
+            <h1 className="text-lg font-medium">Bleed without barriers</h1>
+            <p className="text-sm">Hiring
+                        Volunteers
+            </p>
+        </div>
+    </div>
+
         <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
         <div className="rounded-md overflow-hidden">
            <Link href="/internships/simply-neuroscience"><a><img src="/org/sn.png" alt="logo" width="90px" height="90px"/></a></Link>

@@ -9,6 +9,31 @@ const Content_Writing = () => {
 
     <div className="grid grid-cols-4">
 
+    <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+        <div className="rounded-md overflow-hidden">
+           <Link href="/internships/simply-neuroscience"><a><img src="/org/sn.png" alt="logo" width="90px" height="90px"/></a></Link>
+        </div>
+        <div className="text-left ml-0">
+            <h1 className="text-lg font-medium">Simply neuroscience</h1>
+            <p className="text-sm">Hiring 
+                Volunteers
+            </p>
+        </div>
+    </div>
+
+    <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+        <div className="rounded-md overflow-hidden">
+           <Link href="/internships/empowering-med"><a><img src="/org/empoweringmed.png" alt="logo" width="90px" height="90px"/></a></Link> 
+        </div>
+        <div className="text-left ml-0">
+            <h1 className="text-lg font-medium">Empowering med</h1>
+            <p className="text-sm">Hiring 
+                Interns, Members, Volunteers
+            </p>
+        </div>
+    </div>
+
+
       <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
         <div className="rounded-md overflow-hidden">
           <Link href="/internships/bloody-donuts"><a><img src="/org/bloodyDonuts.png"  alt="logo"width="90px"height="90px"/></a></Link>

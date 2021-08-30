@@ -1,4 +1,4 @@
-import VJS_NavBar from "../../components/vanilla-js/vjs-navbar"
+import VJS_NavBar from '../../components/vanilla-js/vjs-navbar'
 
 const Bloody_Donuts = () => {
   return (

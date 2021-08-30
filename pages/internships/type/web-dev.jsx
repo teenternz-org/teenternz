@@ -1,4 +1,5 @@
 import VJS_NavBar from '../../../components/vanilla-js/vjs-navbar'
+import Link from 'next/link'
 
 const Web_Dev = () => {
   return (

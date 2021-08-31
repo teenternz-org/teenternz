@@ -15,7 +15,7 @@ const Research = () => {
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
     <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
         <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
-           <Link href="/internships/simply-neuroscience"><a><img src="/org/sn.png" alt="logo" width="90px" height="90px"/></a></Link>
+           <Link href="/internships/simply-neuroscience"><a><img src="/org/simply-neuroscience.png" alt="logo" width="90px" height="90px"/></a></Link>
         </div>
         <div className="m-2">
             <h1 className="text-lg font-medium">Simply neuroscience</h1>
@@ -27,7 +27,7 @@ const Research = () => {
 
     <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
         <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
-           <Link href="/internships/empowering-med"><a><img src="/org/empoweringmed.png" alt="logo" width="90px" height="90px"/></a></Link> 
+           <Link href="/internships/empowering-med"><a><img src="/org/empowering-med.png" alt="logo" width="90px" height="90px"/></a></Link> 
         </div>
         <div className="m-2">
             <h1 className="text-lg font-medium">Empowering med</h1>
@@ -50,7 +50,7 @@ const Research = () => {
     
     <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
         <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
-        <Link href="/internships/mind-boggle"><a><img src="/org/mindboggle.png" alt="logo" width="90px" height="90px"/></a></Link>
+        <Link href="/internships/mind-boggle"><a><img src="/org/mind-boggle.png" alt="logo" width="90px" height="90px"/></a></Link>
         </div>
         <div className="m-2">
             <h1 className="text-lg font-medium" >MINDBOGGLE</h1>
@@ -62,7 +62,7 @@ const Research = () => {
 
     <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
         <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
-            <a href="myforme.html"><img src="/org/myforme.png" alt="logo" width="90px" height="90px"/></a>
+        <Link href="/internships/my-for-me"><a><img src="/org/my-for-me.png" alt="logo" width="90px" height="90px"/></a></Link>
         </div>
         <div className="m-2">
             <h1 className="text-lg font-medium" >MY FOR ME </h1>
@@ -75,7 +75,7 @@ const Research = () => {
 
     <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
         <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
-            <a href="magnifyou.html"><img src="/org/Pune (3).png" alt="logo" width="90px" height="90px"/></a>
+        <Link href="/internships/magnify-you"><a><img src="/org/magnify-you.png" alt="logo" width="90px" height="90px"/></a></Link>
         </div>
         <div className="m-2">
             <h1 className="text-lg font-medium" >MAGNIFY YOU </h1>
@@ -86,7 +86,7 @@ const Research = () => {
 
         <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
             <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
-                <a href="youunited.html"><img src="/org/YouUnitedLogo.png" alt="logo" width="90px" height="90px"/></a>
+            <Link href="/internships/you-united"><a><img src="/org/you-united.png" alt="logo" width="90px" height="90px"/></a></Link>
             </div>
             <div className="m-2">
                 <h1 className="text-lg font-medium" >YOU UNITED</h1>
@@ -97,7 +97,7 @@ const Research = () => {
 
         <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
             <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
-                <a href="Queer Youth Rises.html"><img src="/org/queerrisesyout.png" alt="logo" width="90px" height="90px"/></a>
+            <Link href="/internships/queer-youth-rises"><a><img src="/org/queer-youth-rises.png" alt="logo" width="90px" height="90px"/></a></Link>
             </div>
             <div className="m-2">
                 <h1 className="text-lg font-medium" >QUEER YOUTH RISES</h1>

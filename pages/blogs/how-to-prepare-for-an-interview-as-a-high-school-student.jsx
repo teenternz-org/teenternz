@@ -1,15 +1,16 @@
 import VJS_NavBar from '../../components/vanilla-js/vjs-navbar'
+import VJS_Articles from '../../components/vanilla-js/vjs-articles'
 
 const Blog_1 = () => {
   return (
     <>
     <VJS_NavBar />
     <br /><br /><br />
-    <h1 className="heading-blog01">
+    <h1 className="text-center md:text-3xl text-lg sm:text-xl md:m-8 m-4 font-light">
         HOW TO PREPARE FOR AN INTERVIEW AS A HIGH SCHOOL STUDENT!
     </h1>
 
-    <p id="Content">
+    <p className="md:mx-28 sm:mx-12 mx-8 md:text-lg text-base mb-14">
         The interview is one of the key fragments of the
         process of getting hired and is a complete 
         game-changer if it goes well. But it is a 
@@ -87,7 +88,8 @@ Also, in this situation of the pandemic, many of us have to give our interviews 
 But the negative aspect might be a poor internet connection, no appropriate area to sit (without noise, etc.) so to conquer negative aspects you have to make sure these problems don’t come in your way. these points are given above also have to be kept in mind before giving an online interview.
 </p>
 
-<br /><br /><br /><br /><br />
+<h1 className="text-2xl text-center mb-8">Read more</h1>
+     <VJS_Articles />
     </>
   )
 }

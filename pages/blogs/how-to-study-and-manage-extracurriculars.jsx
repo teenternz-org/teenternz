@@ -1,17 +1,17 @@
 import VJS_NavBar from '../../components/vanilla-js/vjs-navbar'
+import VJS_Articles from '../../components/vanilla-js/vjs-articles'
 
 const Blog_4 = () => {
   return (
     <>
     <VJS_NavBar />
     <br /><br /><br />
-    <h1 className="heading-blog01">
+    <h1 className="text-center md:text-3xl text-lg sm:text-xl md:m-8 m-4 font-light">
         HOW TO STUDY AND MANAGE EXTRACURRICULARS
     </h1>
 
-    <br /><br /><br /><br /><br /><br />
 
-    <p id="Content">
+    <p className="md:mx-28 sm:mx-12 mx-8 md:text-lg text-base mb-14">
 
         Intelligence and personality have always been inextricably intertwined with education. It is not just your
         grades or the number of AP classes that count as a part of your education, but also the skills that you gain
@@ -135,10 +135,10 @@ const Blog_4 = () => {
         <br /><br />
         So, how will you balance this see-saw? Or will you even balance it?
 
-        <br /><br /><br /><br />
     </p>
 
-    <br /><br /><br />
+    <h1 className="text-2xl text-center mb-8">Read more</h1>
+     <VJS_Articles />
     </>
   )
 }

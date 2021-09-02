@@ -1,17 +1,17 @@
 import VJS_NavBar from '../../components/vanilla-js/vjs-navbar'
+import VJS_Articles from '../../components/vanilla-js/vjs-articles'
 
 const Blog_2 = () => {
   return (
     <>
           <VJS_NavBar />
     <br /><br /><br />
-    <h1 className="heading-blog01">
+    <h1 className="text-center md:text-3xl text-lg sm:text-xl md:m-8 m-4 font-light">
     HOW TO START AN ORGANIZATION IN HIGH SCHOOL!
     </h1>
 
-    <br /><br /><br /><br /><br /><br />
 
-    <p id="Content">
+    <p className="md:mx-28 sm:mx-12 mx-8 md:text-lg text-base mb-14">
     An organization is a group of organized people working on
         achieving a specific goal. Starting an organization, club, non-fund,
         anything is a great idea for achieving skills like leadership, time
@@ -101,11 +101,9 @@ const Blog_2 = () => {
         4. <b> You have to be patient with the growth process of your organization.</b>  No organization grows in one day or one week. It takes a lot of time to grow and be successful. You should just keep the good assigned work going.
         <br /><br />
         5. One more important thing is to <b> be consistent.</b> In many places, we observe that for the first few weeks the organization is very active but after that, there are no activities or enthusiasm furthermore. This affects the new members or reduces the number of people joining the organization. Each year new students take admission in the school so for the new students your organization should be as appealing as it was a few weeks ago for the old members.
- 
-
-        <br /><br /><br /><br />
     </p>
-
+    <h1 className="text-2xl text-center mb-8">Read more</h1>
+     <VJS_Articles />
     </>
   )
 }

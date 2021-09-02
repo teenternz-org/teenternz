@@ -1,15 +1,16 @@
 import VJS_NavBar from '../../components/vanilla-js/vjs-navbar'
+import VJS_Articles from '../../components/vanilla-js/vjs-articles'
 
 const Blog_5 = () => {
   return (
     <>
     <VJS_NavBar />
     <br /><br /><br />
-    <h1 className="heading-blog01">
+    <h1 className="text-center md:text-3xl text-lg sm:text-xl md:m-8 m-4 font-light">
         HOW TO DEAL WITH STRESS AND STILL ENJOY OUR HIGHSCHOOL LIFE
     </h1>
 
-    <p id="Content">
+    <p className="md:mx-28 sm:mx-12 mx-8 md:text-lg text-base mb-14">
         Anything that your mind says has an identical response to the body cells. That’s why stress is the response your
         body gives physically or mentally to a challenging situation in your life, that response is dependent on how you
         think of the situation in your mind, that&apos;s why stress can be positive or negative. If we take things positively
@@ -163,7 +164,8 @@ const Blog_5 = () => {
         in school life
     </p>
 
-    <br /><br /><br /><br /><br />
+    <h1 className="text-2xl text-center mb-8">Read more</h1>
+     <VJS_Articles />
     
     </>
   )

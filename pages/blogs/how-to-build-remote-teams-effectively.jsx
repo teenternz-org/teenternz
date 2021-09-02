@@ -1,17 +1,17 @@
 import VJS_NavBar from '../../components/vanilla-js/vjs-navbar'
+import VJS_Articles from '../../components/vanilla-js/vjs-articles'
 
 const Blog_7 = () => {
   return (
     <>
     <VJS_NavBar />
     <br /><br /><br />
-    <h1 className="heading-blog01">
+    <h1 className="text-center md:text-3xl text-lg sm:text-xl md:m-8 m-4 font-light">
         HOW TO BUILD REMOTE TEAMS EFFECTIVELY
     </h1>
 
-    <br /><br /><br /><br /><br /><br />
 
-    <p id="Content">
+    <p className="md:mx-28 sm:mx-12 mx-8 md:text-lg text-base mb-14">
 
         Trust in the team is the most important thing especially in the remote teams. In addition to trust,
         communication is no less important. If these two things can&apos;t be built, it&apos;s hard to find effectiveness in a
@@ -180,8 +180,8 @@ const Blog_7 = () => {
 
 
     </p>
-
-    <br /><br /><br /><br />
+    <h1 className="text-2xl text-center mb-8">Read more</h1>
+     <VJS_Articles />
     </>
   )
 }

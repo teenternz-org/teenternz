@@ -1,14 +1,16 @@
 import VJS_NavBar from '../../components/vanilla-js/vjs-navbar'
+import VJS_Articles from '../../components/vanilla-js/vjs-articles'
 
 const Blog_6 = () => {
   return (
     <>
     <VJS_NavBar />
-    <h1 className="heading-blog01">
+    <br /><br />
+    <h1 className="text-center md:text-3xl text-lg sm:text-xl md:m-8 m-4 font-light">
         HOW TO FOCUS TO FOCUS!
     </h1>
 
-    <p id="Content">
+    <p className="md:mx-28 sm:mx-12 mx-8 md:text-lg text-base mb-14">
         In this article we are going to tell you <b>how important it is to take a break and how to take an effective and
             productive break.</b> Now you are working continuously for a whole day, week, month, you have started
         working with your full energy and now as you do these things for a long time you feel exhausted you are in need
@@ -149,7 +151,8 @@ const Blog_6 = () => {
 
     </p>
 
-    <br /><br /><br />
+    <h1 className="text-2xl text-center mb-8">Read more</h1>
+     <VJS_Articles />
     </>
   )
 }

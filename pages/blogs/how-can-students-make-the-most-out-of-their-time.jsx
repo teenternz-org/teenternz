@@ -1,17 +1,16 @@
 import VJS_NavBar from '../../components/vanilla-js/vjs-navbar'
+import VJS_Articles from '../../components/vanilla-js/vjs-articles'
 
 const Blog_3 = () => {
   return (
     <>
     <VJS_NavBar />
     <br /><br /><br />
-    <h1 className="heading-blog01">
+    <h1 className="text-center md:text-3xl text-lg sm:text-xl md:m-8 m-4 font-light">
         HOW CAN STUDENTS MAKE THE MOST OUT OF THEIR TIME?
     </h1>
 
-    <br /><br /><br /><br /><br /><br />
-
-    <p id="Content">
+    <p className="md:mx-28 sm:mx-12 mx-8 md:text-lg text-base mb-14">
         You can feel it very easy if you just hold on and do nothing, the clock moves forward and the
         seconds are going away. This is what we call time and unfortunately it won’t stop running
         forwards, even if you try to make it go slower. This is the first part of a combination that
@@ -21,7 +20,7 @@ const Blog_3 = () => {
         time is named “productivity time”, which gains more and more importance. The internet is
         full of content about time management and tips about productivity. IN the following research
         paper (article) are listed some of the strongest regarding studies and real experiments.
-        <br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br />
 
         <strong> 1. Be aware your time is limited</strong>
         As a first general step it’s important to know that your time is limited to 60 min an hour and
@@ -37,7 +36,7 @@ const Blog_3 = () => {
         and that’s why you also will get less productive. This state of your mind you should definitely
         avoid, if you think about your time as one of the most important tools in life.
 
-        <br /><br /><br /><br /><br /><br />
+        <br /><br /><br />
 
         <strong>2. Multiply your time</strong>
         When it comes to the question how we can “make” more time we firstly should know that our
@@ -53,7 +52,7 @@ const Blog_3 = () => {
         do and invest your time in. This approach can save you a lot of time, by just thinking about
         the tasks and their properties and your opportunities to reduce the amount of tasks for you.
 
-        <br /><br /><br /><br /><br /><br />
+        <br /><br /><br />
 
         <strong>3. Explore how habits can help you saving time </strong>
 
@@ -64,7 +63,7 @@ const Blog_3 = () => {
         at your productive hours or even in your free time. Also you could plan a time slot in the
         evening to get an overview of the tasks you finished, so you can see what to add for the
         coming time schedules.
-        <br /><br /><br /><br /><br /><br />
+        <br /><br /><br />
 
         <strong> 4. Understanding the “Hell yes or no” principle</strong>
         Another princip that can help you get not every task, but the most important done, is a
@@ -82,7 +81,7 @@ const Blog_3 = () => {
         on every decision, no matter how big. This excludes some emotional important decisions,
         you should make independent of your time schedule.
 
-        <br /><br /><br /><br /><br /><br />
+        <br /><br /><br />
 
         <strong>5. Using Parkinson&apos;s Law to keep tasks small </strong>
         One of the most famous tips when it comes to time management tips is a rule called
@@ -97,7 +96,7 @@ const Blog_3 = () => {
         Law can give you the opportunity to get tasks in under 3 hours done, for which you needed
         the whole day before. Also you will develop a better feeling for your time and how much of it
         every single task will probably take. This can help you better plan your productive time slots.
-        <br /><br /><br /><br /><br /><br />
+        <br /><br /><br />
         <strong>6. Prioritise your tasks</strong>
         As you know from the previous chapters, your time is limited and also dealing with the tasks
         you have to get done can be or probably is very exhausting, which is why you should learn
@@ -112,11 +111,7 @@ const Blog_3 = () => {
         write down the tasks that are not important, but very urgent, so you have to do them nearly.
         And in the fourth (last) area you write every task that is not important and not urgent, but still
         has to be done by you. These tasks you should only do if you have time on top.
-
-
-        <br /><br /><br /><br /><br /><br />
-
-
+        <br /><br /><br />
         <strong>7. Plan your productive weeks, days and hours before they happen</strong>
         To improve your workflow it will help if you plan your weeks, days and hours before, so you
         know exactly what to do. This will give you the safety that you get done every task and also
@@ -129,7 +124,7 @@ const Blog_3 = () => {
         (numbers of what to get done). A fixed plan will give you more structure for your productivity
         slots, which will cause bigger capacities for work (extending space on your to-do list).
 
-        <br /><br /><br /><br /><br /><br />
+        <br /><br /><br />
 
         <strong> 8. Set a daily or weekly highlight</strong>
         As a specific form of prioritizing and productivity maximizing you can set yourself a daily or
@@ -141,7 +136,7 @@ const Blog_3 = () => {
         done so you will be frustrated, didn’t get done other tasks and won’t motivated to keep going.
         To avoid this result you should choose a task as your highlight that will be done in time for
         sure, so you can be proud of it after.
-        <br /><br /><br /><br /><br /><br />
+        <br /><br /><br />
 
         <strong>9. Don’t underestimate breaks</strong>
         In today’s society nearly everyone is hustling for work on a daily basis and often breaks
@@ -155,7 +150,7 @@ const Blog_3 = () => {
         for a walk, taking a power nap for 20 minutes or just drinking tea. So all in all breaks should
         definitely play an important role in your time schedule.
 
-        <br /><br /><br /><br /><br /><br />
+        <br /><br /><br />
         <strong> 10. Find your daily peak productivity time period</strong>
         Which time slot provides the most productive time is different from human to human. Some
         like to work in the morning, some in the afternoon and others in the evening and late night. It
@@ -172,7 +167,8 @@ const Blog_3 = () => {
 
     </p>
 
-    <br /><br /><br /><br /><br />
+    <h1 className="text-2xl text-center mb-8">Read more</h1>
+     <VJS_Articles />
     </>
   )
 }

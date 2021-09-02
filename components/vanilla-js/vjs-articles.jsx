@@ -3,82 +3,101 @@ import Link from 'next/link'
 const VJS_Articles = () => {
   return (
     <>
-    <div className="article-cards">
-
-    <div className="card-article">
-        <div className="img-article">
-            <img src="/Blogs/blog-8.png" alt="Cover"/>
-        </div>
-        <div className="text-article">
+    <div className="flex flex-1 m-8 rounded-lg bg-blue-50 shadow-xl sm:w-3/4 w-10/12 justify-center">
+        <div className="text-2xl p-6 sm:w-2/3 w-full">
             <p><Link href="/blogs/how-to-find-your-passion"><a> How to Find your Passion</a></Link></p>
+            <p className="text-base font-light text-gray-800 mt-3"><Link href="/blogs/how-to-find-your-passion"><a>Passion is a feeling of intense enthusiasm or desire for someone or something. Passion can vary from eager interest in or admiration for an idea...</a></Link></p>
         </div>
-      </div>
+        <div className="hidden sm:block">
+        <Link href="/blogs/how-to-find-your-passion"><a>
+          <img className="h-32 w-48 m-6 rounded-lg" src="/Blogs/pexels-burst-374068.jpg" alt="" />
+          </a></Link>
+        </div>
+        </div>
 
-      <div className="card-article">
-        <div className="img-article">
-            <img src="/Blogs/blog-7.png" alt="Cover"/>
+        <div className="flex flex-1 m-8 rounded-lg bg-blue-50 shadow-xl sm:w-3/4 w-10/12 justify-center">
+        <div className="text-2xl p-6 sm:w-2/3 w-full">
+            <p><Link href="/blogs/how-to-build-remote-teams-effectively"><a>How to Build a team for your organisation</a></Link></p>
+            <p className="text-base font-light text-gray-800 mt-3"><Link href="/blogs/how-to-build-remote-teams-effectively"><a>Trust in the team is the most important thing especially in the remote teams. In addition to trust, communication is no less important. If these...</a></Link></p>
         </div>
-        <div className="text-article">
-            <p><Link href="/blogs/how-to-build-remote-teams-effectively"><a> How to Build a team for your organisation</a></Link></p>
+        <div className="hidden sm:block">
+        <Link href="/blogs/how-to-build-remote-teams-effectively"><a>
+          <img className="h-32 w-48 m-6 rounded-lg" src="/Blogs/pexels-fauxels-3184418.jpg" alt="" />
+          </a></Link>
         </div>
-      </div>
+        </div>
 
-      <div className="card-article">
-        <div className="img-article">
-            <img src="/Blogs/blog-6.png" alt="Cover"/>
+        <div className="flex flex-1 m-8 rounded-lg bg-blue-50 shadow-xl sm:w-3/4 w-10/12 justify-center">
+        <div className="text-2xl p-6 sm:w-2/3 w-full">
+            <p><Link href="/blogs/how-to-unfocus-to-focus"><a>How to Unfocus to Focus</a></Link></p>
+            <p className="text-base font-light text-gray-800 mt-3"><Link href="/blogs/how-to-unfocus-to-focus"><a>Trust in the team is the most important thing especially in the remote teams. In addition to trust, communication is no less important. If these...</a></Link></p>
         </div>
-        <div className="text-article">
-            <p><Link href="/blogs/how-to-unfocus-to-focus"><a> How to Unfocus to Focus</a></Link></p>
+        <div className="hidden sm:block">
+        <Link href="/blogs/how-to-unfocus-to-focus"><a>
+          <img className="h-32 w-48 m-6 rounded-lg" src="/Blogs/pexels-andrea-piacquadio-941555.jpg" alt="" />
+          </a></Link>
         </div>
-      </div>
+        </div>
 
-      <div className="card-article">
-        <div className="img-article">
-            <img src="/Blogs/blog-5.png" alt="Cover"/>
+        <div className="flex flex-1 m-8 rounded-lg bg-blue-50 shadow-xl sm:w-3/4 w-10/12 justify-center">
+        <div className="text-2xl p-6 sm:w-2/3 w-full">
+            <p><Link href="/blogs/how-to-deal-with-stress-and-still-enjoy-our-highschool-life"><a>How to deal with stress and Anxiety as a student</a></Link></p>
+            <p className="text-base font-light text-gray-800 mt-3"><Link href="/blogs/how-to-deal-with-stress-and-still-enjoy-our-highschool-life"><a>Trust in the team is the most important thing especially in the remote teams. In addition to trust, communication is no less important. If these...</a></Link></p>
         </div>
-        <div className="text-article">
-            <p><Link href="/blogs/how-to-deal-with-stress-and-still-enjoy-our-highschool-life"><a> How to deal with stress and Anxiety as a student</a></Link></p>
+        <div className="hidden sm:block">
+        <Link href="/blogs/how-to-deal-with-stress-and-still-enjoy-our-highschool-life"><a>
+          <img className="h-32 w-48 m-6 rounded-lg" src="/Blogs/pexels-anna-shvets-4226215.jpg" alt="" />
+          </a></Link>
         </div>
-      </div>
+        </div>
 
-      <div className="card-article">
-        <div className="img-article">
-            <img src="/Blogs/blog-4.png" alt="Cover"/>
+        <div className="flex flex-1 m-8 rounded-lg bg-blue-50 shadow-xl sm:w-3/4 w-10/12 justify-center">
+        <div className="text-2xl p-6 sm:w-2/3 w-full">
+            <p><Link href="/blogs/how-to-study-and-manage-extracurriculars"><a>How to study and manage extracurriculars</a></Link></p>
+            <p className="text-base font-light text-gray-800 mt-3"><Link href="/blogs/how-to-study-and-manage-extracurriculars"><a>Trust in the team is the most important thing especially in the remote teams. In addition to trust, communication is no less important. If these...</a></Link></p>
         </div>
-        <div className="text-article">
-            <p><Link href="/blogs/how-to-study-and-manage-extracurriculars"><a>HOW TO STUDY AND MANAGE EXTRACURRICULARS</a></Link></p>
+        <div className="hidden sm:block">
+        <Link href="/blogs/how-to-study-and-manage-extracurriculars"><a>
+          <img className="h-32 w-48 m-6 rounded-lg" src="/Blogs/pexels-tima-miroshnichenko-5428148.jpg" alt="" />
+          </a></Link>
         </div>
-      </div>
+        </div>
 
-      <div className="card-article">
-        <div className="img-article">
-            <img src="/Blogs/blog-3.png" alt="Cover"/>
+        <div className="flex flex-1 m-8 rounded-lg bg-blue-50 shadow-xl sm:w-3/4 w-10/12 justify-center">
+        <div className="text-2xl p-6 sm:w-2/3 w-full">
+            <p><Link href="/blogs/how-can-students-make-the-most-out-of-their-time"><a>How to Manage time as a Student</a></Link></p>
+            <p className="text-base font-light text-gray-800 mt-3"><Link href="/blogs/how-can-students-make-the-most-out-of-their-time"><a>Trust in the team is the most important thing especially in the remote teams. In addition to trust, communication is no less important. If these...</a></Link></p>
         </div>
-        <div className="text-article">
-            <p><Link href="/blogs/how-can-students-make-the-most-out-of-their-time"><a> How to Manage time as a Student</a></Link></p>
+        <div className="hidden sm:block">
+        <Link href="/blogs/how-can-students-make-the-most-out-of-their-time"><a>
+          <img className="h-32 w-48 m-6 rounded-lg" src="/Blogs/pexels-pixabay-39396.jpg" alt="" />
+          </a></Link>
         </div>
-      </div>
+        </div>
 
-      <div className="card-article">
-        <div className="img-article">
-            <img src="/Blogs/blog-2.png" alt="Cover"/>
+        <div className="flex flex-1 m-8 rounded-lg bg-blue-50 shadow-xl sm:w-3/4 w-10/12 justify-center">
+        <div className="text-2xl p-6 sm:w-2/3 w-full">
+            <p><Link href="/blogs/how-to-start-an-organization-in-high-school"><a>How to start an organisation in high school</a></Link></p>
+            <p className="text-base font-light text-gray-800 mt-3"><Link href="/blogs/how-to-start-an-organization-in-high-school"><a>Trust in the team is the most important thing especially in the remote teams. In addition to trust, communication is no less important. If these...</a></Link></p>
         </div>
-        <div className="text-article">
-            <p><Link href="/blogs/how-to-start-an-organization-in-high-school"><a>HOW TO START AN ORGANIZATION IN HIGH SCHOOL!</a></Link></p>
+        <div className="hidden sm:block">
+        <Link href="/blogs/how-to-start-an-organization-in-high-school"><a>
+          <img className="h-32 w-48 m-6 rounded-lg" src="/Blogs/pexels-minervastudio-2897883.jpg" alt="" />
+          </a></Link>
         </div>
-      </div>
+        </div>
 
-      <div className="card-article">
-        <div className="img-article">
-          <img src="/Blogs/blog-1.png" alt="Cover"/>
+        <div className="flex flex-1 m-8 rounded-lg bg-blue-50 shadow-xl sm:w-3/4 w-10/12 justify-center">
+        <div className="text-2xl p-6 sm:w-2/3 w-full">
+            <p><Link href="/blogs/how-to-prepare-for-an-interview-as-a-high-school-student"><a>How to crack an Interview as a High school Student</a></Link></p>
+            <p className="text-base font-light text-gray-800 mt-3"><Link href="/blogs/how-to-prepare-for-an-interview-as-a-high-school-student"><a>Trust in the team is the most important thing especially in the remote teams. In addition to trust, communication is no less important. If these...</a></Link></p>
         </div>
-        <div className="text-article">
-          <p><Link href="/blogs/how-to-prepare-for-an-interview-as-a-high-school-student"><a> How to crack an Interview as a High school Student</a></Link></p>
+        <div className="hidden sm:block">
+        <Link href="/blogs/how-to-prepare-for-an-interview-as-a-high-school-student"><a>
+          <img className="h-32 w-48 m-6 rounded-lg" src="/Blogs/pexels-fauxels-3184465.jpg" alt="" />
+          </a></Link>
         </div>
-      </div>
-
-
-    </div> 
+        </div>
     </>
   )
 }

@@ -21,13 +21,13 @@ const Vanilla_JS_Home = () => {
 
     {/* Articles */}
     
-    <div className="article-head">
-      <h1 className="h1-temp">Latest Articles</h1>
+    <div className="">
+      <h1 className="md:text-4xl font-medium text-lg sm:text-xl mx-16 mb-8">Latest Articles</h1>
     </div>
     <VJS_Articles_Recent_6 /><br /><br /><br /><br />
     <div className="text-center">
 
-    <button className="p-3 bg-purple-600 text-white font-medium mb-6 rounded-md"><Link href="/articles"><a>Read more</a></Link></button>
+    <button className="p-3 bg-purple-600 text-white font-medium mb-6 rounded-md"><Link href="/articles"><a>Read All</a></Link></button>
     </div>
       {/* Explore */}
 

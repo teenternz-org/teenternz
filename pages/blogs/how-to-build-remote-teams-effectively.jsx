@@ -168,17 +168,6 @@ const Blog_7 = () => {
 
         <br /><br /><br /><br />
 
-
-
-
-
-
-
-
-
-
-
-
     </p>
     <h1 className="text-2xl text-center mb-8">Read more</h1>
      <VJS_Articles />

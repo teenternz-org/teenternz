@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Vanilla_JS_Home from '../components/vanilla-js/vanilla-js-home'
+import VJS_NavBar from '../components/vanilla-js/vjs-navbar'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       </Head>
 
       <div>
+        <VJS_NavBar />
         <Vanilla_JS_Home />
       </div>
 

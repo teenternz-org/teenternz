@@ -1,8 +1,10 @@
 import Link from "next/link"
+import VJS_NavBar from './vjs-navbar'
 
 const VJS_Articles_Recent_6 = () => {
   return (
     <>
+    <VJS_NavBar />
       <div className="flex flex-1 m-8 rounded-lg bg-blue-50 shadow-xl sm:w-3/4 w-10/12 justify-center">
         <div className="text-2xl p-6 sm:w-2/3 w-full">
             <p><Link href="/blogs/how-to-find-your-passion"><a> How to Find your Passion</a></Link></p>

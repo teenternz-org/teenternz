@@ -1,4 +1,3 @@
-import VJS_NavBar from './vjs-navbar'
 import Link from 'next/link'
 import VJS_Articles_Recent_6 from './vjs-articles-recent-6'
 
@@ -6,8 +5,6 @@ const Vanilla_JS_Home = () => {
   return (
     <>
     <div className="home">
-
-      <VJS_NavBar />
 
       {/* Hero */}
 

@@ -1,4 +1,3 @@
-import VJS_Articles from './vjs-articles-recent-6'
 import VJS_NavBar from './vjs-navbar'
 import Link from 'next/link'
 import VJS_Articles_Recent_6 from './vjs-articles-recent-6'

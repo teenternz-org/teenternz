@@ -1,5 +1,7 @@
-import VJS_Articles from './vjs-articles'
+import VJS_Articles from './vjs-articles-recent-6'
 import VJS_NavBar from './vjs-navbar'
+import Link from 'next/link'
+import VJS_Articles_Recent_6 from './vjs-articles-recent-6'
 
 const Vanilla_JS_Home = () => {
   return (
@@ -23,8 +25,11 @@ const Vanilla_JS_Home = () => {
     <div className="article-head">
       <h1 className="h1-temp">Latest Articles</h1>
     </div>
-    <VJS_Articles /><br /><br /><br /><br />
+    <VJS_Articles_Recent_6 /><br /><br /><br /><br />
+    <div className="text-center">
 
+    <button className="p-3 bg-purple-600 text-white font-medium mb-6 rounded-md"><Link href="/articles"><a>Read more</a></Link></button>
+    </div>
       {/* Explore */}
 
     <div className="ex" id="explore">

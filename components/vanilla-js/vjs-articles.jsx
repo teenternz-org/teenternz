@@ -30,7 +30,7 @@ const VJS_Articles = () => {
         <div className="flex flex-1 m-8 rounded-lg bg-blue-50 shadow-xl sm:w-3/4 w-10/12 justify-center">
         <div className="text-2xl p-6 sm:w-2/3 w-full">
             <p><Link href="/blogs/how-to-unfocus-to-focus"><a>How to Unfocus to Focus</a></Link></p>
-            <p className="text-base font-light text-gray-800 mt-3"><Link href="/blogs/how-to-unfocus-to-focus"><a>Trust in the team is the most important thing especially in the remote teams. In addition to trust, communication is no less important. If these...</a></Link></p>
+            <p className="text-base font-light text-gray-800 mt-3"><Link href="/blogs/how-to-unfocus-to-focus"><a>In this article we are going to tell you how important it is to take a break and how to take an effective and productive...</a></Link></p>
         </div>
         <div className="hidden sm:block">
         <Link href="/blogs/how-to-unfocus-to-focus"><a>
@@ -42,7 +42,7 @@ const VJS_Articles = () => {
         <div className="flex flex-1 m-8 rounded-lg bg-blue-50 shadow-xl sm:w-3/4 w-10/12 justify-center">
         <div className="text-2xl p-6 sm:w-2/3 w-full">
             <p><Link href="/blogs/how-to-deal-with-stress-and-still-enjoy-our-highschool-life"><a>How to deal with stress and Anxiety as a student</a></Link></p>
-            <p className="text-base font-light text-gray-800 mt-3"><Link href="/blogs/how-to-deal-with-stress-and-still-enjoy-our-highschool-life"><a>Trust in the team is the most important thing especially in the remote teams. In addition to trust, communication is no less important. If these...</a></Link></p>
+            <p className="text-base font-light text-gray-800 mt-3"><Link href="/blogs/how-to-deal-with-stress-and-still-enjoy-our-highschool-life"><a>Anything that your mind says has an identical response to the body cells. That’s why stress is the response your body gives physically or mentally...</a></Link></p>
         </div>
         <div className="hidden sm:block">
         <Link href="/blogs/how-to-deal-with-stress-and-still-enjoy-our-highschool-life"><a>
@@ -54,7 +54,7 @@ const VJS_Articles = () => {
         <div className="flex flex-1 m-8 rounded-lg bg-blue-50 shadow-xl sm:w-3/4 w-10/12 justify-center">
         <div className="text-2xl p-6 sm:w-2/3 w-full">
             <p><Link href="/blogs/how-to-study-and-manage-extracurriculars"><a>How to study and manage extracurriculars</a></Link></p>
-            <p className="text-base font-light text-gray-800 mt-3"><Link href="/blogs/how-to-study-and-manage-extracurriculars"><a>Trust in the team is the most important thing especially in the remote teams. In addition to trust, communication is no less important. If these...</a></Link></p>
+            <p className="text-base font-light text-gray-800 mt-3"><Link href="/blogs/how-to-study-and-manage-extracurriculars"><a>Intelligence and personality have always been inextricably intertwined with education. It is not just your grades or the number of AP classes that count as...</a></Link></p>
         </div>
         <div className="hidden sm:block">
         <Link href="/blogs/how-to-study-and-manage-extracurriculars"><a>
@@ -66,7 +66,7 @@ const VJS_Articles = () => {
         <div className="flex flex-1 m-8 rounded-lg bg-blue-50 shadow-xl sm:w-3/4 w-10/12 justify-center">
         <div className="text-2xl p-6 sm:w-2/3 w-full">
             <p><Link href="/blogs/how-can-students-make-the-most-out-of-their-time"><a>How to Manage time as a Student</a></Link></p>
-            <p className="text-base font-light text-gray-800 mt-3"><Link href="/blogs/how-can-students-make-the-most-out-of-their-time"><a>Trust in the team is the most important thing especially in the remote teams. In addition to trust, communication is no less important. If these...</a></Link></p>
+            <p className="text-base font-light text-gray-800 mt-3"><Link href="/blogs/how-can-students-make-the-most-out-of-their-time"><a>You can feel it very easy if you just hold on and do nothing, the clock moves forward and the seconds are going away. This...</a></Link></p>
         </div>
         <div className="hidden sm:block">
         <Link href="/blogs/how-can-students-make-the-most-out-of-their-time"><a>
@@ -78,7 +78,7 @@ const VJS_Articles = () => {
         <div className="flex flex-1 m-8 rounded-lg bg-blue-50 shadow-xl sm:w-3/4 w-10/12 justify-center">
         <div className="text-2xl p-6 sm:w-2/3 w-full">
             <p><Link href="/blogs/how-to-start-an-organization-in-high-school"><a>How to start an organisation in high school</a></Link></p>
-            <p className="text-base font-light text-gray-800 mt-3"><Link href="/blogs/how-to-start-an-organization-in-high-school"><a>Trust in the team is the most important thing especially in the remote teams. In addition to trust, communication is no less important. If these...</a></Link></p>
+            <p className="text-base font-light text-gray-800 mt-3"><Link href="/blogs/how-to-start-an-organization-in-high-school"><a>An organization is a group of organized people working on achieving a specific goal. Starting an organization, club, non-fund, anything is a great idea for...</a></Link></p>
         </div>
         <div className="hidden sm:block">
         <Link href="/blogs/how-to-start-an-organization-in-high-school"><a>
@@ -90,7 +90,7 @@ const VJS_Articles = () => {
         <div className="flex flex-1 m-8 rounded-lg bg-blue-50 shadow-xl sm:w-3/4 w-10/12 justify-center">
         <div className="text-2xl p-6 sm:w-2/3 w-full">
             <p><Link href="/blogs/how-to-prepare-for-an-interview-as-a-high-school-student"><a>How to crack an Interview as a High school Student</a></Link></p>
-            <p className="text-base font-light text-gray-800 mt-3"><Link href="/blogs/how-to-prepare-for-an-interview-as-a-high-school-student"><a>Trust in the team is the most important thing especially in the remote teams. In addition to trust, communication is no less important. If these...</a></Link></p>
+            <p className="text-base font-light text-gray-800 mt-3"><Link href="/blogs/how-to-prepare-for-an-interview-as-a-high-school-student"><a>The interview is one of the key fragments of the process of getting hired and is a complete game-changer if it goes well. But it...</a></Link></p>
         </div>
         <div className="hidden sm:block">
         <Link href="/blogs/how-to-prepare-for-an-interview-as-a-high-school-student"><a>

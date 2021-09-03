@@ -31,18 +31,19 @@ class Navbar extends Component {
         <nav>
           <div className="text-white text-3xl"><Link href="/"><a>Teenternz</a></Link>
           </div>
-          <div className="flex flex-1 justify-center md:space-x-6">
+          <div className="flex flex-1 md:ml-6 md:space-x-6">
             
             <div className="text-white md:p-3 p-2 text-lg mx-0 md:mx-6"><Link href="/internships"><a>Internships</a></Link></div>
             <div className="text-white md:p-3 p-2 text-lg mx-0 md:mx-6"><Link href="/events"><a>Events</a></Link></div>
             <div className="text-white md:p-3 p-2 text-lg mx-0 md:mx-6"><Link href="/articles"><a>Articles</a></Link></div>
-            <div className="text-white md:p-3 p-2 text-lg mx-0 md:mx-6"><Link href="/about"><a>About</a></Link></div>
           </div>
-          <div className="justify-end">
+          <div className="justify-end flex space-x-4">
             <div className="bg-purple-200 p-3 rounded-md cursor-pointer">
-              <Link href="#explore"><a>Explore</a>
-              </Link>
-              
+              <a href="#">Sign Up</a> 
+
+            </div>
+            <div className="bg-purple-200 p-3 rounded-md cursor-pointer">
+            <a href="#">Log In</a>
             </div>
           </div>
         </nav>

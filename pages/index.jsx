@@ -28,7 +28,7 @@ export default function Home() {
     <div className="bg-explore-md bg-cover">
 
     <div className="">
-      <h1 className="text-white md:text-4xl text-2xl text-center pt-3">What we Offer?</h1>
+      <h1 className="text-white md:text-4xl text-2xl text-center pt-3" id="#explore">What we Offer?</h1>
     <div className="md:grid-cols-3 grid grid-cols-1 sm:grid-cols-2">
       <div className="bg-blue-300 mx-16 mb-16 mt-8 rounded-md text-center">
         <div className="">

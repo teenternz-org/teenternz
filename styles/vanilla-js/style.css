@@ -29,7 +29,7 @@ nav{
     font-family: 'Roboto', sans-serif;
     height: 80px;
     width: 100%;
-    background-color: #5E17EB;
+    background-color: #1271ee;
     align-items: center;
     justify-content: space-between;
     padding: 0 50px 0 100px;
@@ -204,7 +204,7 @@ nav{
     font-size: 20px;
     margin: 40px;
     border: none;
-    background-color: #383bff;
+    background-color: #1271ee;
     color: white;
     font-weight: bolder;
 }
@@ -352,7 +352,7 @@ nav{
     cursor: pointer;
     border-radius: 15px;
     border: none;
-    background-color: rgb(102, 50, 255);
+    background-color: #1271ee;
     color: rgb(255, 255, 255);
 
     margin-top: -20px;
@@ -518,7 +518,7 @@ nav{
     font-size: 12px;
     margin: 5px;  
     border: none;
-    background-color: #4447ff;
+    background-color: #1271ee;
     color: white;
     font-weight: bold;
 }

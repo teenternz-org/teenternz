@@ -1,10 +1,8 @@
-import VJS_NavBar from '../components/vanilla-js/vjs-navbar'
 import Link from 'next/link'
 
 const Internships = () => {
   return (
     <>
-    <VJS_NavBar />
     <div className="main-2">
       <h1>
           WHAT TEAM DO YOU WANT TO WORK UPON?

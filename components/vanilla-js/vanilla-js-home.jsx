@@ -4,35 +4,21 @@ import VJS_Articles_Recent_6 from './vjs-articles-recent-6'
 const Vanilla_JS_Home = () => {
   return (
     <>
-    <div className="home">
-
-      {/* Hero */}
-
-      <h1>Welcome to Teenternz</h1>
-      <p>Path to unlimited opportunities</p>
-      <span>
-        <button className="btn"> <a href="#explore">Explore</a></button>
-        <button className="btn" style={{width: 200}}> <a href="https://discord.gg/aDBZ74NDYu" rel="noreferrer" target="_blank">Join our  Discord</a></button>
-      </span>
-    </div><br /><br /><br /><br /><br /><br /><br />
-
-    {/* Articles */}
+      <div class="flex items-center justify-center h-screen bg-hero-pattern bg-cover">
     
-    <div className="">
-      <h1 className="md:text-4xl font-medium text-lg sm:text-xl mx-16 mb-8">Latest Articles</h1>
+    <div class="md:font-bold md:text-5xl text-white md:m-12 font-medium text-2xl m-6 sm:text-3xl">
+    Platform to find remote internships and volunteer opportunities provided by NGOs and Non-profit organisations 
     </div>
-    <VJS_Articles_Recent_6 /><br /><br /><br /><br />
-    <div className="text-center">
+    
+    </div>
 
-    <button className="p-3 bg-purple-600 text-white font-medium mb-6 rounded-md"><Link href="/articles"><a>Read All</a></Link></button>
-    </div>
       {/* Explore */}
 
     <div className="ex" id="explore">
       <h1>What we Offer?</h1>
-    </div><br /><br /><br /> <br /><br /><br />
+    </div>
 
-    <div className="cards">
+    <div className="cards mb-16">
       <div className="card" id="card-1">
         <div className="cover">
           <img src="/img/internships.png" alt="Cover"/>
@@ -63,7 +49,7 @@ const Vanilla_JS_Home = () => {
           <button className="btn-2"><a href="article.html">Explore</a></button>
         </div>
       </div>
-    </div><br /><br /><br />
+    </div>
   </>
   )
 }

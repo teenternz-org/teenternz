@@ -1,9 +1,6 @@
-import VJS_NavBar from '../components/vanilla-js/vjs-navbar'
-
 const Events = () => {
   return (
     <>
-    <VJS_NavBar />
     <div className="events">
         <h1>Events</h1>
         <p>Register for  our free events and learn from professionals and young Leaders </p>

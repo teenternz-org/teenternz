@@ -4,7 +4,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: theme => ({
-       'hero-pattern': "url('/img/blob-scene-haikei.svg')",
+       'hero-md': "url('/img/blob-scene-haikei.svg')",
+       'hero-sm': "url('/img/blob-scene-haikei-sm.svg')",
+       'hero-mobile': "url('/img/blob-scene-haikei-mobile.svg')",
       })
     }
   },

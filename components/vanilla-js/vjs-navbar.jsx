@@ -16,8 +16,8 @@ class VJS_NavBar extends Component {
       <>
       <nav className="flex flex-1 md:hidden">
         <div className="text-white text-2xl cursor-pointer"><Link href="/"><a>Teenternz</a></Link></div>
-        <div className="text-white p-2 cursor-pointer menu-icon" onClick={this.handleClick}><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        <div className="text-white p-2 cursor-pointer menu-icon" onClick={this.handleClick}><svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
 </svg></div>
         <ul className={this.state.active ? 'nav-menu active' : 'nav-menu'}>
         <div className="text-black mt-0 text-2xl p-3 hover:bg-purple-200 w-full cursor-pointer"><Link href="/events"><a>Events</a></Link></div>

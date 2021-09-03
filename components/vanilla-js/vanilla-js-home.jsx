@@ -4,9 +4,9 @@ import VJS_Articles_Recent_6 from './vjs-articles-recent-6'
 const Vanilla_JS_Home = () => {
   return (
     <>
-      <div class="flex items-center justify-center h-screen bg-hero-pattern bg-cover">
+      <div className="flex items-center justify-center h-screen md:bg-hero-md sm:hero-sm bg-hero-mobile bg-cover">
     
-    <div class="md:font-bold md:text-5xl text-white md:m-12 font-medium text-2xl m-6 sm:text-3xl">
+    <div className="md:font-bold md:text-5xl text-white md:m-12 font-medium text-2xl m-6 sm:text-3xl">
     Platform to find remote internships and volunteer opportunities provided by NGOs and Non-profit organisations 
     </div>
     

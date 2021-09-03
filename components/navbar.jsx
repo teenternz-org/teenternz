@@ -23,7 +23,6 @@ class Navbar extends Component {
         <div className="text-black text-2xl p-3 hover:bg-purple-200 w-full cursor-pointer"><Link href="/internships"><a onClick={this.handleClick}>Internships</a></Link></div>
         <div className="text-black mt-0 text-2xl p-3 hover:bg-purple-200 w-full cursor-pointer"><Link href="/events"><a onClick={this.handleClick}>Events</a></Link></div>
         <div className="text-black text-2xl p-3 hover:bg-purple-200 w-full cursor-pointer"><Link href="/articles"><a onClick={this.handleClick}>Articles</a></Link></div>
-        <div className="text-black text-2xl p-3 hover:bg-purple-200 w-full cursor-pointer"><Link href="/about"><a onClick={this.handleClick}>About</a></Link></div>
         </ul>
        
       </nav>

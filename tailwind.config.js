@@ -7,6 +7,7 @@ module.exports = {
        'hero-md': "url('/img/blob-scene-haikei.svg')",
        'hero-sm': "url('/img/blob-scene-haikei-sm.svg')",
        'hero-mobile': "url('/img/blob-scene-haikei-mobile.svg')",
+       'explore-md': "url('/img/layered-waves-haikei.svg')",
       })
     }
   },

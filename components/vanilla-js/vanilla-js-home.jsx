@@ -13,42 +13,45 @@ const Vanilla_JS_Home = () => {
     </div>
 
       {/* Explore */}
+      
+    <div className="bg-explore-md bg-cover">
 
-    <div className="ex" id="explore">
-      <h1>What we Offer?</h1>
+    <div className="">
+      <h1 className="text-white md:text-4xl text-2xl text-center pt-3">What we Offer?</h1>
+    <div className="md:grid-cols-3 grid grid-cols-1 sm:grid-cols-2">
+      <div className="bg-blue-300 mx-16 mb-16 mt-8 rounded-md text-center">
+        <div className="">
+          <h1 className="md:text-4xl text-xl p-4 font-medium">Internships</h1>
+          <img className="align-middle h-28 m-3 mx-auto" src="/img/people-4386248.svg" alt="calendar icon" />
+          <p className="md:text-lg text-base px-4 pt-4 pb-2">Teenternz provides internships for students, young professionals and young entrepreneurs. We have a large network of NGOs and Non-profit organisations who are willing to offer internships to our students.
+          </p>
+          <Link href="/internships"><button className="mt-1 bg-white m-2 p-2 rounded-full">See all internships</button></Link>
+        </div>
+      </div>
+
+      <div className="bg-blue-300 mx-16 mb-16 mt-8 rounded-md text-center">
+
+        <div className="">
+          <h1 className="md:text-4xl text-xl p-4 font-medium">Events</h1>
+          <img className="mx-20 my-3" src="/img/calendar-23684.svg" alt="calendar icon" />
+          <p className="md:text-lg text-base px-4 pt-4 pb-2">
+
+          we bring young achievers in our events, where you can watch them and ask your questions. These events are open to all, and we are always looking for new events to add.
+          </p>
+          <Link href="/events"><button className="mt-1 bg-white m-2 p-2 rounded-full">Explore</button></Link>
+        </div>
+      </div>
+
+      <div className="bg-blue-300 mx-16 mb-16 mt-8 rounded-md text-center">
+        <div className="">
+          <h1 className="md:text-4xl text-xl p-4 font-medium">Articles</h1>
+          <img className="mx-20 my-3" src="/img/notes-150587.svg" alt="calendar icon" />
+          <p className="md:text-lg text-base px-4 pt-4 pb-2">Our articles are written by our students and professionals. Our team of writers are always ready givr you the best content, tips and tricks to help you in your study and career.</p>
+          <Link href="/articles"><button className="mt-1 bg-white m-2 p-2 rounded-full">Read articles</button></Link>
+        </div>
+      </div>
     </div>
-
-    <div className="cards mb-16">
-      <div className="card" id="card-1">
-        <div className="cover">
-          <img src="/img/internships.png" alt="Cover"/>
-        </div>
-        <div className="date-time">
-          <p>Internships</p>
-          <button className="btn-2"><a href="internships.html">Explore</a></button>
-        </div>
-      </div>
-
-      <div className="card" id="card-1">
-        <div className="cover">
-          <img src="/img/events.png" alt="Cover"/>
-        </div>
-
-        <div className="date-time">
-          <p>Events</p>
-          <button className="btn-2"><a href="events.html">Explore</a></button>
-        </div>
-      </div>
-
-      <div className="card" id="card-1">
-        <div className="cover">
-          <img src="/img/article.png" alt="Cover"/>
-        </div>
-        <div className="date-time">
-          <p>Articles</p>
-          <button className="btn-2"><a href="article.html">Explore</a></button>
-        </div>
-      </div>
+    </div>
     </div>
   </>
   )

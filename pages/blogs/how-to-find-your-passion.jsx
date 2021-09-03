@@ -1,11 +1,9 @@
 import VJS_Articles from '../../components/vanilla-js/vjs-articles'
-import VJS_NavBar from '../../components/vanilla-js/vjs-navbar'
 
 const Blog_8 = () => {
   return (
     <>
-    <VJS_NavBar />
-    <h1 className="text-center md:text-3xl text-lg sm:text-xl md:m-8 m-4 font-light">
+    <h1 className="text-center md:text-3xl text-lg sm:text-xl md:m-8 m-4 font-medium">
         HOW TO FIND YOUR PASSION
     </h1>
 

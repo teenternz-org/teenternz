@@ -1,12 +1,9 @@
-import VJS_NavBar from '../../components/vanilla-js/vjs-navbar'
 import VJS_Articles from '../../components/vanilla-js/vjs-articles'
 
 const Blog_7 = () => {
   return (
     <>
-    <VJS_NavBar />
-    <br /><br /><br />
-    <h1 className="text-center md:text-3xl text-lg sm:text-xl md:m-8 m-4 font-light">
+    <h1 className="text-center md:text-3xl text-lg sm:text-xl md:m-8 m-4 font-medium">
         HOW TO BUILD REMOTE TEAMS EFFECTIVELY
     </h1>
 

@@ -8,8 +8,8 @@ const Blog_7 = () => {
         HOW TO BUILD REMOTE TEAMS EFFECTIVELY
         </h1>
     <div>
-    <p className="md:font-normal ml-8 sm:ml-16 sm:text-sm md:text-base md:ml-32 text-gray-800"><span className="font-normal">Written by: </span> Sanskriti Jain,</p>
-    <p className="md:font-normal sm:ml-16 sm:text-sm md:text-base md:ml-32 my-2 text-gray-800"><Time_Ago date="August 21 2021"/></p>
+    <p className="mb-4 md:font-normal ml-8 sm:ml-16 sm:text-sm md:text-base md:ml-32 text-gray-800"><span className="font-normal">Written by: </span> Sanskriti Jain,</p>
+    <p className="md:font-normal ml-8 sm:ml-16 sm:text-sm md:text-base md:ml-32 text-gray-800"><Time_Ago date="August 21 2021"/></p>
     </div>
     <p className="md:mx-28 sm:mx-12 mx-8 md:text-lg text-base font-light mt-8 mb-14">
         Passion is a feeling of intense enthusiasm or desire for someone or something.

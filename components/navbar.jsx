@@ -15,7 +15,7 @@ class Navbar extends Component {
     return (
       <>
       <nav className="flex flex-1 md:hidden sticky top-0">
-        <div className="text-white text-2xl cursor-pointer"><Link href="/"><a>Teenternz</a></Link></div>
+        <div className="text-white text-2xl cursor-pointer"><Link href="/"><a onClick={this.state.active ? this.handleClick : this.state.inactive}>Teenternz</a></Link></div>
         <div className="text-white p-2 cursor-pointer menu-icon" onClick={this.handleClick}><svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
 </svg></div> 

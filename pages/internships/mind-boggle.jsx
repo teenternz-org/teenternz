@@ -1,9 +1,6 @@
-import VJS_NavBar from '../../components/vanilla-js/vjs-navbar'
-
 const Mind_Boggle = () => {
   return (
     <>
-      <VJS_NavBar />
     <div className="text-center mx-14 md:mx-24 lg:mx-48">
     <h1 className="text-4xl mt-8">MINDBOGGLE</h1>
     <div className="mt-8">

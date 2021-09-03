@@ -1,8 +1,8 @@
-import VJS_Articles from '../../components/vanilla-js/vjs-articles'
+import Article_Layout from "../../components/article-layout"
 
 const Blog_2 = () => {
   return (
-    <>
+    <Article_Layout>
     <h1 className="text-center md:text-3xl text-lg sm:text-xl md:m-8 m-4 font-medium">
     HOW TO START AN ORGANIZATION IN HIGH SCHOOL!
     </h1>
@@ -99,9 +99,7 @@ const Blog_2 = () => {
         <br /><br />
         5. One more important thing is to <b> be consistent.</b> In many places, we observe that for the first few weeks the organization is very active but after that, there are no activities or enthusiasm furthermore. This affects the new members or reduces the number of people joining the organization. Each year new students take admission in the school so for the new students your organization should be as appealing as it was a few weeks ago for the old members.
     </p>
-    <h1 className="text-2xl text-center mb-8">Read more</h1>
-     <VJS_Articles />
-    </>
+    </Article_Layout>
   )
 }
 

@@ -1,9 +1,6 @@
-import VJS_NavBar from '../../components/vanilla-js/vjs-navbar'
-
 const Bright_Her_Future = () => {
   return (
     <>
-      <VJS_NavBar />
     <div className="text-center mx-14 md:mx-24 lg:mx-48">
     <h1 className="text-4xl mt-8">BRIGHT HER FUTURE</h1>
     <div className="mt-8">

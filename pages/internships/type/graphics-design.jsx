@@ -1,10 +1,9 @@
-import VJS_NavBar from '../../../components/vanilla-js/vjs-navbar'
+import Internships_type from './internships-type'
 import Link from 'next/link'
 
 const Graphics_Design = () => {
   return (
-    <>
-    <VJS_NavBar />
+    <Internships_type>
     <h1 className="text-center text-4xl m-8">
     FIND GRAPHIC DESIGN INTERNSHIPS HERE!</h1><br /><br />
 
@@ -250,7 +249,7 @@ const Graphics_Design = () => {
             </div>
       </div>
       </div>
-    </>
+    </Internships_type>
   )
 }
 

@@ -1,10 +1,9 @@
-import VJS_NavBar from '../../../components/vanilla-js/vjs-navbar'
+import Internships_type from './internships-type'
 import Link from 'next/link'
 
 const All = () => {
   return (
-    <>
-    <VJS_NavBar />
+    <Internships_type>
     <h1 className="text-center text-4xl m-8">
         OPPORTUNITIES</h1>
 
@@ -575,7 +574,7 @@ const All = () => {
             </div>
 
         </div>
-    </>
+    </Internships_type>
   )
 }
 

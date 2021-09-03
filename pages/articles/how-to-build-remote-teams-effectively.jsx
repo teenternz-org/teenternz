@@ -1,8 +1,8 @@
-import VJS_Articles from '../../components/vanilla-js/vjs-articles'
+import Article_Layout from "../../components/article-layout"
 
 const Blog_7 = () => {
   return (
-    <>
+    <Article_Layout>
     <h1 className="text-center md:text-3xl text-lg sm:text-xl md:m-8 m-4 font-medium">
         HOW TO BUILD REMOTE TEAMS EFFECTIVELY
     </h1>
@@ -162,13 +162,8 @@ const Blog_7 = () => {
         • You can access global talent pool
         Remote teams consist of people from different countries and cities, so when we join we can see the talents of
         different people and we can learn that so we will get new experiences.
-
-        <br /><br /><br /><br />
-
     </p>
-    <h1 className="text-2xl text-center mb-8">Read more</h1>
-     <VJS_Articles />
-    </>
+    </Article_Layout>
   )
 }
 

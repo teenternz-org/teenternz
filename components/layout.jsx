@@ -1,9 +1,9 @@
-import VJS_Navbar from './vjs-navbar.jsx'
+import Navbar from './navbar.jsx'
 
 const Layout = ( { children }) => {
   return (
     <>
-      <VJS_Navbar />
+      <Navbar />
       { children }
     </>
   )

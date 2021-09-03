@@ -1,8 +1,8 @@
-import VJS_Articles from '../../components/vanilla-js/vjs-articles'
+import Article_Layout from "../../components/article-layout"
 
 const Blog_3 = () => {
   return (
-    <>
+    <Article_Layout>
     <h1 className="text-center md:text-3xl text-lg sm:text-xl md:m-8 m-4 font-medium">
         HOW CAN STUDENTS MAKE THE MOST OUT OF THEIR TIME?
     </h1>
@@ -163,10 +163,7 @@ const Blog_3 = () => {
         and find out which period of time at the day fits you the most.
 
     </p>
-
-    <h1 className="text-2xl text-center mb-8">Read more</h1>
-     <VJS_Articles />
-    </>
+    </Article_Layout>
   )
 }
 

@@ -1,8 +1,8 @@
-import VJS_Articles from '../../components/vanilla-js/vjs-articles'
+import Article_Layout from "../../components/article-layout"
 
 const Blog_1 = () => {
   return (
-    <>
+    <Article_Layout>
     <h1 className="text-center md:text-3xl text-lg sm:text-xl md:m-8 m-4 font-medium">
         HOW TO PREPARE FOR AN INTERVIEW AS A HIGH SCHOOL STUDENT!
     </h1>
@@ -85,9 +85,7 @@ Also, in this situation of the pandemic, many of us have to give our interviews 
 But the negative aspect might be a poor internet connection, no appropriate area to sit (without noise, etc.) so to conquer negative aspects you have to make sure these problems don’t come in your way. these points are given above also have to be kept in mind before giving an online interview.
 </p>
 
-<h1 className="text-2xl text-center mb-8">Read more</h1>
-     <VJS_Articles />
-    </>
+    </Article_Layout>
   )
 }
 

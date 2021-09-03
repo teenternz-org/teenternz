@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Link from 'next/link'
 
-class VJS_NavBar extends Component {
+class Navbar extends Component {
   state = {
     active: false
   };
@@ -20,6 +20,7 @@ class VJS_NavBar extends Component {
   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
 </svg></div>
         <ul className={this.state.active ? 'nav-menu active' : 'nav-menu'}>
+        <div className="text-black text-2xl p-3 hover:bg-purple-200 w-full cursor-pointer"><Link href="/internships"><a>Internships</a></Link></div>
         <div className="text-black mt-0 text-2xl p-3 hover:bg-purple-200 w-full cursor-pointer"><Link href="/events"><a>Events</a></Link></div>
         <div className="text-black text-2xl p-3 hover:bg-purple-200 w-full cursor-pointer"><Link href="/articles"><a>Articles</a></Link></div>
         <div className="text-black text-2xl p-3 hover:bg-purple-200 w-full cursor-pointer"><Link href="/about"><a>About</a></Link></div>
@@ -51,4 +52,4 @@ class VJS_NavBar extends Component {
   }
 }
 
-export default VJS_NavBar;
+export default Navbar;

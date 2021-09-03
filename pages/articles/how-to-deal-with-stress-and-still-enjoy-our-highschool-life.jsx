@@ -1,8 +1,8 @@
-import VJS_Articles from '../../components/vanilla-js/vjs-articles'
+import Article_Layout from "../../components/article-layout"
 
 const Blog_5 = () => {
   return (
-    <>
+    <Article_Layout>
     <h1 className="text-center md:text-3xl text-lg sm:text-xl md:m-8 m-4 font-medium">
         HOW TO DEAL WITH STRESS AND STILL ENJOY OUR HIGHSCHOOL LIFE
     </h1>
@@ -160,11 +160,8 @@ const Blog_5 = () => {
         be the one to take the first step and make your ending good. Because things like friendship are very important
         in school life
     </p>
-
-    <h1 className="text-2xl text-center mb-8">Read more</h1>
-     <VJS_Articles />
     
-    </>
+    </Article_Layout>
   )
 }
 

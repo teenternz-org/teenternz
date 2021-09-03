@@ -1,9 +1,6 @@
-import VJS_NavBar from '../../components/vanilla-js/vjs-navbar'
-
 const Youth_4_Scitech = () => {
   return (
     <>
-      <VJS_NavBar />
     <div className="text-center mx-14 md:mx-24 lg:mx-48">
     <h1 className="text-4xl mt-8">YOUTH4SCITECH</h1>
     <div className="mt-8">

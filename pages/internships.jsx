@@ -12,28 +12,28 @@ const Internships = () => {
       </p>
 
       <div className="teams">
-      <Link href="/internships/type/content-writing">
+      <Link href="/internships/type/content-writing" passHref>
           <div
           className="team-cards content-writing-temp"></div>
       </Link>
 
-      <Link href="/internships/type/graphics-design">
+      <Link href="/internships/type/graphics-design" passHref>
       <div className="team-cards graphicdesign-temp"></div>
       </Link>
 
-      <Link href="/internships/type/video-editing-film-making">
+      <Link href="/internships/type/video-editing-film-making" passHref>
           <div className="team-cards film-making-temp"></div>
       </Link>
 
-      <Link href="/internships/type/web-dev">
+      <Link href="/internships/type/web-dev" passHref>
           <div className="team-cards webdev-temp"></div>
       </Link>
 
-      <Link href="/internships/type/research">
+      <Link href="/internships/type/research" passHref>
           <div className="team-cards research-temp"></div> 
       </Link>
       
-      <Link href="/internships/type/all">
+      <Link href="/internships/type/all" passHref>
           <div className="team-cards volu-temp"></div> 
       </Link>
 

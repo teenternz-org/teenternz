@@ -1,10 +1,9 @@
-import VJS_NavBar from '../../../components/vanilla-js/vjs-navbar'
+import Internships_type from './internships-type'
 import Link from 'next/link'
 
 const Video_Editing_Film_Making = () => {
   return (
-    <>
-    <VJS_NavBar />
+    <Internships_type>
       <h1 className="text-center text-4xl m-8"
     >
     FIND FILM-MAKING/VIDEO EDITING INTERNSHIPS HERE!</h1>
@@ -114,7 +113,7 @@ const Video_Editing_Film_Making = () => {
             </div>
         </div>
     </div>
-    </>
+    </Internships_type>
   )
 }
 

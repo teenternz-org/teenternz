@@ -1,8 +1,7 @@
-import VJS_Articles from '../../components/vanilla-js/vjs-articles'
-
+import Article_Layout from "../../components/article-layout"
 const Blog_4 = () => {
   return (
-    <>
+    <Article_Layout>
     <h1 className="text-center md:text-3xl text-lg sm:text-xl md:m-8 m-4 font-medium">
         HOW TO STUDY AND MANAGE EXTRACURRICULARS
     </h1>
@@ -133,10 +132,7 @@ const Blog_4 = () => {
         So, how will you balance this see-saw? Or will you even balance it?
 
     </p>
-
-    <h1 className="text-2xl text-center mb-8">Read more</h1>
-     <VJS_Articles />
-    </>
+    </Article_Layout>
   )
 }
 

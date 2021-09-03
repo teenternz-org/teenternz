@@ -1,13 +1,17 @@
 import Article_Layout from "../../components/article-layout"
+import Time_Ago from '../../components/time-ago'
 
 const Blog_3 = () => {
   return (
     <Article_Layout>
-    <h1 className="text-center md:text-3xl text-lg sm:text-xl md:m-8 m-4 font-medium">
+    <h1 className="text-center md:text-4xl text-lg sm:text-2xl sm:m-8 md:m-4 md:font-medium">
         HOW CAN STUDENTS MAKE THE MOST OUT OF THEIR TIME?
     </h1>
-
-    <p className="md:mx-28 sm:mx-12 mx-8 md:text-lg text-base mb-14">
+        <div>
+    <p className="md:font-normal sm:ml-16 sm:text-sm md:text-base md:ml-32 text-gray-800"><span className="font-normal">Written by: </span> Sanskriti Jain,</p>
+    <p className="md:font-normal sm:ml-16 sm:text-sm md:text-base md:ml-32 my-2 text-gray-800"><Time_Ago date="July 25 2021"/></p>
+    </div>
+    <p className="md:mx-28 sm:mx-12 mx-8 md:text-lg text-base font-light mt-8 mb-14">
         You can feel it very easy if you just hold on and do nothing, the clock moves forward and the
         seconds are going away. This is what we call time and unfortunately it won’t stop running
         forwards, even if you try to make it go slower. This is the first part of a combination that

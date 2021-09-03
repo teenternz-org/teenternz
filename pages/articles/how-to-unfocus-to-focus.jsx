@@ -1,13 +1,16 @@
 import Article_Layout from "../../components/article-layout"
-
+import Time_Ago from '../../components/time-ago'
 const Blog_6 = () => {
   return (
     <Article_Layout>
-    <h1 className="text-center md:text-3xl text-lg sm:text-xl md:m-8 m-4 font-medium">
+    <h1 className="text-center md:text-4xl text-lg sm:text-2xl sm:m-8 md:m-4 md:font-medium">
         HOW TO FOCUS TO FOCUS!
-    </h1>
-
-    <p className="md:mx-28 sm:mx-12 mx-8 md:text-lg text-base mb-14">
+        </h1>
+    <div>
+    <p className="md:font-normal sm:ml-16 sm:text-sm md:text-base md:ml-32 text-gray-800"><span className="font-normal">Written by: </span> Sanskriti Jain,</p>
+    <p className="md:font-normal sm:ml-16 sm:text-sm md:text-base md:ml-32 my-2 text-gray-800"><Time_Ago date="August 17 2021"/></p>
+    </div>
+    <p className="md:mx-28 sm:mx-12 mx-8 md:text-lg text-base font-light mt-8 mb-14">
         In this article we are going to tell you <b>how important it is to take a break and how to take an effective and
             productive break.</b> Now you are working continuously for a whole day, week, month, you have started
         working with your full energy and now as you do these things for a long time you feel exhausted you are in need

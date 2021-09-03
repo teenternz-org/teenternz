@@ -1,14 +1,17 @@
-import Article_Layout from "../../components/article-layout"
+import Article_Layout from '../../components/article-layout'
+import Time_Ago from '../../components/time-ago'
+
 const Blog_4 = () => {
   return (
     <Article_Layout>
-    <h1 className="text-center md:text-3xl text-lg sm:text-xl md:m-8 m-4 font-medium">
+    <h1 className="text-center md:text-4xl text-lg sm:text-2xl sm:m-8 md:m-4 md:font-medium">
         HOW TO STUDY AND MANAGE EXTRACURRICULARS
-    </h1>
-
-
-    <p className="md:mx-28 sm:mx-12 mx-8 md:text-lg text-base mb-14">
-
+        </h1>
+    <div>
+    <p className="md:font-normal sm:ml-16 sm:text-sm md:text-base md:ml-32 text-gray-800"><span className="font-normal">Written by: </span> Sanskriti Jain,</p>
+    <p className="md:font-normal sm:ml-16 sm:text-sm md:text-base md:ml-32 my-2 text-gray-800"><Time_Ago date="August 7 2021"/></p>
+    </div>
+    <p className="md:mx-28 sm:mx-12 mx-8 md:text-lg text-base font-light mt-8 mb-14">
         Intelligence and personality have always been inextricably intertwined with education. It is not just your
         grades or the number of AP classes that count as a part of your education, but also the skills that you gain
         from the non-academic and extracurricular activities you take part in.

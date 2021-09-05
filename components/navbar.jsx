@@ -25,13 +25,15 @@ class Navbar extends Component {
   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
 </svg></div>
 <div>
-
+<div>
+  
+</div>
 <div className={this.state.active ? 'nav-menu active' : 'nav-menu'}>
         <div className="text-lg p-3 w-full text-center cursor-pointer"><Link href="/internships"><a onClick={this.handleClick}>Internships</a></Link></div>
         <div className="text-lg p-3 w-full text-center cursor-pointer"><Link href="/events"><a onClick={this.handleClick}>Events</a></Link></div>
         <div className="text-lg p-3 w-full text-center cursor-pointer"><Link href="/articles"><a onClick={this.handleClick}>Articles</a></Link></div>
         <div className="text-lg p-3 mb-4 w-full text-center cursor-pointer"><Link href="#"><a onClick={this.handleClick}>Log In</a></Link></div>
-        <div className="text-lg mx-auto p-4 py-2 text-center shadow-md cursor-pointer rounded-lg font-medium bg-blue-500 text-white"><Link href="#"><a onClick={this.handleClick}>Join</a></Link></div>
+        <div className="text-lg mx-auto p-4 py-2 text-center shadow-md cursor-pointer rounded-lg font-medium bg-blue-500 text-white mb-96"><Link href="#"><a onClick={this.handleClick}>Join</a></Link></div>
         </div>
 </div>
       </div>

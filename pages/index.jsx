@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className=" md:p-16 p-8 my-24 align-middle justify-items-center">
+      <div className=" md:p-16 p-8 sm:my-24 my-20 align-middle justify-items-center">
         <h1 className="md:font-bold md:text-5xl font-medium text-3xl sm:text-4xl">
         Platform to find <span className="text-blue-500 ">remote internships and volunteer opportunities</span> by NGOs
         </h1>

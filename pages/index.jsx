@@ -15,10 +15,11 @@ export default function Home() {
         
       </Head>
 
-      <div className=" md:p-16 p-8 my-28 align-middle justify-items-center">
+      <div className=" md:p-16 p-8 my-24 align-middle justify-items-center">
         <h1 className="md:font-bold md:text-5xl font-medium text-3xl sm:text-4xl">
-        Platform to find <span className="text-blue-500 ">remote internships and volunteer opportunities</span> provided by Non-profit organizations 
+        Platform to find <span className="text-blue-500 ">remote internships and volunteer opportunities</span> by NGOs
         </h1>
+        <p className="font-normal mt-4 mb-8 sm:text-lg text-gray-700">Teenternz helps Students find Remote Internships and volunteer opportunites from around the globe. apart from that Students can find various resources such as articles, books.</p>
       <div className=" mt-8  space-x-8 flex flex-1">
         <Link href="/internships" passHref><div className="bg-blue-500 text-white rounded-lg font-medium cursor-pointer shadow-md text-lg py-2 px-4">Find internships</div></Link>
         <Link href="#" passHref><div className="text-lg font-medium p-2 cursor-pointer">Join</div></Link>

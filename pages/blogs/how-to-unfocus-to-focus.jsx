@@ -1,14 +1,18 @@
 import Blog_Layout from "../../components/blog-layout"
 import Time_Ago from '../../components/time-ago'
+import Link from 'next/link'
+
 const Blog_6 = () => {
   return (
     <Blog_Layout>
-    <h1 className="font-serif text-center md:text-5xl text-3xl m-6 sm:m-8 md:m-4 md:font-normal font-semibold">
+    <h1 className="font-serif text-center md:text-5xl text-3xl m-6 sm:m-8 mt-32 md:font-normal font-semibold">
         HOW TO FOCUS TO FOCUS!
         </h1>
-    <div>
-    <p className="mb-4 md:font-normal ml-8 sm:ml-16 sm:text-sm md:text-base md:ml-32 text-gray-800">Sanskriti Jain</p>
-    <p className="md:font-normal ml-8 sm:ml-16 sm:text-sm md:text-base md:ml-32 text-gray-800"><Time_Ago date="August 17 2021"/></p>
+        <div className="grid grid-cols-12 mt-16">
+    <div className="grid col-start-2 grid-cols-2"><div className="h-10 rounded-full overflow-hidden w-10"><img src="/authors/sanskriti-jain.jpg" alt="" /></div>
+    <div className="grid w-max grid-cols-1"><Link href="/authors/sanskriti-jain"><p className="text-sm hover:underline px-1 cursor-pointer">Sanskriti Jain</p></Link>
+    <p className="px-1 text-sm w-max"><Time_Ago date="August 17 2021"/></p>
+      </div></div>
     </div>
     <p className="font-serif md:mx-28 sm:mx-12 mx-8 md:text-lg text-base font-light mt-8 mb-14">
         In this article we are going to tell you <b>how important it is to take a break and how to take an effective and

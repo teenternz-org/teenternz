@@ -1,9 +1,10 @@
-import Articles from "../blogs"
+import Blog from "../blog"
 
 const Sanskriti_Jain = () => {
   return (
     <>
-     <Articles  /> 
+    <h1 className="text-2xl font-medium md:ml-36 sm:ml-16 ml-8 my-8 ">Blogs by Sanskriti Jain</h1>
+     <Blog  /> 
     </>
   )
 }

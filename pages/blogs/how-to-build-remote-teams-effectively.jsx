@@ -1,15 +1,18 @@
 import Blog_Layout from "../../components/blog-layout"
 import Time_Ago from '../../components/time-ago'
+import Link from 'next/link'
 
 const Blog_7 = () => {
   return (
     <Blog_Layout>
-    <h1 className="font-serif text-center md:text-5xl text-3xl m-6 sm:m-8 md:m-4 md:font-normal font-semibold">
+    <h1 className="font-serif text-center md:text-5xl text-3xl m-6 mt-16 md:font-normal font-semibold">
         HOW TO BUILD REMOTE TEAMS EFFECTIVELY
         </h1>
-    <div>
-    <p className="mb-4 md:font-normal ml-8 sm:ml-16 sm:text-sm md:text-base md:ml-32 text-gray-800">Sanskriti Jain</p>
-    <p className="md:font-normal ml-8 sm:ml-16 sm:text-sm md:text-base md:ml-32 text-gray-800"><Time_Ago date="August 21 2021"/></p>
+        <div className="ml-24">
+    <div className="grid md:ml-10 -ml-10 grid-cols-4 md:grid-cols-4 w-44"><div className="h-10 rounded-full overflow-hidden w-10"><img src="/authors/sanskriti-jain.jpg" alt="" /></div>
+    <div className="grid w-max grid-cols-1"><Link href="/authors/sanskriti-jain"><p className="text-sm hover:underline px-1 cursor-pointer">Sanskriti Jain</p></Link>
+    <p className="px-1 text-sm w-max"><Time_Ago date="August 21 2021"/></p>
+      </div></div>
     </div>
     <p className="font-serif md:mx-28 sm:mx-12 mx-8 md:text-lg text-base font-light mt-8 mb-14">
         Passion is a feeling of intense enthusiasm or desire for someone or something.
@@ -19,11 +22,11 @@ const Blog_7 = () => {
         Usually remote teams are more fun, because they have friends from a different city or country, but are often
         also constrained by language problems and personality that they have not known each other. Not infrequently
         quarrel, if this is already quite difficult to overcome them.
-        <br /><br /><br /><br />
+        <br /><br />
 
         <b>So this is step by step for build good relationship remote team</b>
 
-        <br /><br /><br />
+        <br /><br />
 
         <b>1. Select Team Members Wisely </b>
 
@@ -43,7 +46,7 @@ const Blog_7 = () => {
         • Fast response
         <br />
 
-        <br /><br /><br />
+        <br /><br />
 
         <b>2. Clearly Define Work Direction</b>
 

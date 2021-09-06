@@ -1,17 +1,17 @@
-import Article_Layout from "../../components/article-layout"
+import Blog_Layout from "../../components/blog-layout"
 import Time_Ago from '../../components/time-ago'
 
 const Blog_2 = () => {
   return (
-    <Article_Layout>
-    <h1 className="text-center md:text-4xl text-lg sm:text-2xl m-6 sm:m-8 md:m-4 md:font-medium">
+    <Blog_Layout>
+    <h1 className="font-serif text-center md:text-5xl text-3xl m-6 sm:m-8 md:m-4 md:font-normal font-semibold">
     HOW TO START AN ORGANIZATION IN HIGH SCHOOL!
     </h1>
     <div>
-    <p className="mb-4 md:font-normal ml-8 sm:ml-16 sm:text-sm md:text-base md:ml-32 text-gray-800"><span className="font-normal">Written by: </span> Sanskriti Jain,</p>
+    <p className="mb-4 md:font-normal ml-8 sm:ml-16 sm:text-sm md:text-base md:ml-32 text-gray-800">Sanskriti Jain</p>
     <p className="md:font-normal ml-8 sm:ml-16 sm:text-sm md:text-base md:ml-32 text-gray-800"><Time_Ago date="July 21 2021"/></p>
     </div>
-    <p className="md:mx-28 sm:mx-12 mx-8 md:text-lg text-base font-light mt-8 mb-14">
+    <p className="font-serif md:mx-28 sm:mx-12 mx-8 md:text-lg text-base font-light mt-8 mb-14">
     An organization is a group of organized people working on
         achieving a specific goal. Starting an organization, club, non-fund,
         anything is a great idea for achieving skills like leadership, time
@@ -102,7 +102,7 @@ const Blog_2 = () => {
         <br /><br />
         5. One more important thing is to <b> be consistent.</b> In many places, we observe that for the first few weeks the organization is very active but after that, there are no activities or enthusiasm furthermore. This affects the new members or reduces the number of people joining the organization. Each year new students take admission in the school so for the new students your organization should be as appealing as it was a few weeks ago for the old members.
     </p>
-    </Article_Layout>
+    </Blog_Layout>
   )
 }
 

@@ -1,17 +1,17 @@
-import Article_Layout from "../../components/article-layout"
+import Blog_Layout from "../../components/blog-layout"
 import Time_Ago from '../../components/time-ago'
 
 const Blog_1 = () => {
   return (
-    <Article_Layout>
-    <h1 className="text-center md:text-4xl text-lg sm:text-2xl m-6 sm:m-8 md:m-4 md:font-medium">
+    <Blog_Layout>
+    <h1 className="font-serif text-center md:text-5xl text-3xl m-6 sm:m-8 md:m-4 md:font-normal font-semibold">
         HOW TO PREPARE FOR AN INTERVIEW AS A HIGH SCHOOL STUDENT!
         </h1>
     <div>
-    <p className="mb-4 md:font-normal ml-8 sm:ml-16 sm:text-sm md:text-base md:ml-32 text-gray-800"><span className="font-normal">Written by: </span> Sanskriti Jain,</p>
+    <p className="mb-4 md:font-normal ml-8 sm:ml-16 sm:text-sm md:text-base md:ml-32 text-gray-800">Sanskriti Jain</p>
     <p className="md:font-normal ml-8 sm:ml-16 sm:text-sm md:text-base md:ml-32 text-gray-800"><Time_Ago date="July 8 2021"/></p>
     </div>
-    <p className="md:mx-28 sm:mx-12 mx-8 md:text-lg text-base font-light mt-8 mb-14">
+    <p className="font-serif md:mx-28 sm:mx-12 mx-8 md:text-lg text-base font-light mt-8 mb-14">
         The interview is one of the key fragments of the
         process of getting hired and is a complete 
         game-changer if it goes well. But it is a 
@@ -89,7 +89,7 @@ Also, in this situation of the pandemic, many of us have to give our interviews 
 But the negative aspect might be a poor internet connection, no appropriate area to sit (without noise, etc.) so to conquer negative aspects you have to make sure these problems don’t come in your way. these points are given above also have to be kept in mind before giving an online interview.
 </p>
 
-    </Article_Layout>
+    </Blog_Layout>
   )
 }
 

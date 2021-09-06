@@ -1,6 +1,6 @@
-import Articles from "../pages/articles"
+import Articles from "../pages/blogs"
 
-const Article_Layout = ({ children }) => {
+const Blog_Layout = ({ children }) => {
   return (
     <>
     { children }
@@ -10,4 +10,4 @@ const Article_Layout = ({ children }) => {
   )
 }
 
-export default Article_Layout
+export default Blog_Layout

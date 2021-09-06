@@ -1,17 +1,17 @@
-import Article_Layout from "../../components/article-layout"
+import Blog_Layout from "../../components/blog-layout"
 import Time_Ago from '../../components/time-ago'
 
 const Blog_5 = () => {
   return (
-    <Article_Layout>
-    <h1 className="text-center md:text-4xl text-lg sm:text-2xl m-6 sm:m-8 md:m-4 md:font-medium">
+    <Blog_Layout>
+    <h1 className="font-serif text-center md:text-5xl text-3xl m-6 sm:m-8 md:m-4 md:font-normal font-semibold">
         HOW TO DEAL WITH STRESS AND STILL ENJOY OUR HIGHSCHOOL LIFE
         </h1>
     <div>
-    <p className="mb-4 md:font-normal ml-8 sm:ml-16 sm:text-sm md:text-base md:ml-32 text-gray-800"><span className="font-normal">Written by: </span> Sanskriti Jain,</p>
+    <p className="mb-4 md:font-normal ml-8 sm:ml-16 sm:text-sm md:text-base md:ml-32 text-gray-800">Sanskriti Jain</p>
     <p className="md:font-normal ml-8 sm:ml-16 sm:text-sm md:text-base md:ml-32 text-gray-800"><Time_Ago date="August 13 2021"/></p>
     </div>
-    <p className="md:mx-28 sm:mx-12 mx-8 md:text-lg text-base font-light mt-8 mb-14">
+    <p className="font-serif md:mx-28 sm:mx-12 mx-8 md:text-lg text-base font-light mt-8 mb-14">
         Anything that your mind says has an identical response to the body cells. That’s why stress is the response your
         body gives physically or mentally to a challenging situation in your life, that response is dependent on how you
         think of the situation in your mind, that&apos;s why stress can be positive or negative. If we take things positively
@@ -165,7 +165,7 @@ const Blog_5 = () => {
         in school life
     </p>
     
-    </Article_Layout>
+    </Blog_Layout>
   )
 }
 

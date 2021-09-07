@@ -1,21 +1,13 @@
-import Blog_Layout from "../../components/blog-layout"
-import Time_Ago from '../../components/time-ago'
-import Link from 'next/link'
+import Blogpage_Layout from "../../components/layouts/blogpage-layout"
+import Blog_Layout from "../../components/layouts/blog-layout"
 
 const Blog_5 = () => {
   return (
-    <Blog_Layout>
-    <h1 className="font-serif text-center md:text-5xl text-3xl m-6 sm:m-8 mt-32 md:font-normal font-semibold">
-        HOW TO DEAL WITH STRESS AND STILL ENJOY OUR HIGHSCHOOL LIFE
-        </h1>
-        <div className="grid grid-cols-12 mt-16">
-    <div className="grid col-start-2 grid-cols-2"><div className="h-10 rounded-full overflow-hidden w-10"><img src="/authors/sanskriti-jain.jpg" alt="" /></div>
-    <div className="grid w-max grid-cols-1"><Link href="/authors/sanskriti-jain"><p className="text-sm hover:underline px-1 cursor-pointer">Sanskriti Jain</p></Link>
-    <p className="px-1 text-sm w-max"><Time_Ago date="August 13 2021"/></p>
-      </div></div>
-    </div>
-    <p className="font-serif md:mx-28 sm:mx-12 mx-8 md:text-lg text-base font-light mt-8 mb-14">
-        Anything that your mind says has an identical response to the body cells. That’s why stress is the response your
+    <Blogpage_Layout>
+      <Blog_Layout
+      h1={<>How to deal with stress and still enjoy our highschool life</>}
+      username={<>Janhavi Inamdar</>}
+      p={<>Anything that your mind says has an identical response to the body cells. That’s why stress is the response your
         body gives physically or mentally to a challenging situation in your life, that response is dependent on how you
         think of the situation in your mind, that&apos;s why stress can be positive or negative. If we take things positively
         the symptoms lead to making you more productive actually. But in some conditions, the situation which we are in
@@ -165,10 +157,9 @@ const Blog_5 = () => {
         <b>Ending - </b> we always want things to end happily whatever the process is. For example, if you fight with
         your closest friend it is ok to not talk for some time but don’t only expect others to make things right you can
         be the one to take the first step and make your ending good. Because things like friendship are very important
-        in school life
-    </p>
-    
-    </Blog_Layout>
+        in school life</>}
+      />
+    </Blogpage_Layout>
   )
 }
 

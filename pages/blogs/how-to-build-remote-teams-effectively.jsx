@@ -1,21 +1,13 @@
-import Blog_Layout from "../../components/blog-layout"
-import Time_Ago from '../../components/time-ago'
-import Link from 'next/link'
+import Blogpage_Layout from "../../components/layouts/blogpage-layout"
+import Blog_Layout from "../../components/layouts/blog-layout"
 
 const Blog_7 = () => {
   return (
-    <Blog_Layout>
-    <h1 className="font-serif text-center md:text-5xl text-3xl m-6 mt-16 md:font-normal font-semibold">
-        HOW TO BUILD REMOTE TEAMS EFFECTIVELY
-        </h1>
-        <div className="ml-24">
-    <div className="grid md:ml-10 -ml-10 grid-cols-4 md:grid-cols-4 w-44"><div className="h-10 rounded-full overflow-hidden w-10"><img src="/authors/sanskriti-jain.jpg" alt="" /></div>
-    <div className="grid w-max grid-cols-1"><Link href="/authors/sanskriti-jain"><p className="text-sm hover:underline px-1 cursor-pointer">Sanskriti Jain</p></Link>
-    <p className="px-1 text-sm w-max"><Time_Ago date="August 21 2021"/></p>
-      </div></div>
-    </div>
-    <p className="font-serif md:mx-28 sm:mx-12 mx-8 md:text-lg text-base font-light mt-8 mb-14">
-        Passion is a feeling of intense enthusiasm or desire for someone or something.
+    <Blogpage_Layout>
+      <Blog_Layout
+      h1={<>HOW TO BUILD REMOTE TEAMS EFFECTIVELY</>}
+      username={<>Sanskriti Jain</>}
+      p={<>Passion is a feeling of intense enthusiasm or desire for someone or something.
         Trust in the team is the most important thing especially in the remote teams. In addition to trust,
         communication is no less important. If these two things can&apos;t be built, it&apos;s hard to find effectiveness in a
         team or organization
@@ -167,9 +159,9 @@ const Blog_7 = () => {
         <br /><br />
         • You can access global talent pool
         Remote teams consist of people from different countries and cities, so when we join we can see the talents of
-        different people and we can learn that so we will get new experiences.
-    </p>
-    </Blog_Layout>
+        different people and we can learn that so we will get new experiences.</>}
+        />
+    </Blogpage_Layout>
   )
 }
 

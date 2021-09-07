@@ -1,21 +1,13 @@
-import Blog_Layout from "../../components/blog-layout"
-import Time_Ago from '../../components/time-ago'
-import Link from 'next/link'
+import Blogpage_Layout from "../../components/layouts/blogpage-layout"
+import Blog_Layout from "../../components/layouts/blog-layout"
 
 const Blog_6 = () => {
   return (
-    <Blog_Layout>
-    <h1 className="font-serif text-center md:text-5xl text-3xl m-6 sm:m-8 mt-32 md:font-normal font-semibold">
-        HOW TO FOCUS TO FOCUS!
-        </h1>
-        <div className="grid grid-cols-12 mt-16">
-    <div className="grid col-start-2 grid-cols-2"><div className="h-10 rounded-full overflow-hidden w-10"><img src="/authors/sanskriti-jain.jpg" alt="" /></div>
-    <div className="grid w-max grid-cols-1"><Link href="/authors/sanskriti-jain"><p className="text-sm hover:underline px-1 cursor-pointer">Sanskriti Jain</p></Link>
-    <p className="px-1 text-sm w-max"><Time_Ago date="August 17 2021"/></p>
-      </div></div>
-    </div>
-    <p className="font-serif md:mx-28 sm:mx-12 mx-8 md:text-lg text-base font-light mt-8 mb-14">
-        In this article we are going to tell you <b>how important it is to take a break and how to take an effective and
+    <Blogpage_Layout>
+      <Blog_Layout
+      h1={<>HOW TO UNFOCUS TO FOCUS!</>}
+      username={<>Janhavi Inamdar</>}
+      p={<>In this article we are going to tell you <b>how important it is to take a break and how to take an effective and
             productive break.</b> Now you are working continuously for a whole day, week, month, you have started
         working with your full energy and now as you do these things for a long time you feel exhausted you are in need
         of some recharge, this is the time you have to listen to your body and take a break.
@@ -149,12 +141,9 @@ const Blog_6 = () => {
         All of these methods are for the three types of breaks given above. At last, enjoy whatever you are doing
         without getting in a rush or getting under a lot of workload. Don’t wait for the time to come when you will get
         vacation or for doing these things that you want. Do them whenever you feel you need them. Because you have to
-        take two steps backwards to take a long jump.
-
-
-
-    </p>
-    </Blog_Layout>
+        take two steps backwards to take a long jump.</>}
+      />
+    </Blogpage_Layout>
   )
 }
 

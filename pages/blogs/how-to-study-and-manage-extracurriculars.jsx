@@ -1,21 +1,14 @@
-import Blog_Layout from '../../components/blog-layout'
-import Time_Ago from '../../components/time-ago'
-import Link from 'next/link'
+import Blogpage_Layout from "../../components/layouts/blogpage-layout"
+import Blog_Layout from "../../components/layouts/blog-layout"
+
 
 const Blog_4 = () => {
   return (
-    <Blog_Layout>
-    <h1 className="font-serif text-center md:text-5xl text-3xl m-6 sm:m-8 mt-32 md:font-normal font-semibold">
-        HOW TO STUDY AND MANAGE EXTRACURRICULARS
-        </h1>
-        <div className="grid grid-cols-12 mt-16">
-    <div className="grid col-start-2 grid-cols-2"><div className="h-10 rounded-full overflow-hidden w-10"><img src="/authors/sanskriti-jain.jpg" alt="" /></div>
-    <div className="grid w-max grid-cols-1"><Link href="/authors/sanskriti-jain"><p className="text-sm hover:underline px-1 cursor-pointer">Sanskriti Jain</p></Link>
-    <p className="px-1 text-sm w-max"><Time_Ago date="August 7 2021"/></p>
-      </div></div>
-    </div>
-    <p className="font-serif md:mx-28 sm:mx-12 mx-8 md:text-lg text-base font-light mt-8 mb-14">
-        Intelligence and personality have always been inextricably intertwined with education. It is not just your
+    <Blogpage_Layout>
+      <Blog_Layout
+      h1={<>HOW TO STUDY AND MANAGE EXTRACURRICULARS</>}
+      username={<>Delina Thatai</>}
+      p={<>Intelligence and personality have always been inextricably intertwined with education. It is not just your
         grades or the number of AP classes that count as a part of your education, but also the skills that you gain
         from the non-academic and extracurricular activities you take part in.
         <br /><br />
@@ -135,10 +128,9 @@ const Blog_4 = () => {
         as tasks, leaving it to you to decide how to manage your academics and extracurriculars. Keep in mind that you
         are your best judge, and prioritizing one thing over the other, is completely your choice.
         <br /><br />
-        So, how will you balance this see-saw? Or will you even balance it?
-
-    </p>
-    </Blog_Layout>
+        So, how will you balance this see-saw? Or will you even balance it?</>}
+      />
+    </Blogpage_Layout>
   )
 }
 

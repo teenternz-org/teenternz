@@ -1,21 +1,13 @@
-import Blog_Layout from '../../components/blog-layout'
-import Time_Ago from '../../components/time-ago'
-import Link from 'next/link'
+import Blogpage_Layout from "../../components/layouts/blogpage-layout"
+import Blog_Layout from "../../components/layouts/blog-layout"
 
 const Blog_8 = () => {
   return (
-    <Blog_Layout>
-    <h1 className="font-serif text-center md:text-5xl text-3xl m-6 sm:m-8 mt-32 md:font-normal font-semibold">
-        How to Find Your Passion
-    </h1>
-    <div className="grid grid-cols-12 mt-16">
-    <div className="grid col-start-2 grid-cols-2"><div className="h-10 rounded-full overflow-hidden w-10"><img src="/authors/sanskriti-jain.jpg" alt="" /></div>
-    <div className="grid w-max grid-cols-1"><Link href="/authors/sanskriti-jain"><p className="text-sm hover:underline px-1 cursor-pointer">Sanskriti Jain</p></Link>
-    <p className="px-1 text-sm w-max"><Time_Ago date="August 29 2021"/></p>
-      </div></div>
-    </div>
-    <p className="font-serif md:mx-28 sm:mx-12 mx-8 md:text-lg text-base font-light mt-8 mb-14">
-        Passion is a feeling of intense enthusiasm or desire for someone or something.
+    <Blogpage_Layout>
+      <Blog_Layout
+      h1={<>How to Find Your Passion</>}
+      username={<>Keshav Sharma</>}
+      p={<>Passion is a feeling of intense enthusiasm or desire for someone or something.
         Passion can vary from eager interest in or admiration for an idea, proposal,
         or cause; to enthusiastic enjoyment of an interest or activity; to strong attraction,
         excitement, or emotion towards a person. If you&apos;re reading this you might know how
@@ -187,11 +179,9 @@ const Blog_8 = () => {
 
         <br />
 
-        “It always seems impossible until it&apos;s done.”
-
-
-     </p>
-    </Blog_Layout>
+        “It always seems impossible until it&apos;s done.”</>}
+      />
+    </Blogpage_Layout>
   )
 }
 

@@ -1,0 +1,5 @@
+.gredientText {
+  background: linear-gradient(to right, #089db1, #b301b3);
+  background-clip: text;
+  color:  transparent;
+}

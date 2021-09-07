@@ -1,21 +1,13 @@
-import Blog_Layout from "../../components/blog-layout"
-import Time_Ago from '../../components/time-ago'
-import Link from 'next/link'
+import Blogpage_Layout from "../../components/layouts/blogpage-layout"
+import Blog_Layout from "../../components/layouts/blog-layout"
 
 const Blog_2 = () => {
   return (
-    <Blog_Layout>
-    <h1 className="font-serif text-center md:text-5xl text-3xl m-6 sm:m-8 mt-32 md:font-normal font-semibold">
-    HOW TO START AN ORGANIZATION IN HIGH SCHOOL!
-    </h1>
-    <div className="grid grid-cols-12 mt-16">
-    <div className="grid col-start-2 grid-cols-2"><div className="h-10 rounded-full overflow-hidden w-10"><img src="/authors/sanskriti-jain.jpg" alt="" /></div>
-    <div className="grid w-max grid-cols-1"><Link href="/authors/sanskriti-jain"><p className="text-sm hover:underline px-1 cursor-pointer">Sanskriti Jain</p></Link>
-    <p className="px-1 text-sm w-max"><Time_Ago date="July 21 2021"/></p>
-      </div></div>
-    </div>
-    <p className="font-serif md:mx-28 sm:mx-12 mx-8 md:text-lg text-base font-light mt-8 mb-14">
-    An organization is a group of organized people working on
+    <Blogpage_Layout>
+    <Blog_Layout
+    h1={<>HOW TO START AN ORGANIZATION IN HIGH SCHOOL!</>}
+    username={<>Janhavi Inamdar</>}
+    p={<>An organization is a group of organized people working on
         achieving a specific goal. Starting an organization, club, non-fund,
         anything is a great idea for achieving skills like leadership, time
         management, organization, etc., and gain a lot of good experience in
@@ -104,8 +96,9 @@ const Blog_2 = () => {
         4. <b> You have to be patient with the growth process of your organization.</b>  No organization grows in one day or one week. It takes a lot of time to grow and be successful. You should just keep the good assigned work going.
         <br /><br />
         5. One more important thing is to <b> be consistent.</b> In many places, we observe that for the first few weeks the organization is very active but after that, there are no activities or enthusiasm furthermore. This affects the new members or reduces the number of people joining the organization. Each year new students take admission in the school so for the new students your organization should be as appealing as it was a few weeks ago for the old members.
-    </p>
-    </Blog_Layout>
+        </>}
+      />
+    </Blogpage_Layout>
   )
 }
 

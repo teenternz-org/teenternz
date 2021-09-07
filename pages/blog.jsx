@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Blog_Subsection from "../components/blog-subsection"
-import Time_Ago from "../components/time-ago"
+import Time_Ago from "../components/other/time-ago"
 
 const Blog = () => {
   return (
@@ -29,7 +29,7 @@ const Blog = () => {
         
         <div className="flex flex-1 m-8 justify-center">
         <div className="text-2xl font-semibold p-6 sm:w-2/3 w-full">
-            <p><Link href="/blogs/how-to-build-remote-teams-effectively"><a>How to Build a team for your organisation</a></Link></p>
+            <p><Link href="/blogs/how-to-build-remote-teams-effectively"><a>How to build remote teams effectively</a></Link></p>
             <p className="text-base font-light text-gray-800 mt-3"><Link href="/blogs/how-to-build-remote-teams-effectively"><a>Trust in the team is the most important thing especially in the remote teams. In addition to trust, communication is no less important. If these...</a></Link></p>
             <div className="flex flex-1">
             <p className="text-sm font-normal text-gray-800 mt-3"><Time_Ago date="August 21, 2021"/></p>
@@ -65,7 +65,7 @@ const Blog = () => {
 
         <div className="flex flex-1 m-8 justify-center">
         <div className="text-2xl font-semibold p-6 sm:w-2/3 w-full">
-            <p><Link href="/blogs/how-to-deal-with-stress-and-still-enjoy-our-highschool-life"><a>How to deal with stress and Anxiety as a student</a></Link></p>
+              <p><Link href="/blogs/how-to-deal-with-stress-and-still-enjoy-our-highschool-life"><a>How to deal with stress and still enjoy our highschool life</a></Link></p>
             <p className="text-base font-light text-gray-800 mt-3"><Link href="/blogs/how-to-deal-with-stress-and-still-enjoy-our-highschool-life"><a>Anything that your mind says has an identical response to the body cells. That’s why stress is the response your body gives physically or mentally...</a></Link></p>
             <div className="flex flex-1">
 
@@ -101,7 +101,7 @@ const Blog = () => {
 
         <div className="flex flex-1 m-8 justify-center">
         <div className="text-2xl font-semibold p-6 sm:w-2/3 w-full">
-            <p><Link href="/blogs/how-can-students-make-the-most-out-of-their-time"><a>How to Manage time as a Student</a></Link></p>
+            <p><Link href="/blogs/how-can-students-make-the-most-out-of-their-time"><a>How can students make the most out of their time?</a></Link></p>
             <p className="text-base font-light text-gray-800 mt-3"><Link href="/blogs/how-can-students-make-the-most-out-of-their-time"><a>You can feel it very easy if you just hold on and do nothing, the clock moves forward and the seconds are going away. This...</a></Link></p>
             <div className="flex flex-1">
 
@@ -137,7 +137,7 @@ const Blog = () => {
 
         <div className="flex flex-1 m-8 justify-center">
         <div className="text-2xl font-semibold p-6 sm:w-2/3 w-full">
-            <p><Link href="/blogs/how-to-prepare-for-an-interview-as-a-high-school-student"><a>How to crack an Interview as a High school Student</a></Link></p>
+            <p><Link href="/blogs/how-to-prepare-for-an-interview-as-a-high-school-student"><a>How to prepare for an interview as a high school student!</a></Link></p>
             <p className="text-base font-light text-gray-800 mt-3"><Link href="/blogs/how-to-prepare-for-an-interview-as-a-high-school-student"><a>The interview is one of the key fragments of the process of getting hired and is a complete game-changer if it goes well. But it...</a></Link></p>
             <div className="flex flex-1">
 

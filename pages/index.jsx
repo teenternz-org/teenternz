@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
@@ -12,12 +13,11 @@ export default function Home() {
 
       <div className=" md:p-16 p-8 sm:my-24 my-20 align-middle justify-items-center">
         <h1 className="md:font-bold md:text-5xl font-medium text-3xl sm:text-4xl">
-        Platform to find <span className="text-blue-500 ">remote internships and volunteer opportunities</span> by NGOs
+        Platform to find <span className={styles.gredientText}>remote internships and volunteer opportunities</span> by NGOs
         </h1>
         <p className="font-normal mt-4 mb-8 sm:text-lg text-gray-700">Teenternz helps Students find Remote Internships and volunteer opportunites from around the globe. apart from that Students can find various resources such as articles, books.</p>
       <div className=" mt-8  space-x-8 flex flex-1">
-        <Link href="/internships" passHref><div className="bg-blue-500 text-white rounded-lg font-medium cursor-pointer shadow-md text-lg py-2 px-4">Find internships</div></Link>
-        <Link href="#" passHref><div className="text-lg font-medium p-2 cursor-pointer">Join</div></Link>
+        <Link href="/internships" passHref><div className="bg-blue-500 text-white rounded-lg font-medium cursor-pointer shadow-md text-lg py-2 px-4">Find opportunities</div></Link>
       </div>
       </div> 
       <h1 className="md:text-3xl text-2xl text-center font-medium pt-6" id="#explore">What we Offer?</h1>

@@ -1,11 +1,11 @@
 import Link from 'next/link';
-import Blog_Subsection from '../../components/blog-subsection';
-import Time_Ago from '../../components/time-ago';
+import Blog_Subsection from '../../../components/blog-subsection'
+import Time_Ago from '../../../components/other/time-ago'
 
 const Interview_Preperation = () => {
   return (
     <>
-      <h1 className="text-2xl font-medium md:ml-36 sm:ml-16 ml-8 my-8 ">Blogs by Sanskriti Jain</h1>
+      <h1 className="text-2xl font-medium md:ml-36 sm:ml-16 ml-8 my-8 ">Interview Preperation</h1>
     <div className="grid grid-cols-3">
     <div className="sm:col-span-2 divide-y-2 col-span-3">
 

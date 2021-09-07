@@ -35,7 +35,11 @@ class Navbar extends Component {
         <div className="text-base p-3 w-full text-center font-normal cursor-pointer"><Link href="/internships"><a onClick={this.handleClick}>Internships</a></Link></div>
         <div className="text-base p-3 w-full font-normal text-center cursor-pointer"><Link href="/events"><a onClick={this.handleClick}>Events</a></Link></div>
         <div className="text-base p-3 w-full text-center font-normal cursor-pointer"><Link href="/blog"><a onClick={this.handleClick}>Blog</a></Link></div>
-        </div>
+
+        {/* Height Screen */}
+        <div className="text-base p-3 h-screen w-full text-center font-normal cursor-pointer text-white"><Link href="/blog"><a onClick={this.handleClick}></a></Link></div>
+        
+        </div>  
 </div>
       </div>
       </>

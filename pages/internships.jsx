@@ -17,7 +17,7 @@ const Internships = () => {
 
         <div className="flex flex-1 bg-blue-50 m-6 rounded-lg shadow-lg">
           <Link href="/internships/type/content-writing" passHref>
-            <div className="align-middle h-36 w-36 cursor-pointer"><img src="/Teams/flat-2126884.svg"alt="" /></div></Link>
+            <div className="align-middle h-36 w-36 cursor-pointer"><img src="/internships-type/flat-2126884.svg"alt="" /></div></Link>
           <Link href="/internships/type/content-writing" passHref>
             <div className="mx-4 my-auto text-2xl cursor-pointer">Content Writing</div>
           </Link>  
@@ -25,7 +25,7 @@ const Internships = () => {
 
         <div className="flex flex-1 bg-blue-50 m-6 rounded-lg shadow-lg">
           <Link href="/internships/type/graphics-design" passHref>
-            <div className="align-middle h-20 w-20 mx-4 my-6 cursor-pointer"><img src="/Teams/tree-576819.svg"alt="" /></div></Link>
+            <div className="align-middle h-20 w-20 mx-4 my-6 cursor-pointer"><img src="/internships-type/tree-576819.svg"alt="" /></div></Link>
           <Link href="/internships/type/graphics-design" passHref>
             <div className="mx-4 my-auto text-2xl cursor-pointer">Graphics Design</div>
           </Link>  
@@ -34,7 +34,7 @@ const Internships = () => {
 
         <div className="flex flex-1 bg-blue-50 m-6 rounded-lg shadow-lg">
           <Link href="/internships/type/video-editing-and-film-making" passHref>
-            <div className="align-middle h-20 w-20 mx-4 my-6 cursor-pointer"><img src="/Teams/cutting-150066.svg"alt="" /></div></Link>
+            <div className="align-middle h-20 w-20 mx-4 my-6 cursor-pointer"><img src="/internships-type/cutting-150066.svg"alt="" /></div></Link>
           <Link href="/internships/type/video-editing-and-film-making" passHref>
             <div className="mx-4 my-auto text-2xl cursor-pointer">Video Editing and Film Making</div>
           </Link>  
@@ -44,7 +44,7 @@ const Internships = () => {
 
         <div className="flex flex-1 bg-blue-50 m-6 rounded-lg shadow-lg">
           <Link href="/internships/type/web-dev" passHref>
-            <div className="align-middle h-36 w-36 p-6 cursor-pointer"><img src="/Teams/code-6127616.svg"alt="" /></div></Link>
+            <div className="align-middle h-36 w-36 p-6 cursor-pointer"><img src="/internships-type/code-6127616.svg"alt="" /></div></Link>
           <Link href="/internships/type/web-dev" passHref>
             <div className="mx-4 my-auto text-2xl cursor-pointer">Web Development</div>
           </Link>  
@@ -52,7 +52,7 @@ const Internships = () => {
 
         <div className="flex flex-1 bg-blue-50 m-6 rounded-lg shadow-lg">
           <Link href="/internships/type/research" passHref>
-            <div className="align-middle h-28 w-28 mx-4 my-6 cursor-pointer"><img src="/Teams/atom-29539.svg"alt="" /></div></Link>
+            <div className="align-middle h-28 w-28 mx-4 my-6 cursor-pointer"><img src="/internships-type/atom-29539.svg"alt="" /></div></Link>
           <Link href="/internships/type/research" passHref>
             <div className="mx-4 my-auto text-2xl cursor-pointer">Graphics Design</div>
           </Link>  

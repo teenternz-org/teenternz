@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import Blog_Subsection from '../../components/blog-subsection';
-import Time_Ago from '../../components/other/time-ago';
+import Blog_Subsection from '../../../components/blog-subsection';
+import Time_Ago from '../../../components/other/time-ago';
 
 const Delina_Thatai = () => {
   return (

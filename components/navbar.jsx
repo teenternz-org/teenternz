@@ -15,7 +15,7 @@ class Navbar extends Component {
     return (
       <>
       <div className="mt-0 shadow flex bg-white sticky top-0 flex-1 md:px-12 px-6 py-4 md:py-4">
-        <Link href="/" passHref><div className="font-bold text-3xl cursor-pointer">Teenternz</div></Link>
+        <Link href="/" passHref><div onClick={this.state.active ? this.handleClick: this.state.active} className="font-bold text-3xl cursor-pointer">Teenternz</div></Link>
         <div className="hidden md:flex ml-10 space-x-4">
         </div>
 

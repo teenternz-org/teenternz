@@ -7,6 +7,7 @@ const Blog_1 = () => {
     <Blog_Layout
     h1={<>How to prepare for an interview as a high school student!</>}
     username={<>Sanskriti Jain</>}
+    image={<><img src="/authors/sanskriti-jain.jpg" alt="Female Author" /></>}
     p={<>The interview is one of the key fragments of the
         process of getting hired and is a complete 
         game-changer if it goes well. But it is a 

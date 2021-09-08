@@ -7,6 +7,7 @@ const Blog_5 = () => {
       <Blog_Layout
       h1={<>How to deal with stress and still enjoy our highschool life</>}
       username={<>Janhavi Inamdar</>}
+      image={<><img src="/authors/author-female.png" alt="Female Author" /></>}
       p={<>Anything that your mind says has an identical response to the body cells. That’s why stress is the response your
         body gives physically or mentally to a challenging situation in your life, that response is dependent on how you
         think of the situation in your mind, that&apos;s why stress can be positive or negative. If we take things positively

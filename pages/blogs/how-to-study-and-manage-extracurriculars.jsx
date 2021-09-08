@@ -8,6 +8,7 @@ const Blog_4 = () => {
       <Blog_Layout
       h1={<>HOW TO STUDY AND MANAGE EXTRACURRICULARS</>}
       username={<>Delina Thatai</>}
+      image={<><img src="/authors/author-female.png" alt="Female Author" /></>}
       p={<>Intelligence and personality have always been inextricably intertwined with education. It is not just your
         grades or the number of AP classes that count as a part of your education, but also the skills that you gain
         from the non-academic and extracurricular activities you take part in.

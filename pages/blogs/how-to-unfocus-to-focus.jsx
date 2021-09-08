@@ -7,6 +7,7 @@ const Blog_6 = () => {
       <Blog_Layout
       h1={<>HOW TO UNFOCUS TO FOCUS!</>}
       username={<>Janhavi Inamdar</>}
+      image={<><img src="/authors/author-female.png" alt="Female Author" /></>}
       p={<>In this article we are going to tell you <b>how important it is to take a break and how to take an effective and
             productive break.</b> Now you are working continuously for a whole day, week, month, you have started
         working with your full energy and now as you do these things for a long time you feel exhausted you are in need

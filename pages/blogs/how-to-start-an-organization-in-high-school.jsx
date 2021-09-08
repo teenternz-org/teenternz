@@ -7,6 +7,7 @@ const Blog_2 = () => {
     <Blog_Layout
     h1={<>HOW TO START AN ORGANIZATION IN HIGH SCHOOL!</>}
     username={<>Janhavi Inamdar</>}
+    image={<><img src="/authors/author-female.png" alt="Female Author" /></>}
     p={<>An organization is a group of organized people working on
         achieving a specific goal. Starting an organization, club, non-fund,
         anything is a great idea for achieving skills like leadership, time

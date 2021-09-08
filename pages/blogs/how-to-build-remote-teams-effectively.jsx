@@ -7,6 +7,7 @@ const Blog_7 = () => {
       <Blog_Layout
       h1={<>HOW TO BUILD REMOTE TEAMS EFFECTIVELY</>}
       username={<>Sanskriti Jain</>}
+      image={<><img src="/authors/sanskriti-jain.jpg" alt="Female Author" /></>}
       p={<>Passion is a feeling of intense enthusiasm or desire for someone or something.
         Trust in the team is the most important thing especially in the remote teams. In addition to trust,
         communication is no less important. If these two things can&apos;t be built, it&apos;s hard to find effectiveness in a

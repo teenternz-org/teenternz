@@ -14,12 +14,12 @@ const Blog_Subsection = () => {
         </div>
         <h1 className="text-xl font-medium ml-8 mt-16">Topics</h1>
         <div className="flex flex-wrap">
-          <Link href="/topics/time-management" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">Time Management</p></Link>
-          <Link href="/topics/career" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">Career</p></Link>
-          <Link href="/topics/self-help" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">Self Help</p></Link>
-          <Link href="/topics/mental-health" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">Mental Health</p></Link>
-          <Link href="/topics/interview-preperation" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">Interview Preperation</p></Link>
-          <Link href="/topics/entrepreneurship" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">Entrepreneurship</p></Link>
+          <Link href="/blogs/topic/time-management" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">Time Management</p></Link>
+          <Link href="/blogs/topic/career" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">Career</p></Link>
+          <Link href="/blogs/topic/self-help" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">Self Help</p></Link>
+          <Link href="/blogs/topic/mental-health" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">Mental Health</p></Link>
+          <Link href="/blogs/topic/interview-preperation" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">Interview Preperation</p></Link>
+          <Link href="/blogs/topic/entrepreneurship" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">Entrepreneurship</p></Link>
         </div>
       </div>
     </>

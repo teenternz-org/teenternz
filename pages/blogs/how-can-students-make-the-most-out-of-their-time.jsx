@@ -6,6 +6,7 @@ const Blog_3 = () => {
     <Blogpage_Layout>
       <Blog_Layout
       h1={<>How can students make the most out of their time?</>}
+      image={<><img src="/authors/author-male.png" alt="Male Author" /></>}
       username={<>Erik Burckhardt</>}
       p={<>You can feel it very easy if you just hold on and do nothing, the clock moves forward and the
       seconds are going away. This is what we call time and unfortunately it won’t stop running

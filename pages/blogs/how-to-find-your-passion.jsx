@@ -7,6 +7,7 @@ const Blog_8 = () => {
       <Blog_Layout
       h1={<>How to Find Your Passion</>}
       username={<>Keshav Sharma</>}
+      image={<><img src="/authors/author-male.png" alt="Male Author" /></>}
       p={<>Passion is a feeling of intense enthusiasm or desire for someone or something.
         Passion can vary from eager interest in or admiration for an idea, proposal,
         or cause; to enthusiastic enjoyment of an interest or activity; to strong attraction,

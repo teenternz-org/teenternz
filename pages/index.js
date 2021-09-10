@@ -15,7 +15,7 @@ export default function Home() {
         <h1 className="font-bold md:text-5xl text-center text-3xl sm:text-4xl">
         Platform to find <span className={styles.gredientText}>remote internships and volunteer opportunities</span> by NGOs
         </h1>
-        <p className="font-normal text-center mt-4 mb-8 sm:text-lg text-gray-700">Teenternz helps Students find Remote Internships and volunteer opportunites from around the globe. apart from that Students can find various resources such as articles, books.</p>
+        <p className="font-normal text-center mt-4 mb-8 sm:text-lg text-gray-700">Teenternz helps Students find Remote Internships and volunteer opportunites from around the globe. Apart from that Students can find various resources such as articles, books.</p>
       <div className=" mt-8 flex flex-1 justify-center">
         <Link href="/internships" passHref><div className="bg-blue-500 text-white rounded-lg font-medium cursor-pointer shadow-md text-lg p-2">Find opportunities</div></Link>
       </div>

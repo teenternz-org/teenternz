@@ -36,6 +36,7 @@ export default function Home() {
         <div><p className="md:text-xl mr-7 text-center text-lg sm:my-16 my-8 sm:py-24 py-16 md:py-36">Our articles are written by our students and professionals. Our team of writers are always ready givr you the best content, tips and tricks to help you in your study and career.</p></div>
         
       </div>
+      {/* Extra space */}
       <div className="h-16"></div>
     </>
   )

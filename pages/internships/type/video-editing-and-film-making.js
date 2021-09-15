@@ -1,9 +1,14 @@
-import Internships_type from './internships-type'
+import Internships_type from '../../../components/layouts/internships-type'
 import Link from 'next/link'
+import Head from 'next/head'
 
 const Video_Editing_Film_Making = () => {
   return (
     <Internships_type>
+                  <Head>
+        <title>Video Editing and Film Making</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <h1 className="text-center text-4xl m-8"
     >
     FIND FILM-MAKING/VIDEO EDITING INTERNSHIPS HERE!</h1>

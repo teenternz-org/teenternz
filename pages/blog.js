@@ -1,10 +1,15 @@
 import Link from "next/link"
+import Head from 'next/head'
 import Blog_Subsection from "../components/blog-subsection"
 import Time_Ago from "../components/other/time-ago"
 
 const Blog = () => {
   return (
     <>
+              <Head>
+        <title>Blog</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
     <div className="grid grid-cols-3">
     <div className="sm:col-span-2 divide-y-2 col-span-3">
     <div className="flex flex-1 m-8 justify-center">

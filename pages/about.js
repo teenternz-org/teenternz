@@ -1,15 +1,21 @@
+import Head from 'next/head'
+
 const About = () => {
   return (
     <>
+              <Head>
+        <title>About Us</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <h1 className=" m-16 text-center font-medium text-2xl md:text-4xl">About Teenternz</h1>
-      <p className="text-xl md:mx-36 sm:mx-24 mx-16">Teenternz is a platform for students and organisations. 
-Here at teenternz we connect students with Organizations to provide them remote Internships and volunteer opportunities. 
-
-We bring NGOs and Non-profit organisations to provide students with a lot of opportunities such as Internships and Volunteer opportunities. 
-
-Teenternz was founded in July 2021 and the main aim behind it was to provide students with opportunities. As of now we have 60 organizations partnered with us to provide opportunities to students. 
-
-Since, during the ongoing pandemic students have faced a lot of difficulties and there was a lack of opportunities, we built a platform for students where they can find Remote internships and volunteers.
+      <p className="text-xl md:mx-36 sm:mx-24 text-center mx-16">Teenternz is a platform for students and organisations. 
+      Here at teenternz we connect students with Organizations to provide them remote Internships and       volunteer opportunities. 
+        
+      We bring NGOs and Non-profit organisations to provide students with a lot of opportunities such as      Internships and Volunteer opportunities. 
+        
+      Teenternz was founded in July 2021 and the main aim behind it was to provide students with      opportunities. As of now we have 60 organizations partnered with us to provide opportunities to     students. 
+        
+      Since, during the ongoing pandemic students have faced a lot of difficulties and there was a lack of      opportunities, we built a platform for students where they can find Remote internships and      volunteers.
 </p>
       <h1 className=" m-16 text-center font-medium mt-28 text-3xl">Our Team</h1>
       <div className="grid md:grid-cols-3 lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 m-16">

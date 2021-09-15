@@ -1,10 +1,14 @@
-import Internships_type from './internships-type'
+import Internships_type from '../../../components/layouts/internships-type'
 import Link from 'next/link'
+import Head from 'next/head'
 
 const Content_Writing = () => {
   return (
     <Internships_type>
-
+          <Head>
+        <title>Content Writing</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
     <h1 className="text-center text-4xl m-8">FIND CONTENT WRITING INTERNSHIPS HERE!</h1><br /><br />
 
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">

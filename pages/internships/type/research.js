@@ -1,9 +1,14 @@
-import Internships_type from './internships-type'
+import Internships_type from '../../../components/layouts/internships-type'
 import Link from 'next/link'
+import Head from 'next/head'
 
 const Research = () => {
   return (
     <Internships_type>
+                  <Head>
+        <title>Research</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
     <h1 className="text-center text-4xl m-8"
     >
     FIND RESEARCH INTERNSHIPS HERE!</h1>

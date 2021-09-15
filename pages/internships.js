@@ -1,8 +1,13 @@
 import Link from 'next/link'
+import Head from 'next/head'
 
 const Internships = () => {
   return (
     <>
+              <Head>
+        <title>Internships</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
     <div className="text-center">
 
       <h1 className="md:text-3xl m-4 text-xl">

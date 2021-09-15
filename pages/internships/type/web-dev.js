@@ -1,9 +1,14 @@
-import Internships_type from './internships-type'
+import Internships_type from '../../../components/layouts/internships-type'
 import Link from 'next/link'
+import Head from 'next/head'
 
 const Web_Dev = () => {
   return (
     <Internships_type>
+                  <Head>
+        <title>Web Development</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
     <h1 className="text-center text-4xl m-8"
     >
     FIND WEB DEVELOPMENT INTERNSHIPS HERE!</h1>

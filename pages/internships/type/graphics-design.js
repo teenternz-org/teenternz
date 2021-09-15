@@ -1,9 +1,14 @@
-import Internships_type from './internships-type'
+import Internships_type from '../../../components/layouts/internships-type'
 import Link from 'next/link'
+import Head from 'next/head'
 
 const Graphics_Design = () => {
   return (
     <Internships_type>
+                  <Head>
+        <title>Graphics Design</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
     <h1 className="text-center text-4xl m-8">
     FIND GRAPHIC DESIGN INTERNSHIPS HERE!</h1><br /><br />
 

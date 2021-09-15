@@ -1,6 +1,12 @@
+import Head from 'next/head'
+
 const Services = () => {
   return (
     <>
+              <Head>
+        <title>Services</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div className="md:mx-16 mx-4 grid sm:grid-cols-2 space-x-8 grid-cols-1">
 
 <div><img className="md:h-80 mx-auto md:my-36 sm:my-24 my-16" src="/img/undraw_Job_hunt_re_q203.svg" alt="calendar icon" /></div>

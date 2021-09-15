@@ -1,9 +1,13 @@
 import Time_Ago from '../components/other/time-ago'
-import Link from 'next/link'
+import Head from 'next/head'
 
 const Events = () => {
   return (
     <>
+          <Head>
+        <title>Interviews</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
     <h1 className="text-2xl m-16">Interviews</h1>
     <div className="h-44 w-44 mx-16 overflow-hidden rounded-lg">
 

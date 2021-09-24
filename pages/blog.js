@@ -20,7 +20,7 @@ const Blog = () => {
             <div className="flex flex-1">
             <p className="text-sm font-normal text-gray-800 mt-3"><Time_Ago date="September 24 2021"/></p>
             <div className="flex flex-wrap">
-        <Link href="/topics/self-help" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">Self Help</p></Link>
+        <Link href="/blogs/topic/self-help" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">Self Help</p></Link>
         </div>
         </div>
         </div>
@@ -38,7 +38,7 @@ const Blog = () => {
             <div className="flex flex-1">
             <p className="text-sm font-normal text-gray-800 mt-3"><Time_Ago date="September 24 2021"/></p>
             <div className="flex flex-wrap">
-        <Link href="/topics/career" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">Career</p></Link>
+        <Link href="/blogs/topic/career" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">Career</p></Link>
         </div>
         </div>
         </div>
@@ -56,7 +56,7 @@ const Blog = () => {
             <div className="flex flex-1">
             <p className="text-sm font-normal text-gray-800 mt-3"><Time_Ago date="August 29 2021"/></p>
             <div className="flex flex-wrap">
-        <Link href="/topics/career" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">Career</p></Link>
+        <Link href="/blogs/topic/career" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">Career</p></Link>
         </div>
         </div>
         </div>
@@ -74,7 +74,7 @@ const Blog = () => {
             <div className="flex flex-1">
             <p className="text-sm font-normal text-gray-800 mt-3"><Time_Ago date="August 21, 2021"/></p>
             <div className="flex flex-wrap">
-        <Link href="/topics/entrepreneurship" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">Entrepreneurship</p></Link>
+        <Link href="/blogs/topic/entrepreneurship" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">Entrepreneurship</p></Link>
         </div>
         </div>
         </div>
@@ -93,7 +93,7 @@ const Blog = () => {
 
             <p className="text-sm font-normal text-gray-800 mt-3"><Time_Ago date="August 17, 2021"/></p>
             <div className="flex flex-wrap">
-        <Link href="/topics/self-help" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">Self Help</p></Link>
+        <Link href="/blogs/topic/self-help" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">Self Help</p></Link>
         </div></div>
             </div>
         <div className="hidden sm:block">
@@ -111,7 +111,7 @@ const Blog = () => {
 
             <p className="text-sm font-normal text-gray-800 mt-3"><Time_Ago date="August 13, 2021"/></p>
             <div className="flex flex-wrap">
-        <Link href="/topics/mental-health" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">Mental Health</p></Link>
+        <Link href="/blogs/topic/mental-health" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">Mental Health</p></Link>
         </div></div>
             </div>
         <div className="hidden sm:block">
@@ -129,7 +129,7 @@ const Blog = () => {
 
             <p className="text-sm font-normal text-gray-800 mt-3"><Time_Ago date="August 7, 2021"/></p>
             <div className="flex flex-wrap">
-        <Link href="/topics/time-management" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">Time Management</p></Link>
+        <Link href="/blogs/topic/time-management" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">Time Management</p></Link>
         </div></div>
             </div>
         <div className="hidden sm:block">
@@ -147,7 +147,7 @@ const Blog = () => {
 
             <p className="text-sm font-normal text-gray-800 mt-3"><Time_Ago date="July 25, 2021"/></p>
             <div className="flex flex-wrap">
-        <Link href="/topics/time-management" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">Time Management</p></Link>
+        <Link href="/blogs/topic/time-management" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">Time Management</p></Link>
         </div></div>
             </div>
         <div className="hidden sm:block">
@@ -165,7 +165,7 @@ const Blog = () => {
 
             <p className="text-sm font-normal text-gray-800 mt-3"><Time_Ago date="July 21, 2021"/></p>
             <div className="flex flex-wrap">
-        <Link href="/topics/entrepreneurship" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">Entrepreneurship</p></Link>
+        <Link href="/blogs/topic/entrepreneurship" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">Entrepreneurship</p></Link>
         </div></div>
             </div>
         <div className="hidden sm:block">
@@ -183,7 +183,7 @@ const Blog = () => {
 
             <p className="text-sm font-normal text-gray-800 mt-3"><Time_Ago date="July 8, 2021"/></p>
             <div className="flex flex-wrap">
-        <Link href="/topics/interview-preperation" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">Interview Preperation</p></Link>
+        <Link href="/blogs/topic/interview-preperation" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">Interview Preperation</p></Link>
         </div></div>
             </div>
         <div className="hidden sm:block">

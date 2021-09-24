@@ -40,7 +40,7 @@ const Career = () => {
         </div>
         <div className="hidden sm:block">
         <Link href="/blogs/how-to-find-your-passion"><a>
-          <img className="h-32 w-48 m-6 rounded-lg" src="/articles/pexels-burst-374068.jpg" alt="" />
+          <img className="h-32 w-48 m-6 rounded-lg" src="/blogs/pexels-burst-374068.jpg" alt="" />
           </a></Link>
         </div>
         </div>
@@ -58,7 +58,7 @@ const Career = () => {
         </div>
         <div className="hidden sm:block">
         <Link href="/blogs/how-to-build-remote-teams-effectively"><a>
-          <img className="h-32 w-48 m-6 rounded-lg" src="/articles/pexels-fauxels-3184418.jpg" alt="" />
+          <img className="h-32 w-48 m-6 rounded-lg" src="/blogs/pexels-fauxels-3184418.jpg" alt="" />
           </a></Link>
         </div>
         </div>
@@ -71,7 +71,7 @@ const Career = () => {
         </div>
         <div className="hidden sm:block">
         <Link href="/blogs/how-to-find-your-passion"><a>
-          <img className="h-32 w-48 m-6 rounded-lg" src="/articles/pexels-burst-374068.jpg" alt="" />
+          <img className="h-32 w-48 m-6 rounded-lg" src="/blogs/pexels-burst-374068.jpg" alt="" />
           </a></Link>
         </div>
         </div>

@@ -16,7 +16,7 @@ const Entrepreneurship = () => {
         </div>
         <div className="hidden sm:block">
         <Link href="/blogs/how-to-build-remote-teams-effectively"><a>
-          <img className="h-32 w-48 m-6 rounded-lg" src="/articles/pexels-fauxels-3184418.jpg" alt="" />
+          <img className="h-32 w-48 m-6 rounded-lg" src="/blogs/pexels-fauxels-3184418.jpg" alt="" />
           </a></Link>
         </div>
         </div>
@@ -30,7 +30,7 @@ const Entrepreneurship = () => {
         </div>
         <div className="hidden sm:block">
         <Link href="/blogs/how-to-start-an-organization-in-high-school"><a>
-          <img className="h-32 w-48 m-6 rounded-lg" src="/articles/pexels-minervastudio-2897883.jpg" alt="" />
+          <img className="h-32 w-48 m-6 rounded-lg" src="/blogs/pexels-minervastudio-2897883.jpg" alt="" />
           </a></Link>
         </div>
         </div>

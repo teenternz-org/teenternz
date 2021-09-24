@@ -18,7 +18,7 @@ const Time_Management = () => {
         </div>
         <div className="hidden sm:block">
         <Link href="/blogs/how-to-study-and-manage-extracurriculars"><a>
-          <img className="h-32 w-48 m-6 rounded-lg" src="/articles/pexels-tima-miroshnichenko-5428148.jpg" alt="" />
+          <img className="h-32 w-48 m-6 rounded-lg" src="/blogs/pexels-tima-miroshnichenko-5428148.jpg" alt="" />
           </a></Link>
         </div>
         </div>
@@ -31,7 +31,7 @@ const Time_Management = () => {
         </div>
         <div className="hidden sm:block">
         <Link href="/blogs/how-can-students-make-the-most-out-of-their-time"><a>
-          <img className="h-32 w-48 m-6 rounded-lg" src="/articles/pexels-pixabay-39396.jpg" alt="" />
+          <img className="h-32 w-48 m-6 rounded-lg" src="/blogs/pexels-pixabay-39396.jpg" alt="" />
           </a></Link>
         </div>
         </div>

@@ -35,7 +35,7 @@ const Self_Help = () => {
         </div>
         <div className="hidden sm:block">
         <Link href="/blogs/how-to-unfocus-to-focus"><a>
-          <img className="h-32 w-48 m-6 rounded-lg" src="/articles/pexels-andrea-piacquadio-941555.jpg" alt="" />
+          <img className="h-32 w-48 m-6 rounded-lg" src="/blogs/pexels-andrea-piacquadio-941555.jpg" alt="" />
           </a></Link>
         </div>
         </div>

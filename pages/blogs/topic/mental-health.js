@@ -17,7 +17,7 @@ const Mental_Health = () => {
         </div>
         <div className="hidden sm:block">
         <Link href="/blogs/how-to-deal-with-stress-and-still-enjoy-our-highschool-life"><a>
-          <img className="h-32 w-48 m-6 rounded-lg" src="/articles/pexels-anna-shvets-4226215.jpg" alt="" />
+          <img className="h-32 w-48 m-6 rounded-lg" src="/blogs/pexels-anna-shvets-4226215.jpg" alt="" />
           </a></Link>
         </div>
         </div>

@@ -1,16 +1,19 @@
-import Link from "next/link"
-import Head from 'next/head'
-import Blog_Subsection from "../components/blog-subsection"
-import Time_Ago from "../components/other/time-ago"
-import { useState } from 'react'
+import Link from 'next/link';
+import Blog_Subsection from '../../../components/blog-subsection'
+import Time_Ago from '../../../components/other/time-ago'
+import { useRouter } from 'next/router'
+import { useState } from 'react';
 
-const Blog = () => {
+const TopicName = () => {
+
+  const router = useRouter()
 
   const [topics, settopics] = useState([])
   const fetchTopics = async () => {
     const response = await fetch('/api/topics')
-    const data = await response.json()
-    settopics(data)
+    const topicdata = await response.json()
+    const filteredtopic = topicdata.filter(topics => topics.topic.replace(/\s/g , "-") == router.query.topicname)
+    settopics(filteredtopic)
   }
 
   fetchTopics()
@@ -19,19 +22,19 @@ const Blog = () => {
   const fetchBlogs = async () => {
     const response = await fetch('/api/blogs')
     const data = await response.json()
-    setblogs(data)
+    const alltopicdata = data.filter(blogs => blogs.id == topics.map(topic => topic.id))
+    setblogs(alltopicdata)
   }
 
   fetchBlogs()
 
   return (
     <>
-      <Head>
-        <title>Blog</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+
+      <h1 className="text-2xl font-medium md:ml-36 sm:ml-16 ml-8 my-8 ">{topics.map(topic => topic.topic)}</h1>
     <div className="grid grid-cols-3">
     <div className="sm:col-span-2 divide-y-2 col-span-3">
+
     {
         blogs.map(blog => {
           return (
@@ -43,7 +46,7 @@ const Blog = () => {
             <div className="flex flex-1">
             <p className="text-sm font-normal text-gray-800 mt-3"><Time_Ago date={blog.date}/></p>
             <div className="flex flex-wrap">
-        <Link href={'/blog/topic/' + blog.topic.replace(/\s/g , "-")} passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">{blog.topic}</p></Link>
+        <Link href="/blogs/topic/self-help" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">{topics.map(topic => topic.topic)}</p></Link>
         </div>
         </div>
         </div>
@@ -57,17 +60,18 @@ const Blog = () => {
           )
         }
           )
-        }
-    </div>
-    <div className="mt-24">
+      }
 
-    <Blog_Subsection  />
+        
+    </div>
+    <div>
+
+      <Blog_Subsection  />
       
     </div>
     </div>
-    
     </>
   )
 }
 
-export default Blog
+export default TopicName

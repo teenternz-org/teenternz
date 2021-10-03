@@ -35,7 +35,7 @@ const Blog = () => {
         </div>
       </div>
     </div>
-    <ReactMarkdown>{blog.article}</ReactMarkdown>
+    <div className="font-serif md:mx-28 sm:mx-12 mx-8 md:text-lg text-base font-light mt-8 mb-14"><>{blog.article}</></div>
             </div>
           )
         }

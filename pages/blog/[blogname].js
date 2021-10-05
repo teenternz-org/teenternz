@@ -32,30 +32,63 @@ const variables = {
   blogSlug
 }
 
-const data = await graphQLClient.request(paraQuery, variables) 
-const para = data.para
+const parasQuery = gql`
+query {
+  paras {
+    title
+    id
+    para_slug
+    para_first_25
+    date
+    topic_reference {
+      topic_name
+      slug_of_topic
+    }
+    pic {
+      url
+    }
+  }
+}`
+
+const topicsQuery = gql`
+query {
+  topics {
+    topic_name
+    slug_of_topic
+  }
+}`
+
+const blogdata = await graphQLClient.request(paraQuery, variables) 
+const para = blogdata.para
+const data = await graphQLClient.request(parasQuery) 
+const paras = data.paras.reverse().filter(para => para.para_slug !== blogSlug)
+const topicsdata = await graphQLClient.request(topicsQuery)
+const topics = topicsdata.topics
+
 return { 
   props: {
-    para
+    para,
+    paras,
+    topics
 }
 }
 }
 
-export default function BlogName(para){
+export default function BlogName({ para, paras, topics }) {
   return (
     <>
-              <h1 className="font-serif text-center md:text-5xl text-3xl mt-32 sm:m-8 md:font-normalfont-semibold">{para.para.title}</h1>
+              <h1 className="font-serif text-center md:text-5xl text-3xl mt-32 sm:m-8 md:font-normalfont-semibold">{para.title}</h1>
               <div className="grid grid-cols-12 mt-16">
-                <div className="grid col-start-2  space-x-8 sm:space-x-4 md:space-x-3 lg:space-x-0 grid-cols-2"><div className="h-10 rounded-full overflow-hidden w-10"><img src={para.para.writer_pic.url} alt="picture" /></div>
+                <div className="grid col-start-2  space-x-8 sm:space-x-4 md:space-x-3 lg:space-x-0 grid-cols-2"><div className="h-10 rounded-full overflow-hidden w-10"><img src={para.writer_pic.url} alt="picture" /></div>
                 <div className="grid w-max grid-cols-1">
-                <p className="text-sm px-1">{para.para.writer_name}</p>
-                <p className="px-1 text-sm w-max"><Time_Ago date={para.para.date}/></p>
+                <p className="text-sm px-1">{para.writer_name}</p>
+                <p className="px-1 text-sm w-max"><Time_Ago date={para.date}/></p>
         </div>
       </div>
     </div>
     <div className="md:mx-28 sm:mx-12 mx-8 mt-8 mb-14">
     <RichText
-        content={para.para.article.raw}
+        content={para.article.raw}
         renderers={{
         bold: ({ children }) => <div className="text-lg my-6 font-semibold">{children}</div>,
         p: ({ children }) => <div className="text-base my-3">{children}</div>,
@@ -104,33 +137,39 @@ export default function BlogName(para){
       />
     </div>
 
-
-{/*
     <h1 className="text-2xl text-center mb-8">Read more</h1>
-  
-    <div className="grid grid-cols-3">
-    <div className="sm:col-span-2 divide-y-2 col-span-3">
-
-    
-}
     {
-        moreblogs.map(moreblogs => {
+        paras.map(paras => {
           return (
-            <div key={moreblogs.id}>
-              <div className="flex flex-1 m-8 justify-center">
+            <div key={paras.id}>              
+        <div className="flex flex-1 m-8 justify-center">
         <div className="text-2xl font-semibold p-6 sm:w-2/3 w-full">
-            <p><Link href={'/blog/' + moreblogs.id}><a>{moreblogs.heading}</a></Link></p>
-            <p className="text-base font-light text-gray-800 mt-3"><Link href="/blogs/tips-for-overcoming-procrastination"><a>{moreblogs.content}</a></Link></p>
+            <p><Link href={'/blog/' + paras.para_slug}><a>{paras.title}</a></Link></p>
+            <p className="text-base font-light text-gray-800 mt-3"><Link href={'/blog/' + paras.para_slug}><a>{paras.para_first_25}</a></Link></p>
             <div className="flex flex-1">
-            <p className="text-sm font-normal text-gray-800 mt-3"><Time_Ago date={moreblogs.date}/></p>
+            <p className="text-sm font-normal text-gray-800 mt-3"><Time_Ago date={paras.date}/></p>
             <div className="flex flex-wrap">
-        <Link href="/blogs/topic/self-help" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">{moreblogs.topic}</p></Link>
+        <Link href={'/blog/topic/' + paras.para_slug} passHref>
+        <div className="flex flex-wrap">
+          {
+          paras.topic_reference.map(topic =>{
+            return (
+              <div key={topic.slug_of_topic}>
+                <Link href={"/blog/topic/" + (topic.slug_of_topic)} passHref>
+              <p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">
+                {topic.topic_name}
+                </p></Link>
+              </div>
+            )
+          })}
+          </div>
+          </Link>
         </div>
         </div>
         </div>
         <div className="hidden sm:block">
         <Link href="/blogs/how-to-find-your-passion"><a>
-          <img className="h-32 w-48 m-6 rounded-lg" src={moreblogs.pic} alt="" />
+          <img className="h-32 w-48 m-6 rounded-lg" src={paras.pic.url} alt="" />
           </a></Link>
         </div>
         </div>
@@ -139,10 +178,7 @@ export default function BlogName(para){
         }
           )
         }
-    </div>
-    </div>
-
-      */}
+        <div className="mt-24"></div>
     </>
   )
 }

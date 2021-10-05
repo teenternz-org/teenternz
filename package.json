@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@graphcms/rich-text-react-renderer": "^0.3.0",
+    "graphql": "^15.6.0",
+    "graphql-request": "^3.5.0",
     "javascript-time-ago": "^2.3.9",
     "next": "^11.1.2",
     "react": "17.0.2",

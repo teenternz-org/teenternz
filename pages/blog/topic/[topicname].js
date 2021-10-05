@@ -1,36 +1,36 @@
 import Link from 'next/link';
 import Blog_Subsection from '../../../components/blog-subsection'
 import Time_Ago from '../../../components/other/time-ago'
-import { useRouter } from 'next/router'
-import { useState } from 'react';
+import { gql, GraphQLClient } from 'graphql-request'
 
-const TopicName = () => {
-
-  const router = useRouter()
-
-  const [topics, settopics] = useState([])
-  const fetchTopics = async () => {
-    const response = await fetch('/api/topics')
-    const topicdata = await response.json()
-    const filteredtopic = topicdata.filter(topics => topics.topic.replace(/\s/g , "-") == router.query.topicname)
-    settopics(filteredtopic)
+export const getStaticProps = async () => {
+  const url = process.env.ENDPOINT_URL
+  const graphQLClient = new GraphQLClient(url, {
+    headers: {
+      authorization: process.env.GRAPH_CMS_TOKEN
   }
+})
 
-  fetchTopics()
-
-  const [blogs, setblogs] = useState([])
-  const fetchBlogs = async () => {
-    const response = await fetch('/api/blogs')
-    const data = await response.json()
-    const alltopicdata = data.filter(blogs => blogs.id == topics.map(topic => topic.id))
-    setblogs(alltopicdata)
+const topicsQuery = gql`
+query {
+  topics {
+    topic_name
+    slug_of_topic
   }
+}`
 
-  fetchBlogs()
+const topicsdata = await graphQLClient.request(topicsQuery)
+const topics = topicsdata.topics
+return { 
+  props: {
+    topics
+}
+}
+}
 
+export default function TopicName(topics) {
   return (
     <>
-
       <h1 className="text-2xl font-medium md:ml-36 sm:ml-16 ml-8 my-8 ">{topics.map(topic => topic.topic)}</h1>
     <div className="grid grid-cols-3">
     <div className="sm:col-span-2 divide-y-2 col-span-3">
@@ -66,7 +66,7 @@ const TopicName = () => {
     </div>
     <div>
 
-      <Blog_Subsection  />
+    <Blog_Subsection topics={topics} />
       
     </div>
     </div>
@@ -74,4 +74,3 @@ const TopicName = () => {
   )
 }
 
-export default TopicName

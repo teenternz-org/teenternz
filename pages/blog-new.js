@@ -50,7 +50,7 @@ return {
 }
 }
 
-export default function Blog({ paras, topics }) {
+export default function Blog_New({ paras, topics }) {
   return (
     <>
       <Head>

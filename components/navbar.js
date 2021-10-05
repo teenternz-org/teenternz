@@ -14,19 +14,19 @@ class Navbar extends Component {
   render() {
     return (
       <>
-      <div className="mt-0 shadow flex bg-white sticky top-0 flex-1 md:px-12 px-6 py-4 md:py-4">
-        <Link href="/" passHref><div onClick={this.state.active ? this.handleClick: this.state.active} className="font-bold text-3xl cursor-pointer">Teenternz</div></Link>
+      <div className="mt-0 shadow flex bg-gradient-to-tr from-gray-900 via-blue-900 to-gray-900 sticky top-0 flex-1 md:px-12 px-6 py-4 md:py-4">
+        <Link href="/" passHref><div onClick={this.state.active ? this.handleClick: this.state.active} className="font-bold text-3xl text-white hover:scale-110 transition-transform cursor-pointer">Teenternz</div></Link>
         <div className="hidden md:flex ml-10 space-x-4">
         </div>
 
         <div className="space-x-8 hidden flex-1 sm:flex justify-end">
-        <Link href="/internships" passHref><div className="text-base p-2 font-normal cursor-pointer">Internships</div></Link>
-          <Link href="/events" passHref><div className="text-base p-2 font-normal cursor-pointer">Events</div></Link>
-          <Link href="/blog" passHref><div className="text-base p-2 font-normal cursor-pointer">Blog</div></Link>
-          <Link href="/services" passHref><div className="text-base p-2 font-normal cursor-pointer">Services</div></Link>
-          <Link href="/about" passHref><div className="text-base p-2 font-normal cursor-pointer">About Us</div></Link>
+        <Link href="/internships" passHref><div className="text-base text-white hover:scale-110 transition-transform p-2 font-normal hover:font-semibold cursor-pointer">Internships</div></Link>
+          <Link href="/events" passHref><div className="text-base p-2 text-white hover:scale-110 transition-transform font-normal hover:font-semibold cursor-pointer">Events</div></Link>
+          <Link href="/blog" passHref><div className="text-base p-2 font-normal text-white hover:scale-110 transition-transform hover:font-semibold cursor-pointer">Blog</div></Link>
+          <Link href="/services" passHref><div className="text-base p-2 hover:font-semibold font-normal text-white hover:scale-110 transition-transform cursor-pointer">Services</div></Link>
+          <Link href="/about" passHref><div className="text-base p-2 text-white hover:scale-110 transition-transform font-normal hover:font-semibold cursor-pointer">About Us</div></Link>
         </div>
-        <div className="text-black py-1 mx-2 sm:hidden cursor-pointer menu-icon" onClick={this.handleClick}><svg xmlns="http://www.w3.org/2000/svg" className="sm:hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <div className="text-white py-1 mx-2 sm:hidden cursor-pointer menu-icon" onClick={this.handleClick}><svg xmlns="http://www.w3.org/2000/svg" className="sm:hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
 </svg></div>
 <div>

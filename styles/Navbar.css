@@ -7,9 +7,10 @@
   flex-direction: column;
   width: 100%;
   height: screen;
-  background-color: white;
+  color: white;
+  background-color: #111827;
   position: absolute;
-  top: 60px;
+  top: 68px;
   left: -100%;
   opacity: 1;
   transition: all 0.5s ease;

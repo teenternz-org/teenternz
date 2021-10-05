@@ -41,7 +41,7 @@ return {
 }
 }
 
-export default function Blog(para){
+export default function BlogName(para){
   return (
     <>
               <h1 className="font-serif text-center md:text-5xl text-3xl mt-32 sm:m-8 md:font-normalfont-semibold">{para.para.title}</h1>
@@ -78,7 +78,6 @@ export default function Blog(para){
             alt={altText}
             objectFit="cover" className="mx-auto w-auto max-h-full"
           />
-
         ),
         a: ({ children, openInNewTab, href, rel, ...rest }) => {
           if (href.match(/^https?:\/\/|^\/\//i)) {
@@ -87,16 +86,14 @@ export default function Blog(para){
               <a
                 href={href}
                 target="_blank"
-                rel={rel || 'noopener noreferrer'}
+                rel="noreferrer"
                 {...rest}
               >
                 {children}
               </a>
               </span>
-
             );
           }
-
           return (
             <Link href={href}>
               <a {...rest}>{children}</a>

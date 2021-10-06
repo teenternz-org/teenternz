@@ -3,7 +3,7 @@ import Head from 'next/head'
 const About = () => {
   return (
     <>
-              <Head>
+      <Head>
         <title>About Us</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -21,7 +21,7 @@ const About = () => {
       <div className="grid md:grid-cols-3 lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 m-16">
           <div className="grid grid-cols-1">
             <div className="mx-auto">
-              <img className="h-48 w-48 shadow-md hover:shadow-2xl rounded-full" src="/team/sanskriti-jain.jpg" alt="" />
+              <img className="h-48 w-48 shadow-md hover:shadow-2xl rounded-full" src="/about-us/sanskriti-jain.jpg" alt="" />
             </div>
             <div className=" p-5">
               <p className="font-semibold text-center">
@@ -31,31 +31,56 @@ const About = () => {
           </div>
           <div className="grid grid-cols-1">
             <div className="mx-auto">
-              <img className="h-48 w-48 shadow-md hover:shadow-2xl rounded-full" src="/team/ayisha-necholi.jpg" alt="" />
+              <img className="h-48 w-48 shadow-md hover:shadow-2xl rounded-full" src="/about-us/ayisha-necholi.jpg" alt="" />
             </div>
             <div className=" p-5">
               <p className="font-semibold text-center">
               Ayisha Necholi<br /><span className="font-normal text-blue-500">Executive Assistant</span>
               </p>
+              <div className="flex flex-1 mt-2 space-x-2 justify-center">
+                <div className="cursor-pointer">
+                  <a href="https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=ayishanecholiofficial@gmail.com&hl=en" target="_blank" rel="noreferrer"><img src="/about-us/icons8-gmail.svg" alt="" /></a>
+                </div>
+                <div className="cursor-pointer">
+                  <a href="https://www.instagram.com/ayishanecholisocial_/" target="_blank" rel="noreferrer"><img src="/about-us/icons8-instagram.svg" alt="" /></a>
+                </div>
+                <div className="cursor-pointer">
+                  <a href="https://www.linkedin.com/in/ayisha-necholi-ab5115202" target="_blank" rel="noreferrer"><img src="/about-us/icons8-linkedin.svg" alt="" /></a>
+                </div>
+                <div className="cursor-pointer">
+                  <a href="https://youtube.com/channel/UCpVVEwMhc9MuIo5fs0iU7fQ" target="_blank" rel="noreferrer"><img src="/about-us/icons8-youtube.svg" alt="" /></a>
+                </div>
+              </div>
             </div>
           </div>
           <div className="grid grid-cols-1">
             <div className="mx-auto">
-              <img className="h-48 w-48 shadow-md hover:shadow-2xl rounded-full" src="/team/tejas-chaudhari.jpg" alt="" />
+              <img className="h-48 w-48 shadow-md hover:shadow-2xl rounded-full" src="/about-us/tejas-chaudhari.jpg" alt="" />
             </div>
             <div className=" p-5">
               <p className="font-semibold text-center">
-              Tejas Chaudhari<br /><span className="font-normal text-blue-500">Fullstack Developer</span>
+              Tejas Chaudhari<br /><span className="font-normal text-blue-500">Software Developer</span>
               </p>
+              <div className="flex flex-1 mt-2 space-x-2 justify-center">
+              <div className="cursor-pointer">
+                  <a href="https://twitter.com/tejasc0" target="_blank" rel="noreferrer"><img src="/about-us/icons8-twitter.svg" alt="" /></a>
+                </div>
+                <div className="cursor-pointer">
+                  <a href="https://github.com/tejasc0" target="_blank" rel="noreferrer"><img src="/about-us/icons8-github.svg" alt="" /></a>
+                </div>
+                <div className="cursor-pointer">
+                  <a href="https://dev.to/tejasc0" target="_blank" rel="noreferrer"><img src="/about-us/icons8-news.svg" alt="" /></a>
+                </div>
+              </div>
             </div>
           </div>
           <div className="grid md:col-start-2 lg:col-start-4 grid-cols-1">
             <div className="mx-auto">
-              <img className="h-48 w-48 shadow-md hover:shadow-2xl rounded-full" src="/team/kunal-aggarwal.jpg" alt="" />
+              <img className="h-48 w-48 shadow-md hover:shadow-2xl rounded-full" src="/about-us/kunal-aggarwal.jpg" alt="" />
             </div>
             <div className=" p-5">
               <p className="font-semibold text-center">
-              Kunal Aggarwal<br /><span className="font-normal text-blue-500">Moderator</span>
+              Kunal Aggarwal<br /><span className="font-normal text-blue-500">Community Manager</span>
               </p>
             </div>
           </div>

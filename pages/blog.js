@@ -30,6 +30,24 @@ query {
   }
 }`
 
+const rankedparasQuery = gql`
+query {
+  rankedParas {
+    paras {
+      title
+      para_slug
+      date
+      topic_reference {
+        topic_name
+        slug_of_topic
+      }
+      pic{
+        url
+      }
+    }
+  }
+}`
+
 const topicsQuery = gql`
 query {
   topics {
@@ -40,25 +58,45 @@ query {
 
 const data = await graphQLClient.request(parasQuery) 
 const paras = data.paras.reverse()
+const rankedparadata = await graphQLClient.request(rankedparasQuery) 
+const rankedparas = rankedparadata.rankedParas[0]
 const topicsdata = await graphQLClient.request(topicsQuery)
 const topics = topicsdata.topics
 return { 
   props: {
     paras,
-    topics
+    topics,
+    rankedparas
 }
 }
 }
 
-export default function Blog({ paras, topics }) {
+export default function Blog({ paras, topics, rankedparas }) {
+  console.log(rankedparas)
   return (
     <>
       <Head>
         <title>Blog</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-    <div className="grid grid-cols-3">
+      <div className="grid grid-cols-3">
     <div className="sm:col-span-2 divide-y-2 col-span-3">
+      <div className="grid grid-cols-1 sm:grid-cols-4">
+        {
+          rankedparas.paras.map((paras) => {
+            return (
+              <div key="para_slug" className="col-span-2">
+              <div className="m-6 rounded-md overflow-hidden">
+              <Link href={"/blog/" + paras.para_slug}><a>
+              <img src={paras.pic.url} alt="" />
+              </a></Link>
+              </div>
+              <p className="text-2xl cursor-pointer font-semibold p-3 text-center mb-8"><Link href={"/blog/" + paras.para_slug}>{paras.title}</Link></p>
+            </div>
+            )
+          })
+        }
+      </div>
     
     {
         paras.map(paras => {
@@ -91,7 +129,7 @@ export default function Blog({ paras, topics }) {
         </div>
         </div>
         <div className="hidden sm:block">
-        <Link href="/blogs/how-to-find-your-passion"><a>
+        <Link href={'/blog/' + paras.para_slug}><a>
           <img className="h-32 w-48 m-6 rounded-lg" src={paras.pic.url} alt="" />
           </a></Link>
         </div>

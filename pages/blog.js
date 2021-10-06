@@ -72,7 +72,6 @@ return {
 }
 
 export default function Blog({ paras, topics, rankedparas }) {
-  console.log(rankedparas)
   return (
     <>
       <Head>

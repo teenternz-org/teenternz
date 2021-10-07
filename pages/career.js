@@ -1,8 +1,13 @@
 const Career = () => {
   return (
+    <>
+    <div className="md:text-xl text-lg m-16 font-semibold">Career at Teenternz</div>
     <div className="grid grid-cols-1 sm:grid-cols-2">
-      <div className="mx-auto sm:my-20 my-16">
-        <div className="md:text-xl text-lg m-16 font-semibold">We&apos;re Hiring</div>
+      <div>
+        <img src="/img/undraw_Updated_resume_re_q1or.svg" className="md:h-80 mx-auto px-6 my-12" alt="" />
+      </div>
+      <div className="mx-auto">
+        <div className="md:text-xl text-lg mx-16 mb-12 font-semibold">We&apos;re Hiring</div>
         <div className="mx-20 mb-8 font-medium">Openings:</div>
         <div className="flex space-y-2 flex-col mx-20">
             <div>
@@ -22,10 +27,9 @@ const Career = () => {
           Apply
         </button></a>
       </div>
-      <div>
-        <img src="/img/undraw_Updated_resume_re_q1or.svg" className="md:h-80 mx-auto md:my-36 sm:my-24 px-6 my-16" alt="" />
-      </div>
     </div>
+    </>
+    
   )
 }
 

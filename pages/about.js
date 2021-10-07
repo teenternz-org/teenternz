@@ -19,7 +19,7 @@ const About = () => {
 </p>
       <h1 className=" m-16 text-center font-medium mt-28 text-3xl">Our Team</h1>
       <div className="grid md:grid-cols-3 lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 m-16">
-          <div className="grid grid-cols-1">
+          <div className="grid mt-6 sm:mt-0 grid-cols-1">
             <div className="mx-auto">
               <img className="h-48 w-48 shadow-md hover:shadow-2xl rounded-full" src="/about-us/sanskriti-jain.jpg" alt="" />
             </div>
@@ -29,7 +29,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-1">
+          <div className="grid mt-6 sm:mt-0 grid-cols-1">
             <div className="mx-auto">
               <img className="h-48 w-48 shadow-md hover:shadow-2xl rounded-full" src="/about-us/tejas-chaudhari.jpg" alt="" />
             </div>
@@ -50,7 +50,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-1">
+          <div className="grid mt-6 md:mt-0 grid-cols-1">
             <div className="mx-auto">
               <img className="h-48 w-48 shadow-md hover:shadow-2xl rounded-full" src="/about-us/ayisha-necholi.jpg" alt="" />
             </div>
@@ -74,7 +74,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-1">
+          <div className="grid mt-6 lg:mt-0 grid-cols-1">
             <div className="mx-auto">
               <img className="h-48 w-48 shadow-md hover:shadow-2xl rounded-full" src="/about-us/Julean Palpallatoc.jpeg" alt="" />
             </div>
@@ -92,7 +92,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="grid md:col-start-2 lg:col-start-1 grid-cols-1">
+          <div className="grid mt-6 md:col-start-2 lg:col-start-1 grid-cols-1">
             <div className="mx-auto">
               <img className="h-48 w-48 shadow-md hover:shadow-2xl rounded-full" src="/about-us/kunal-aggarwal.jpg" alt="" />
             </div>

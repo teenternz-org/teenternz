@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
         <p className="font-normal text-center mt-4 mb-8 sm:text-lg text-gray-700">Teenternz helps Students find Remote Internships and volunteer opportunites from around the globe. Apart from that Students can find various resources such as articles, books.</p>
       <div className="flex flex-1 justify-center">
-        <Link href="/internships" passHref><div className="bg-gradient-to-r from-yellow-600 to-pink-600 text-white rounded-lg font-medium hover:scale-110 hover:shadow-xl hover:font-semibold transition-transform cursor-pointer shadow-md text-base p-2.5 my-0.5">Find opportunities</div></Link>
+        <Link href="/internships" passHref><div className="bg-blue-500 text-white rounded-lg font-medium hover:scale-110 hover:shadow-xl hover:font-semibold transition-transform cursor-pointer shadow-md text-base p-2.5 my-0.5">Find opportunities</div></Link>
       </div>
 
       </div> 

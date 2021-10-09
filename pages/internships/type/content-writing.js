@@ -13,7 +13,7 @@ const Content_Writing = () => {
 
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
 
-    <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+    <div className="m-4 grid grid-cols-2">
         <div className="rounded-full overflow-hidden">
            <Link href="/internships/simply-neuroscience"><a><img src="/org/simply-neuroscience.png" alt="logo" width="90px" height="90px"/></a></Link>
         </div>
@@ -25,7 +25,7 @@ const Content_Writing = () => {
         </div>
     </div>
 
-    <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+    <div className="m-4 grid grid-cols-2">
         <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
            <Link href="/internships/empowering-med"><a><img src="/org/empowering-med.png" alt="logo" width="90px" height="90px"/></a></Link> 
         </div>
@@ -38,7 +38,7 @@ const Content_Writing = () => {
     </div>
 
 
-      <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+      <div className="m-4 grid grid-cols-2">
         <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
           <Link href="/internships/bloody-donuts"><a><img src="/org/bloody-donuts.png" alt="logo"/></a></Link>
         </div>
@@ -50,7 +50,7 @@ const Content_Writing = () => {
         </div>
       </div>
 
-    <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200" >
+    <div className="m-4 grid grid-cols-2" >
         <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
            <Link href="/internships/jaat"><a><img src="/org/jaat.png" alt="logo" width="90px" height="90px"/></a></Link>
         </div>
@@ -62,7 +62,7 @@ const Content_Writing = () => {
         </div>
     </div>
     
-    <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200" >
+    <div className="m-4 grid grid-cols-2" >
         <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
         <Link href="/internships/mind-boggle"><a><img src="/org/mind-boggle.png" alt="logo" width="90px" height="90px"/></a></Link>
         </div>
@@ -74,7 +74,7 @@ const Content_Writing = () => {
         </div>
     </div>
     
-    <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200" >
+    <div className="m-4 grid grid-cols-2" >
         <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
         <Link href="/internships/my-for-me"><a><img src="/org/my-for-me.png" alt="logo" width="90px" height="90px"/></a></Link>
         </div>
@@ -86,7 +86,7 @@ const Content_Writing = () => {
         </div>
     </div>
     
-    <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200" id="card-3">
+    <div className="m-4 grid grid-cols-2" id="card-3">
         <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
         <Link href="/internships/magnify-you"><a><img src="/org/magnify-you.png" alt="logo" width="90px" height="90px"/></a></Link>
         </div>
@@ -96,7 +96,7 @@ const Content_Writing = () => {
             </p>
         </div>
     </div>
-        <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200" id="card-4">
+        <div className="m-4 grid grid-cols-2" id="card-4">
             <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
             <Link href="/internships/scalar-news"><a><img src="/org/scalar-news.png" alt="logo" width="90px" height="90px"/></a></Link>
             </div>
@@ -108,7 +108,7 @@ const Content_Writing = () => {
         </div>
 
            
-        <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200" id="card-4">
+        <div className="m-4 grid grid-cols-2" id="card-4">
             <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
             <Link href="/internships/youth-medicine-today"><a><img src="/org/youth-medicine-today.png" alt="logo" width="90px" height="90px"/></a></Link>
             </div>
@@ -119,7 +119,7 @@ const Content_Writing = () => {
             </div>
         </div>
 
-        <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200" id="card-4">
+        <div className="m-4 grid grid-cols-2" id="card-4">
             <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
             <Link href="/internships/innov-xplorers"><a><img src="/org/innov-xplorers.png" alt="logo" width="90px" height="90px"/></a></Link>
             </div>
@@ -131,7 +131,7 @@ const Content_Writing = () => {
         </div>
 
 
-        <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200" >
+        <div className="m-4 grid grid-cols-2" >
             <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
             <Link href="/internships/the-graveyard-zine"><a><img src="/org/the-graveyard-zine.png" alt="logo" width="90px" height="90px"/></a></Link>
             </div>
@@ -143,7 +143,7 @@ const Content_Writing = () => {
             </div>
         </div>
 
-        <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200" id="card-5">
+        <div className="m-4 grid grid-cols-2" id="card-5">
             <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
             <Link href="/internships/amers"><a><img src="/org/amers.png" alt="logo" width="90px" height="90px"/></a></Link>
             </div>
@@ -156,7 +156,7 @@ const Content_Writing = () => {
 
         </div>
 
-        <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200" id="card-1">
+        <div className="m-4 grid grid-cols-2" id="card-1">
             <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
             <Link href="/internships/touche"><a><img src="/org/touche.png" alt="logo" width="90px" height="90px"/></a></Link>
             </div>
@@ -168,7 +168,7 @@ const Content_Writing = () => {
             </div>
         </div>
 
-        <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200" id="card-4">
+        <div className="m-4 grid grid-cols-2" id="card-4">
             <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
             <Link href="/internships/bright-her-future"><a><img src="/org/bright-her-future.png" alt="logo" width="90px" height="90px"/></a></Link>
             </div>
@@ -179,7 +179,7 @@ const Content_Writing = () => {
             </div>
         </div>
 
-        <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200" >
+        <div className="m-4 grid grid-cols-2" >
             <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
             <Link href="/internships/the-communitys-truth"><a><img src="/org/the-communitys-truth.png" alt="logo" width="90px" height="90px"/></a></Link>
             </div>
@@ -191,7 +191,7 @@ const Content_Writing = () => {
             </div>
         </div>
 
-        <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200" id="card-4">
+        <div className="m-4 grid grid-cols-2" id="card-4">
             <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
             <Link href="/internships/voice-4-teens"><a><img src="/org/voice-4-teens.png" alt="logo" width="90px" height="90px"/></a></Link>
             </div>
@@ -202,7 +202,7 @@ const Content_Writing = () => {
             </div>
         </div>
 
-        <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200" id="card-3">
+        <div className="m-4 grid grid-cols-2" id="card-3">
             <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
             <Link href="/internships/queer-youth-rises"><a><img src="/org/queer-youth-rises.png" alt="logo" width="90px" height="90px"/></a></Link>
             </div>

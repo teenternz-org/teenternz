@@ -7,8 +7,10 @@ const About = () => {
         <title>About Us</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 className=" m-16 text-center font-medium text-2xl md:text-4xl">About Teenternz</h1>
-      <p className="text-xl md:mx-36 sm:mx-24 text-center mx-16">Teenternz is a platform for students and organisations. 
+      <h1 className=" m-16 text-center ,max-w-min font-medium text-2xl md:text-4xl">
+        About Teenternz
+          </h1>
+      <p className="text-lg md:mx-36 sm:mx-24 text-center mx-16">Teenternz is a platform for students and organisations. 
       Here at teenternz we connect students with Organizations to provide them remote Internships and       volunteer opportunities. 
         
       We bring NGOs and Non-profit organisations to provide students with a lot of opportunities such as      Internships and Volunteer opportunities. 

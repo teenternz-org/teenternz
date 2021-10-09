@@ -9,7 +9,9 @@ const Internships = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="m-16 text-lg md:text-xl font-medium ">New</div>
+      <div className="m-16 text-3xl font-semibold max-w-min">
+          New
+              </div>
       
       <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1">
       <div className="col-span-3">
@@ -55,10 +57,12 @@ const Internships = () => {
     </div>
           </div>
           
-          <div className="m-16 text-lg md:text-xl font-medium col-span-3">All Internships</div>
+          <div className="m-16 text-lg md:text-3xl font-semibold max-w-max col-span-3">
+            All Internships
+                 </div>
 
           <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 col-span-3">
-    <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+    <div className="m-4 grid grid-cols-2">
         <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
            <Link href="/internships/empowering-med"><a><img src="/org/empowering-med.png" alt="logo" width="90px" height="90px"/></a></Link> 
         </div>
@@ -69,7 +73,7 @@ const Internships = () => {
             </p>
         </div>
     </div>
-    <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+    <div className="m-4 grid grid-cols-2">
         <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
           <Link href="/internships/bloody-donuts"><a><img src="/org/bloody-donuts.png"  alt="logo"width="90px"height="90px"/></a></Link>
         </div>
@@ -81,7 +85,7 @@ const Internships = () => {
         </div>
       </div>
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/open-call-for-artists"><a><img src="/org/open-call-for-artists.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -93,7 +97,7 @@ const Internships = () => {
                 </div>
             </div>
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/jaat"><a><img src="/org/jaat.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -105,7 +109,7 @@ const Internships = () => {
                 </div>
             </div>
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/mind-boggle"><a><img src="/org/mind-boggle.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -118,7 +122,7 @@ const Internships = () => {
             </div>
 
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/bizness"><a><img src="/org/bizness.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -132,7 +136,7 @@ const Internships = () => {
 
 
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/m-power-for-youth"><a><img src="/org/m-power-for-youth.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -145,7 +149,7 @@ const Internships = () => {
             </div>
 
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/the-humanitarian-community"><a><img src="/org/the-humanitarian-community.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -157,7 +161,7 @@ const Internships = () => {
                 </div>
             </div>
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/my-for-me"><a><img src="/org/my-for-me.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -170,7 +174,7 @@ const Internships = () => {
             </div>
 
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/teenpreneurs"><a><img src="/org/teenpreneurs.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -182,7 +186,7 @@ const Internships = () => {
                 </div>
             </div>
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/magnify-you"><a><img src="/org/magnify-you.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -197,7 +201,7 @@ const Internships = () => {
 
 
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/scouts-daily"><a><img src="/org/scouts-daily.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -209,7 +213,7 @@ const Internships = () => {
                 </div>
             </div>
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/connect-org"><a><img src="/org/connect-org.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -221,7 +225,7 @@ const Internships = () => {
                 </div>
             </div>
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/the-communitys-truth"><a><img src="/org/the-communitys-truth.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -237,7 +241,7 @@ const Internships = () => {
 
 
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/the-graveyard-zine"><a><img src="/org/the-graveyard-zine.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -249,7 +253,7 @@ const Internships = () => {
                 </div>
             </div>
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/the-chatter-gals"><a><img src="/org/the-chatter-gals.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -264,7 +268,7 @@ const Internships = () => {
 
 
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/the-political-outlook"><a><img src="/org/the-political-outlook.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -276,7 +280,7 @@ const Internships = () => {
                 </div>
             </div>
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/touche"><a><img src="/org/touche.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -289,7 +293,7 @@ const Internships = () => {
             </div>
 
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/generous-kitchen"><a><img src="/org/generous-kitchen.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -302,7 +306,7 @@ const Internships = () => {
             </div>
 
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/say-magzine"><a><img src="/org/say-magzine.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -316,7 +320,7 @@ const Internships = () => {
 
 
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/kits-of-kindness"><a><img src="/org/kits-of-kindness.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -329,7 +333,7 @@ const Internships = () => {
             </div>
 
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/amers"><a><img src="/org/amers.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -343,7 +347,7 @@ const Internships = () => {
             </div>
 
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/queen-mary-anatomy"><a><img src="/org/queen-mary-anatomy.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -354,7 +358,7 @@ const Internships = () => {
                     </p>
                 </div>
             </div>
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/the-literary-academia"><a><img src="/org/the-literary-academia.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -365,7 +369,7 @@ const Internships = () => {
                     </p>
                 </div>
             </div>
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/queer-youth-rises"><a><img src="/org/queer-youth-rises.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -376,7 +380,7 @@ const Internships = () => {
                 </div>
             </div>
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/cosmos"><a><img src="/org/cosmos.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -389,7 +393,7 @@ const Internships = () => {
             </div>
 
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/the-rainbow-project"><a><img src="/org/the-rainbow-project.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -399,7 +403,7 @@ const Internships = () => {
                     </p>
                 </div>
             </div>
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/med-insider"><a><img src="/org/med-insider.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -409,7 +413,7 @@ const Internships = () => {
                     </p>
                 </div>
             </div>
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/you-united"><a><img src="/org/you-united.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -419,7 +423,7 @@ const Internships = () => {
                     </p>
                 </div>
             </div>
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/superposition"><a><img src="/org/superposition.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -429,7 +433,7 @@ const Internships = () => {
                     </p>
                 </div>
             </div>
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/mindspace"><a><img src="/org/mindspace.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -439,7 +443,7 @@ const Internships = () => {
                     </p>
                 </div>
             </div>
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/innov-xplorers"><a><img src="/org/innov-xplorers.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -450,7 +454,7 @@ const Internships = () => {
                 </div>
             </div>
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/scalar-news"><a><img src="/org/scalar-news.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -460,7 +464,7 @@ const Internships = () => {
                     </p>
                 </div>
             </div>
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/voice-4-teens"><a><img src="/org/voice-4-teens.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -470,7 +474,7 @@ const Internships = () => {
                     </p>
                 </div>
             </div>
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/bright-her-future"><a><img src="/org/bright-her-future.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -481,7 +485,7 @@ const Internships = () => {
                 </div>
             </div>
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/philosoph-youth"><a><img src="/org/philosoph-youth.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -492,7 +496,7 @@ const Internships = () => {
                 </div>
             </div>
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/codia"><a><img src="/org/codia.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -503,7 +507,7 @@ const Internships = () => {
                 </div>
             </div>
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/etf-maryland"><a><img src="/org/etf-maryland.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -513,7 +517,7 @@ const Internships = () => {
                     </p>
                 </div>
             </div>
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/project-paw-collection"><a><img src="/org/project-paw-collection.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -525,7 +529,7 @@ const Internships = () => {
 
             </div>
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/youth-4-scitech"><a><img src="/org/youth-4-scitech.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -537,7 +541,7 @@ const Internships = () => {
             </div>
 
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/speak-what-you-wear"><a><img src="/org/speak-what-you-wear.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -550,7 +554,7 @@ const Internships = () => {
 
 
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/youth-medicine-today"><a><img src="/org/youth-medicine-today.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -562,7 +566,7 @@ const Internships = () => {
             </div>
 
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/love-achelois"><a><img src="/org/love-achelois.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -573,7 +577,7 @@ const Internships = () => {
                 </div>
             </div>
 
-            <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+            <div className="m-4 grid grid-cols-2">
                 <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
                 <Link href="/internships/we-are-the-change"><a><img src="/org/we-are-the-change.png" alt="logo" width="90px" height="90px"/></a></Link>
                 </div>
@@ -586,25 +590,29 @@ const Internships = () => {
             </div>
         </div>
 <div>
-<div className="hidden md:block -mt-24 fixed">
-        <h1 className="text-xl font-medium ml-8">Categories</h1>
+<div className="hidden md:block max-w-max -mt-24 fixed">
+        <h1 className="text-3xl font-semibold ml-8">
+           
+            Categories
+           
+            </h1>
 <div className="flex flex-wrap">
           <Link href="/internships/type/content-writing" passHref>
-            <div className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">Content Writing</div>
+            <div className="bg-pink-200 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">Content Writing</div>
           </Link>  
         
           <Link href="/internships/type/graphics-design" passHref>
-            <div className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">Graphics Design</div>
+            <div className="bg-pink-200 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">Graphics Design</div>
           </Link>  
           <Link href="/internships/type/video-editing-and-film-making" passHref>
-            <div className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">Video Editing and Film Making</div>
+            <div className="bg-pink-200 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">Video Editing and Film Making</div>
           </Link>  
           <Link href="/internships/type/web-dev" passHref>
-            <div className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">Web Development</div>
+            <div className="bg-pink-200 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">Web Development</div>
           </Link>  
 
           <Link href="/internships/type/research" passHref>
-            <div className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">Graphics Design</div>
+            <div className="bg-pink-200 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">Graphics Design</div>
           </Link>  
         </div>
 </div>

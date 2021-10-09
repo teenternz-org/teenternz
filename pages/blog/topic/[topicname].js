@@ -62,7 +62,9 @@ return {
 export default function TopicName({ topic, topics, reverseparas }) {
   return (
     <>
-      <h1 className="text-2xl font-medium md:ml-36 sm:ml-16 ml-8 my-8 ">{topic.topic_name}</h1>
+      <h1 className="text-3xl max-w-max font-semibold md:ml-36 sm:ml-16 ml-8 my-8">
+        {topic.topic_name}
+      </h1>
     <div className="grid grid-cols-3">
     <div className="sm:col-span-2 divide-y-2 col-span-3">
 
@@ -77,7 +79,13 @@ export default function TopicName({ topic, topics, reverseparas }) {
             <div className="flex flex-1">
             <p className="text-sm font-normal text-gray-800 mt-3"><Time_Ago date={para.date}/></p>
             <div className="flex flex-wrap">
-        <Link href="/blogs/topic/self-help" passHref><p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">{para.topic_reference.map(topic => topic.topic_name)}</p></Link>
+        {para.topic_reference.map(topic => {
+          return (
+            <div key={topic.slug_of_topic}>
+            <Link href="/blogs/topic/self-help" passHref><p className="bg-pink-200 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">{topic.topic_name}</p></Link>
+          </div>
+          )
+        })}
         </div>
         </div>
         </div>

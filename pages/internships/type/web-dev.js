@@ -17,7 +17,7 @@ const Web_Dev = () => {
 
 
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-    <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+    <div className="m-4 grid grid-cols-2">
         <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
            <Link href="/internships/simply-neuroscience"><a><img src="/org/simply-neuroscience.png" alt="logo" width="90px" height="90px"/></a></Link>
         </div>
@@ -29,7 +29,7 @@ const Web_Dev = () => {
         </div>
     </div>
 
-    <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+    <div className="m-4 grid grid-cols-2">
         <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
            <Link href="/internships/empowering-med"><a><img src="/org/empowering-med.png" alt="logo" width="90px" height="90px"/></a></Link> 
         </div>
@@ -41,7 +41,7 @@ const Web_Dev = () => {
         </div>
     </div>
 
-    <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+    <div className="m-4 grid grid-cols-2">
         <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
         <Link href="/internships/magnify-you"><a><img src="/org/magnify-you.png" alt="logo" width="90px" height="90px"/></a></Link>
         </div>
@@ -52,7 +52,7 @@ const Web_Dev = () => {
         </div>
     </div>
 
-        <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+        <div className="m-4 grid grid-cols-2">
             <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
             <Link href="/internships/bright-her-future"><a><img src="/org/bright-her-future.png" alt="logo" width="90px" height="90px"/></a></Link> 
             </div>
@@ -64,7 +64,7 @@ const Web_Dev = () => {
         </div>
 
 
-        <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+        <div className="m-4 grid grid-cols-2">
             <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
             <Link href="/internships/you-united"><a><img src="/org/you-united.png" alt="logo" width="90px" height="90px"/></a></Link>
             </div>
@@ -74,7 +74,7 @@ const Web_Dev = () => {
                 </p>
             </div>
         </div>
-        <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+        <div className="m-4 grid grid-cols-2">
             <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
             <Link href="/internships/mindspace"><a><img src="/org/mindspace.png" alt="logo" width="90px" height="90px"/></a></Link>
             </div>
@@ -86,7 +86,7 @@ const Web_Dev = () => {
         </div>
 
 
-        <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+        <div className="m-4 grid grid-cols-2">
             <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
             <Link href="/internships/queen-mary-anatomy"><a><img src="/org/queen-mary-anatomy.png" alt="logo" width="90px" height="90px"/></a></Link>
             </div>
@@ -97,7 +97,7 @@ const Web_Dev = () => {
             </div>
         </div>
 
-        <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+        <div className="m-4 grid grid-cols-2">
             <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
             <Link href="/internships/queer-youth-rises"><a><img src="/org/queer-youth-rises.png" alt="logo" width="90px" height="90px"/></a></Link>
             </div>
@@ -108,7 +108,7 @@ const Web_Dev = () => {
             </div>
         </div>
 
-        <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+        <div className="m-4 grid grid-cols-2">
             <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
             <Link href="/internships/generous-kitchen"><a><img src="/org/generous-kitchen.png" alt="logo" width="90px" height="90px"/></a></Link>
             </div>

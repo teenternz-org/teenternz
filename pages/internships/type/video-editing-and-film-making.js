@@ -17,7 +17,7 @@ const Video_Editing_Film_Making = () => {
 
 
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-    <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+    <div className="m-4 grid grid-cols-2">
         <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
            <Link href="/internships/simply-neuroscience"><a><img src="/org/simply-neuroscience.png" alt="logo" width="90px" height="90px"/></a></Link>
         </div>
@@ -29,7 +29,7 @@ const Video_Editing_Film_Making = () => {
         </div>
     </div>
 
-    <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+    <div className="m-4 grid grid-cols-2">
         <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
            <Link href="/internships/empowering-med"><a><img src="/org/empowering-med.png" alt="logo" width="90px" height="90px"/></a></Link> 
         </div>
@@ -40,7 +40,7 @@ const Video_Editing_Film_Making = () => {
             </p>
         </div>
     </div>
-    <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200" >
+    <div className="m-4 grid grid-cols-2" >
         <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
            <Link href="/internships/jaat"><a><img src="/org/jaat.png" alt="logo" width="90px" height="90px"/></a></Link>
         </div>
@@ -54,7 +54,7 @@ const Video_Editing_Film_Making = () => {
 
 
 
-    <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+    <div className="m-4 grid grid-cols-2">
         <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
         <Link href="/internships/amers"><a><img src="/org/amers.png" alt="logo" width="90px" height="90px"/></a></Link>
         </div>
@@ -71,7 +71,7 @@ const Video_Editing_Film_Making = () => {
         
 
 
-        <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+        <div className="m-4 grid grid-cols-2">
             <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
             <Link href="/internships/bright-her-future"><a><img src="/org/bright-her-future.png" alt="logo" width="90px" height="90px"/></a></Link>
             </div>
@@ -83,7 +83,7 @@ const Video_Editing_Film_Making = () => {
         </div>
 
 
-        <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+        <div className="m-4 grid grid-cols-2">
             <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
             <Link href="/internships/touche"><a><img src="/org/touche.png" alt="logo" width="90px" height="90px"/></a></Link>
             </div>
@@ -96,7 +96,7 @@ const Video_Editing_Film_Making = () => {
         </div>
 
 
-        <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+        <div className="m-4 grid grid-cols-2">
             <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
             <Link href="/internships/magnify-you"><a><img src="/org/magnify-you.png" alt="logo" width="90px" height="90px"/></a></Link>
             </div>
@@ -107,7 +107,7 @@ const Video_Editing_Film_Making = () => {
             </div>
         </div>
 
-        <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+        <div className="m-4 grid grid-cols-2">
             <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
             <Link href="/internships/we-are-the-change"><a><img src="/org/we-are-the-change.png" alt="logo" width="90px" height="90px"/></a></Link>
             </div>

@@ -1,7 +1,9 @@
 const Career = () => {
   return (
     <>
-    <div className="md:text-xl text-lg m-16 font-semibold">Career at Teenternz</div>
+    <div className="max-w-max text-3xl m-16 font-semibold">
+      Career at Teenternz
+        </div>
     <div className="grid grid-cols-1 sm:grid-cols-2">
       <div>
         <img src="/img/undraw_Updated_resume_re_q1or.svg" className="md:h-80 mx-auto px-6 my-12" alt="" />
@@ -23,7 +25,7 @@ const Career = () => {
               - Software Developer Intern
             </div>
         </div>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZ2-9cyqHvyp5HwHrqv-RvmBjSRWJav_sofKA8rP1mkaRPBg/viewform" target="_blank" rel="noreferrer"><button className="bg-gradient-to-r from-yellow-600 to-pink-600 text-white rounded-lg font-medium hover:scale-110 hover:shadow-xl hover:font-semibold transition-transform cursor-pointer mx-24 mt-8 shadow-md text-base p-2">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZ2-9cyqHvyp5HwHrqv-RvmBjSRWJav_sofKA8rP1mkaRPBg/viewform" target="_blank" rel="noreferrer"><button className="bg-blue-500 text-white rounded-lg font-medium hover:scale-110 hover:shadow-xl hover:font-semibold transition-transform cursor-pointer mx-24 mt-8 shadow-md text-base p-2">
           Apply
         </button></a>
       </div>

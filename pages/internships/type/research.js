@@ -17,7 +17,7 @@ const Research = () => {
 
 
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-    <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+    <div className="m-4 grid grid-cols-2">
         <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
            <Link href="/internships/simply-neuroscience"><a><img src="/org/simply-neuroscience.png" alt="logo" width="90px" height="90px"/></a></Link>
         </div>
@@ -29,7 +29,7 @@ const Research = () => {
         </div>
     </div>
 
-    <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+    <div className="m-4 grid grid-cols-2">
         <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
            <Link href="/internships/empowering-med"><a><img src="/org/empowering-med.png" alt="logo" width="90px" height="90px"/></a></Link> 
         </div>
@@ -40,7 +40,7 @@ const Research = () => {
             </p>
         </div>
     </div>
-    <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200" >
+    <div className="m-4 grid grid-cols-2" >
         <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
            <Link href="/internships/jaat"><a><img src="/org/jaat.png" alt="logo" width="90px" height="90px"/></a></Link>
         </div>
@@ -52,7 +52,7 @@ const Research = () => {
         </div>
     </div>
     
-    <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+    <div className="m-4 grid grid-cols-2">
         <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
         <Link href="/internships/mind-boggle"><a><img src="/org/mind-boggle.png" alt="logo" width="90px" height="90px"/></a></Link>
         </div>
@@ -64,7 +64,7 @@ const Research = () => {
         </div>
     </div>
 
-    <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+    <div className="m-4 grid grid-cols-2">
         <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
         <Link href="/internships/my-for-me"><a><img src="/org/my-for-me.png" alt="logo" width="90px" height="90px"/></a></Link>
         </div>
@@ -77,7 +77,7 @@ const Research = () => {
 
     
 
-    <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+    <div className="m-4 grid grid-cols-2">
         <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
         <Link href="/internships/magnify-you"><a><img src="/org/magnify-you.png" alt="logo" width="90px" height="90px"/></a></Link>
         </div>
@@ -88,7 +88,7 @@ const Research = () => {
         </div>
     </div>
 
-        <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+        <div className="m-4 grid grid-cols-2">
             <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
             <Link href="/internships/you-united"><a><img src="/org/you-united.png" alt="logo" width="90px" height="90px"/></a></Link>
             </div>
@@ -99,7 +99,7 @@ const Research = () => {
             </div>
         </div>
 
-        <div className="m-4 shadow-xl rounded-lg grid grid-cols-2 bg-purple-200">
+        <div className="m-4 grid grid-cols-2">
             <div className="rounded-full h-20 w-20 m-2 overflow-hidden">
             <Link href="/internships/queer-youth-rises"><a><img src="/org/queer-youth-rises.png" alt="logo" width="90px" height="90px"/></a></Link>
             </div>

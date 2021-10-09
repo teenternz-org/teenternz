@@ -4,7 +4,7 @@ export default function Blog_Subsection(topics) {
   return (
     <>
         <div className="hidden sm:block fixed">
-          <div className="max-w-min cursor-default font-semibold text-3xl mx-8">
+          <div className="cursor-default font-semibold -mt-96 text-2xl mx-8">
           Topics
           </div>
         

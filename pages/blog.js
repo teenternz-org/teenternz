@@ -79,8 +79,8 @@ export default function Blog({ paras, topics, rankedparas }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="grid grid-cols-3">
-    <div className="sm:col-span-2 divide-y-2 col-span-3">
-      <div className="grid grid-cols-1 sm:grid-cols-4">
+    <div className="sm:col-span-2 col-span-3">
+      <div className="grid grid-cols-1 divide-y-2 sm:grid-cols-4">
         {
           rankedparas.paras.map((paras) => {
             return (
@@ -115,8 +115,12 @@ export default function Blog({ paras, topics, rankedparas }) {
             )
           })
         }
-        <h1 className="text-2xl sm:hidden block font-medium m-16">Recent Blogs</h1>
+        
       </div>
+      <h1 className="text-2xl sm:hidden block font-medium m-16">Recent Blogs</h1>
+      </div>
+      
+      <div className="sm:col-span-2 divide-y-2 col-span-3">
     
     {
         paras.map(paras => {
@@ -164,7 +168,7 @@ export default function Blog({ paras, topics, rankedparas }) {
           )
         }
     </div>
-    <div className="mt-24">
+    <div>
 
     <Blog_Subsection topics={topics} />
       

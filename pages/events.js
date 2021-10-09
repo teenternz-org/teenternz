@@ -8,7 +8,7 @@ const Events = () => {
       <title>Interviews</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
-    <h1 className="text-3xl max-w-max font-semibold m-16">
+    <h1 className="text-2xl font-medium m-16">
       
       Recent Events
      

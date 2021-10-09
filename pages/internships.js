@@ -9,7 +9,7 @@ const Internships = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="m-16 text-3xl font-semibold max-w-min">
+      <div className="m-16 text-2xl font-medium">
           New
               </div>
       
@@ -57,7 +57,7 @@ const Internships = () => {
     </div>
           </div>
           
-          <div className="m-16 text-lg md:text-3xl font-semibold max-w-max col-span-3">
+          <div className="m-16 text-2xl font-medium col-span-3">
             All Internships
                  </div>
 
@@ -590,8 +590,8 @@ const Internships = () => {
             </div>
         </div>
 <div>
-<div className="hidden md:block max-w-max -mt-24 fixed">
-        <h1 className="text-3xl font-semibold ml-8">
+<div className="hidden md:block -mt-24 fixed">
+        <h1 className="text-2xl font-medium ml-8">
            
             Categories
            

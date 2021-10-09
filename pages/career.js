@@ -1,7 +1,7 @@
 const Career = () => {
   return (
     <>
-    <div className="max-w-max text-3xl m-16 font-semibold">
+    <div className="text-2xl m-16 font-medium">
       Career at Teenternz
         </div>
     <div className="grid grid-cols-1 sm:grid-cols-2">

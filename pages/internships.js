@@ -1,14 +1,14 @@
 import Link from 'next/link'
 import Head from 'next/head'
 
-const Internships = () => {
+export default function Internships() {
   return (
     <>
       <Head>
         <title>Internships</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+        
       <div className="m-16 text-2xl font-medium">
           New
               </div>
@@ -624,5 +624,3 @@ const Internships = () => {
     </>
   )
 }
-
-export default Internships

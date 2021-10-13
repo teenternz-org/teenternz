@@ -1,11 +1,9 @@
 import Link from 'next/link'
 import Head from 'next/head'
+import { org} from '../data/internships'
+export const getStaticProps = async () => {
 
-export async function getServerSideProps(pageContext) {
-    const response = await fetch('/api/internships')
-    const data = await response.json()
-    const internships = data
-
+    const internships = org
     return { 
       props: {
           internships,
@@ -31,7 +29,7 @@ export default function Internships({ internships }) {
         	    return (
         	        <div key={org.id}>
 										<div className="m-4 grid grid-cols-2">
-										<div className="h-20 w-20 m-2 cursor-pointer">
+										<div className="h-20 w-20 m-2 rounded-full overflow-hidden cursor-pointer">
 										 <Link href={"/internships/" + org.id}><img src={org.org_profile_url} alt="" /	></Link>
 										</div>
 										<div className="m-2">

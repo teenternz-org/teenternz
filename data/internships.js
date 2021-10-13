@@ -114,7 +114,8 @@ export const org = [
     org_name: "MY FOR ME",
     links: [{link1: "https://www.instagram.com/myforme.in/"},],
     position: "Interns, Volunteers, Members",
-    category1: "Content Writing",}, {link2: "Research",
+    category1: "Content Writing",
+    category2: "Research",
     about: "So this organization is designed for youth by youth and for promoting a brand named Florich(women Lingeries company) and as well to create awareness all over about many issue related to the same. So the internship is not paid but we will provide e certificate and letter of recommendation to the people who will be with us for specific period of time. Duration is till the time they want to be with us no specific time but e certificate will only be provided to the one who will be with us for Atleast 3 months and letter of recommendation after 6 months. They will get all the real experience for management, content creations and whatever Commitee they will join with. There are many Commitees such as management, promotion, advising, content creation, social media, etc",
     apply_url: "https://docs.google.com/forms/d/e/1FAIpQLScf2FM7Qk3_kcJc_N-yoDNIrDDC8notCLaqBOI2Ju4gYP841g/viewform"
   },

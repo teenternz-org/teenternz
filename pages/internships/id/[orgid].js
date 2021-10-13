@@ -1,6 +1,7 @@
+import { org} from '../../../data/internships'
+
 export async function getServerSideProps(pageContext) {
-  const response = await fetch(process.env.PROD_URL + '/api/internships')
-  const data = await response.json()
+  const data = org
   
 const internship = data.filter(internship => internship.id == pageContext.query.orgid)
 

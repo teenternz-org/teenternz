@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { org} from '../data/internships'
+import { org} from '../../../data/internships'
 
 export async function getServerSideProps(pageContext) {
   const data = org

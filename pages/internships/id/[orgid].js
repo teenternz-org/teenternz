@@ -1,9 +1,8 @@
 import { org} from '../../../data/internships'
 
 export async function getServerSideProps(pageContext) {
-  const data = org
   
-const internship = data.filter(internship => internship.id == pageContext.query.orgid)
+const internship = org.filter(internship => internship.id == pageContext.query.orgid)
 
 return { 
   props: {

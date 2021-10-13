@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Head from 'next/head'
-{/* 
+
 export const getStaticProps = async () => {
     const response = await fetch(process.env.PROD_URL + '/api/internships')
     const data = await response.json()
@@ -12,7 +12,7 @@ export const getStaticProps = async () => {
     }
     }
 }
-*/}
+
 export default function Internships({ internships }) {
 	return (
     <>
@@ -20,8 +20,6 @@ export default function Internships({ internships }) {
         <title>Internships</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      hello
-      {/*
       <div className="m-16 text-2xl font-medium">
           New Internships
               </div>
@@ -78,7 +76,6 @@ export default function Internships({ internships }) {
         
 
 </div>
-    */}
     </>
   )
 }

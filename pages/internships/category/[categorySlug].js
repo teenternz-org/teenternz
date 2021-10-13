@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 export async function getServerSideProps(pageContext) {
-  const response = await fetch('http://localhost:3000/api/internships')
+  const response = await fetch(process.env.PROD_URL + '/api/internships')
   const data = await response.json()
   function filterByCategory() {
     if ('content-writing' == pageContext.query.categorySlug) {

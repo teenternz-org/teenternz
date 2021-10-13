@@ -1,5 +1,5 @@
 export async function getServerSideProps(pageContext) {
-  const response = await fetch('http://localhost:3000/api/internships')
+  const response = await fetch(process.env.PROD_URL + '/api/internships')
   const data = await response.json()
   
 const internship = data.filter(internship => internship.id == pageContext.query.orgid)

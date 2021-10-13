@@ -1,0 +1,7 @@
+Assign categories with keys category1, category2, category3, category4 ...
+
+1. Content Writing
+2. Graphics Design
+3. Video Editing and Film Making
+4. Web Development
+5. Research

@@ -1,4 +1,7 @@
 import Head from 'next/head'
+import { FaLinkedin, FaTwitter, FaInstagram, FaYoutube, FaGithub } from 'react-icons/fa'
+import { SiGmail} from 'react-icons/si'
+import { MdArticle } from 'react-icons/md'
 
 const About = () => {
   return (
@@ -40,14 +43,14 @@ const About = () => {
               Tejas Chaudhari<br /><span className="font-normal text-blue-500">Software Developer</span>
               </p>
               <div className="flex flex-1 mt-2 space-x-2 justify-center">
-              <div className="cursor-pointer">
-                  <a href="https://twitter.com/tejasc0" target="_blank" rel="noreferrer"><img src="/about-us/icons8-twitter.svg" alt="" /></a>
+              <div className="cursor-pointer text-pink-900">
+                  <a href="https://twitter.com/tejasc0" target="_blank" rel="noreferrer"><FaTwitter size="20" /></a>
                 </div>
-                <div className="cursor-pointer">
-                  <a href="https://github.com/tejasc0" target="_blank" rel="noreferrer"><img src="/about-us/icons8-github.svg" alt="" /></a>
+                <div className="cursor-pointer text-pink-900">
+                  <a href="https://github.com/tejasc0" target="_blank" rel="noreferrer"><FaGithub size="20" /></a>
                 </div>
-                <div className="cursor-pointer">
-                  <a href="https://dev.to/tejasc0" target="_blank" rel="noreferrer"><img src="/about-us/icons8-news.svg" alt="" /></a>
+                <div className="cursor-pointer text-pink-900">
+                  <a href="https://dev.to/tejasc0" target="_blank" rel="noreferrer"><MdArticle size="20" /></a>
                 </div>
               </div>
             </div>
@@ -61,17 +64,17 @@ const About = () => {
               Ayisha Necholi<br /><span className="font-normal text-blue-500">Executive Assistant</span>
               </p>
               <div className="flex flex-1 mt-2 space-x-2 justify-center">
-                <div className="cursor-pointer">
-                  <a href="https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=ayishanecholiofficial@gmail.com&hl=en" target="_blank" rel="noreferrer"><img src="/about-us/icons8-gmail.svg" alt="" /></a>
+                <div className="cursor-pointer text-pink-900">
+                  <a href="https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=ayishanecholiofficial@gmail.com&hl=en" target="_blank" rel="noreferrer"><SiGmail size="20" /></a>
                 </div>
-                <div className="cursor-pointer">
-                  <a href="https://www.instagram.com/ayishanecholisocial_/" target="_blank" rel="noreferrer"><img src="/about-us/icons8-instagram.svg" alt="" /></a>
+                <div className="cursor-pointer text-pink-900">
+                  <a href="https://www.instagram.com/ayishanecholisocial_/" target="_blank" rel="noreferrer"><FaInstagram size="20" /></a>
                 </div>
-                <div className="cursor-pointer">
-                  <a href="https://www.linkedin.com/in/ayisha-necholi-ab5115202" target="_blank" rel="noreferrer"><img src="/about-us/icons8-linkedin.svg" alt="" /></a>
+                <div className="cursor-pointer text-pink-900">
+                  <a href="https://www.linkedin.com/in/ayisha-necholi-ab5115202" target="_blank" rel="noreferrer"><FaLinkedin size="20" /></a>
                 </div>
-                <div className="cursor-pointer">
-                  <a href="https://youtube.com/channel/UCpVVEwMhc9MuIo5fs0iU7fQ" target="_blank" rel="noreferrer"><img src="/about-us/icons8-youtube.svg" alt="" /></a>
+                <div className="cursor-pointer text-pink-900">
+                  <a href="https://youtube.com/channel/UCpVVEwMhc9MuIo5fs0iU7fQ" target="_blank" rel="noreferrer"><FaYoutube size="20" /></a>
                 </div>
               </div>
             </div>
@@ -85,11 +88,11 @@ const About = () => {
               Julean Palpallatoc<br /><span className="font-normal text-blue-500">Writing Lead</span>
               </p>
               <div className="flex flex-1 mt-2 space-x-2 justify-center">
-              <div className="cursor-pointer">
-                  <a href="https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=julean.palpallatoc1@gmail.com&hl=en" target="_blank" rel="noreferrer"><img src="/about-us/icons8-gmail.svg" alt="" /></a>
+              <div className="cursor-pointer text-pink-900">
+                  <a href="https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=julean.palpallatoc1@gmail.com&hl=en" target="_blank" rel="noreferrer"><SiGmail size="20" /></a>
                 </div>
-                <div className="cursor-pointer">
-                  <a href="https://www.linkedin.com/in/julean-palpallatoc-19ab961b1/" target="_blank" rel="noreferrer"><img src="/about-us/icons8-linkedin.svg" alt="" /></a>
+                <div className="cursor-pointer text-pink-900">
+                  <a href="https://www.linkedin.com/in/julean-palpallatoc-19ab961b1/" target="_blank" rel="noreferrer"><FaLinkedin size="20" /></a>
                 </div>
               </div>
             </div>

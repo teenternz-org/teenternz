@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Head from 'next/head'
 
-export const getStaticProps = async () => {
+export async function getServerSideProps(pageContext) {
     const response = await fetch('/api/internships')
     const data = await response.json()
     const internships = data

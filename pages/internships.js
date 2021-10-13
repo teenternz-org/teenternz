@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 
 export const getStaticProps = async () => {
-    const response = await fetch(process.env.PROD_URL + '/api/internships')
+    const response = await fetch('/api/internships')
     const data = await response.json()
     const internships = data
 

@@ -18,7 +18,7 @@ export default function Home() {
         Platform to find <span className={styles.gredientText}>remote internships and volunteer opportunities</span> by NGOs
         </h1>
         <p className="font-normal text-center mt-4 mb-8 sm:text-lg text-gray-700">Teenternz helps Students find Remote Internships and volunteer opportunites from around the globe. Apart from that Students can find various resources such as articles, books.</p>
-        {theme === 'light' && <button className="text-black" onClick={() => setTheme('dark')}>
+        {theme != 'dark' && <button className="text-black" onClick={() => setTheme('dark')}>
          
           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
   <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />

@@ -19,12 +19,12 @@ export default function Home() {
         Platform to find <span className={styles.gredientText}>remote internships and volunteer opportunities</span> by NGOs
         </h1>
         <p className="font-normal text-center mt-4 mb-8 sm:text-lg text-gray-700">Teenternz helps Students find Remote Internships and volunteer opportunites from around the globe. Apart from that Students can find various resources such as articles, books.</p>
-        {theme === 'light' && <button onClick={() => setTheme('dark')}>
+        {theme === 'light' && <div className="text-red-600 h-20 w-20" onClick={() => setTheme('dark')}>
           <BsFillMoonFill />
-        </button>}
-        {theme === 'dark' && <button onClick={() => setTheme('light')}>
+        </div>}
+        {theme === 'dark' && <div className="text-red-600 h-20 w-20" onClick={() => setTheme('light')}>
           <BsFillSunFill />
-        </button>}
+        </div>}
       <div className="flex flex-1 justify-center">
         <Link href="/internships" passHref><div className="bg-blue-500 text-white rounded-lg font-medium hover:scale-110 hover:shadow-xl hover:font-semibold transition-transform cursor-pointer shadow-md text-base p-2.5 my-0.5">Find opportunities</div></Link>
       </div>

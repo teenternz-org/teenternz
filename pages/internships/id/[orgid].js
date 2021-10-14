@@ -1,5 +1,3 @@
-import { org } from '../../../data/internships'
-
 export default function Org_Id({ internship }) {
   return (
     <>
@@ -37,7 +35,9 @@ export default function Org_Id({ internship }) {
 }
 
 export async function getServerSideProps(pageContext) {
-  const internship = org.filter(orgs => orgs.id == pageContext.query.orgid)
+  const response = await fetch('https://teenternz.online/api/internships')
+  const data = await response.json()
+  const internship = data.filter(orgs => orgs.id == pageContext.query.orgid)
   
   return { 
     props: {

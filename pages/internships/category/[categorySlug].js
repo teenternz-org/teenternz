@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { org} from '../../../data/internships'
 
 export default function CategorySlug({ cats, slug }) {
   return (
@@ -35,7 +34,8 @@ export default function CategorySlug({ cats, slug }) {
 }
 
 export async function getServerSideProps(pageContext) {
-  const data = org
+  const response = await fetch('https://teenternz.online/api/internships')
+  const data = await response.json()
   function filterByCategory() {
     if ('content-writing' == pageContext.query.categorySlug) {
       return("Content Writing")

@@ -67,7 +67,7 @@ export const getStaticProps = async () => {
   const response = await fetch('https://teenternz.online/api/internships')
   const data = await response.json()
   const internships = data
-  const categoriesresponse = await fetch('https://teenternz.online/api/categories')
+  const categoriesresponse = await fetch('https://teenternz.vercel.app/api/categories')
   const categories = categoriesresponse.json()
 
   return { 

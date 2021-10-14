@@ -70,8 +70,13 @@ export default function BlogName({ para, paras }) {
     {
         paras.map(paras => {
           return (
-            <div key={paras.id}>              
+            <div key={paras.id}>            
         <div className="flex flex-1 m-8 justify-center">
+        <div className="hidden sm:block">
+        <Link href="/blogs/how-to-find-your-passion"><a>
+          <img className="h-32 w-48 m-6 rounded-lg" src={paras.pic.url} alt="" />
+          </a></Link>
+        </div>
         <div className="text-2xl font-semibold p-6 sm:w-2/3 w-full">
             <p><Link href={'/blog/' + paras.para_slug}><a>{paras.title}</a></Link></p>
             <p className="text-base font-light text-gray-800 mt-3"><Link href={'/blog/' + paras.para_slug}><a>{paras.para_first_25}</a></Link></p>
@@ -85,7 +90,7 @@ export default function BlogName({ para, paras }) {
             return (
               <div key={topic.slug_of_topic}>
                 <Link href={"/blog/topic/" + (topic.slug_of_topic)} passHref>
-              <p className="border-2 bg-gray-100 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">
+                <p className="bg-pink-200 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">
                 {topic.topic_name}
                 </p></Link>
               </div>
@@ -96,11 +101,7 @@ export default function BlogName({ para, paras }) {
         </div>
         </div>
         </div>
-        <div className="hidden sm:block">
-        <Link href="/blogs/how-to-find-your-passion"><a>
-          <img className="h-32 w-48 m-6 rounded-lg" src={paras.pic.url} alt="" />
-          </a></Link>
-        </div>
+        
         </div>
             </div>
           )

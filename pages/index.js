@@ -1,8 +1,11 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
+import { useTheme } from 'next-themes'
+import { BsFillMoonFill, BsFillSunFill } from 'react-icons/bs'
 
 export default function Home() {
+  const {systemTheme, theme, setTheme} = useTheme()
   return (
     <>
       <Head>
@@ -11,11 +14,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className=" md:p-16 p-8 sm:my-24 my-16 align-middle justify-items-center">
-        <h1 className="font-bold md:text-5xl text-center text-3xl sm:text-4xl">
+      <div className=" md:p-16 dark:bg-black p-8 sm:my-24 my-16 align-middle justify-items-center">
+        <h1 className="font-bold dark:text-white md:text-5xl text-center text-3xl sm:text-4xl">
         Platform to find <span className={styles.gredientText}>remote internships and volunteer opportunities</span> by NGOs
         </h1>
         <p className="font-normal text-center mt-4 mb-8 sm:text-lg text-gray-700">Teenternz helps Students find Remote Internships and volunteer opportunites from around the globe. Apart from that Students can find various resources such as articles, books.</p>
+        {theme === 'light' && <button onClick={() => setTheme('dark')}>
+          <BsFillMoonFill />
+        </button>}
+        {theme === 'dark' && <button onClick={() => setTheme('light')}>
+          <BsFillSunFill />
+        </button>}
       <div className="flex flex-1 justify-center">
         <Link href="/internships" passHref><div className="bg-blue-500 text-white rounded-lg font-medium hover:scale-110 hover:shadow-xl hover:font-semibold transition-transform cursor-pointer shadow-md text-base p-2.5 my-0.5">Find opportunities</div></Link>
       </div>

@@ -1,17 +1,8 @@
 import Link from 'next/link'
 import Head from 'next/head'
-import { org} from '../data/internships'
-export const getStaticProps = async () => {
+import { categoryList } from '../data/internship-categories'
 
-    const internships = org
-    return { 
-      props: {
-          internships,
-    }
-    }
-}
-
-export default function Internships({ internships }) {
+export default function Internships({ internships, categories }) {
 	return (
     <>
       <Head>
@@ -51,23 +42,17 @@ export default function Internships({ internships }) {
            
             </h1>
 <div className="flex flex-wrap">
-          <Link href="/internships/category/content-writing" passHref>
-            <div className="bg-pink-200 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">Content Writing</div>
-          </Link>  
-        
-          <Link href="/internships/category/graphics-design" passHref>
-            <div className="bg-pink-200 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">Graphics Design</div>
-          </Link>  
-          <Link href="/internships/category/video-editing-and-film-making" passHref>
-            <div className="bg-pink-200 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">Video Editing and Film Making</div>
-          </Link>  
-          <Link href="/internships/category/web-dev" passHref>
-            <div className="bg-pink-200 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">Web Development</div>
-          </Link>  
-
-          <Link href="/internships/category/research" passHref>
-            <div className="bg-pink-200 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">Research</div>
-          </Link>  
+  {
+    categories.map(category => {
+      return (
+        <div key={category.id}>
+        <Link href="/internships/category/content-writing" passHref>
+            <div className="bg-pink-200 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">{category.category}</div>
+          </Link>
+          </div>
+      )
+    })
+  }
         </div>
 </div>
 </div>
@@ -76,4 +61,19 @@ export default function Internships({ internships }) {
 </div>
     </>
   )
+}
+
+export const getStaticProps = async () => {
+  const response = await fetch('https://teenternz.online/api/internships')
+  const data = await response.json()
+  const internships = data
+  const categoriesresponse = await fetch('https://teenternz.online/api/categories')
+  const categories = categoriesresponse.json()
+
+  return { 
+    props: {
+        internships,
+        categories
+  }
+  }
 }

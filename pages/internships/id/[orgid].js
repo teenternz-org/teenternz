@@ -1,15 +1,5 @@
 import { org } from '../../../data/internships'
 
-export async function getServerSideProps(pageContext) {
-const internship = org.filter(orgs => orgs.id == pageContext.query.orgid)
-
-return { 
-  props: {
-    internship
-}
-}
-}
-
 export default function Org_Id({ internship }) {
   return (
     <>
@@ -44,4 +34,14 @@ export default function Org_Id({ internship }) {
       
     </>
   )
+}
+
+export async function getServerSideProps(pageContext) {
+  const internship = org.filter(orgs => orgs.id == pageContext.query.orgid)
+  
+  return { 
+    props: {
+      internship
+  }
+  }
 }

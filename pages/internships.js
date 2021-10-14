@@ -63,10 +63,10 @@ export default function Internships({ internships, categories }) {
 }
 
 export const getStaticProps = async () => {
-  const response = await fetch('https://teenternz.online/api/internships')
+  const response = await fetch(process.env.PROD_URL + '/api/internships')
   const data = await response.json()
   const internships = data
-  const categoriesresponse = await fetch('https://teenternz.vercel.app/api/categories')
+  const categoriesresponse = await fetch(process.env.PREVIEW_URL + '/api/categories')
   const categories = await categoriesresponse.json()
 
   return { 

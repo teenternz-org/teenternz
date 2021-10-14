@@ -3,78 +3,7 @@ import Time_Ago from "../../components/other/time-ago"
 import { gql, GraphQLClient } from 'graphql-request'
 import { RichText } from '@graphcms/rich-text-react-renderer';
 
-export async function getServerSideProps(pageContext) {
-  const url = process.env.ENDPOINT_URL
-  const graphQLClient = new GraphQLClient(url, {
-    headers: {
-      authorization: process.env.GRAPH_CMS_TOKEN
-  }
-})
-
-const blogSlug = pageContext.query.blogname
-
-const paraQuery = gql`
-query($blogSlug: String!) {
-  para(where: {para_slug: $blogSlug}) {
-    title
-    para_slug
-    date
-    writer_name
-    writer_pic{
-      url
-    }
-    article {
-      raw
-    }
-  }
-}`
-const variables = {
-  blogSlug
-}
-
-const parasQuery = gql`
-query {
-  paras {
-    title
-    id
-    para_slug
-    para_first_25
-    date
-    topic_reference {
-      topic_name
-      slug_of_topic
-    }
-    pic {
-      url
-    }
-  }
-}`
-
-const topicsQuery = gql`
-query {
-  topics {
-    topic_name
-    slug_of_topic
-  }
-}`
-
-const blogdata = await graphQLClient.request(paraQuery, variables) 
-const para = blogdata.para
-const data = await graphQLClient.request(parasQuery) 
-const paras = data.paras.reverse().filter(para => para.para_slug !== blogSlug)
-const topicsdata = await graphQLClient.request(topicsQuery)
-const topics = topicsdata.topics
-
-return { 
-  props: {
-    para,
-    paras,
-    topics
-}
-}
-}
-
-export default function BlogName({ para, paras, topics }) {
+export default function BlogName({ para, paras }) {
   return (
     <>
               <h1 className="font-serif text-center md:text-5xl text-3xl mt-32 sm:m-8 md:font-normalfont-semibold">{para.title}</h1>
@@ -181,4 +110,64 @@ export default function BlogName({ para, paras, topics }) {
         <div className="mt-24"></div>
     </>
   )
+}
+
+export async function getServerSideProps(pageContext) {
+  const url = process.env.ENDPOINT_URL
+  const graphQLClient = new GraphQLClient(url, {
+    headers: {
+      authorization: process.env.GRAPH_CMS_TOKEN
+  }
+})
+
+const blogSlug = pageContext.query.blogname
+
+const paraQuery = gql`
+query($blogSlug: String!) {
+  para(where: {para_slug: $blogSlug}) {
+    title
+    para_slug
+    date
+    writer_name
+    writer_pic{
+      url
+    }
+    article {
+      raw
+    }
+  }
+}`
+const variables = {
+  blogSlug
+}
+
+const parasQuery = gql`
+query {
+  paras {
+    title
+    id
+    para_slug
+    para_first_25
+    date
+    topic_reference {
+      topic_name
+      slug_of_topic
+    }
+    pic {
+      url
+    }
+  }
+}`
+
+const blogdata = await graphQLClient.request(paraQuery, variables) 
+const para = blogdata.para
+const data = await graphQLClient.request(parasQuery) 
+const paras = data.paras.reverse().filter(para => para.para_slug !== blogSlug)
+
+return { 
+  props: {
+    para,
+    paras,
+}
+}
 }

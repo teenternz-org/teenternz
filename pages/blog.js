@@ -4,73 +4,6 @@ import Blog_Subsection from "../components/blog-subsection"
 import Time_Ago from "../components/other/time-ago"
 import { gql, GraphQLClient } from 'graphql-request'
 
-export const getStaticProps = async () => {
-  const url = process.env.ENDPOINT_URL
-  const graphQLClient = new GraphQLClient(url, {
-    headers: {
-      authorization: process.env.GRAPH_CMS_TOKEN
-  }
-})
-
-const parasQuery = gql`
-query {
-  paras {
-    title
-    id
-    para_slug
-    para_first_25
-    date
-    topic_reference {
-      topic_name
-      slug_of_topic
-    }
-    pic {
-      url
-    }
-  }
-}`
-
-const rankedparasQuery = gql`
-query {
-  rankedParas {
-    paras {
-      title
-      para_slug
-      date
-      topic_reference {
-        topic_name
-        slug_of_topic
-      }
-      pic{
-        url
-      }
-    }
-  }
-}`
-
-const topicsQuery = gql`
-query {
-  topics {
-    topic_name
-    slug_of_topic
-  }
-}`
-
-const data = await graphQLClient.request(parasQuery) 
-const paras = data.paras.reverse()
-const rankedparadata = await graphQLClient.request(rankedparasQuery) 
-const rankedparas = rankedparadata.rankedParas[0]
-const topicsdata = await graphQLClient.request(topicsQuery)
-const topics = topicsdata.topics
-return { 
-  props: {
-    paras,
-    topics,
-    rankedparas
-}
-}
-}
-
 export default function Blog({ paras, topics, rankedparas }) {
   return (
     <>
@@ -132,6 +65,11 @@ export default function Blog({ paras, topics, rankedparas }) {
               <img src={paras.pic.url} alt="" />
               </a></Link>
               </div>
+              <div className="hidden sm:block">
+        <Link href={'/blog/' + paras.para_slug}><a>
+          <img className="h-32 w-48 m-6 rounded-lg" src={paras.pic.url} alt="" />
+          </a></Link>
+        </div>
         <div className="text-2xl font-semibold p-6 sm:w-2/3 w-full">
             <p><Link href={'/blog/' + paras.para_slug}><a>{paras.title}</a></Link></p>
             <p className="text-base sm:block hidden font-light text-gray-800 mt-3"><Link href={'/blog/' + paras.para_slug}><a>{paras.para_first_25}..</a></Link></p>
@@ -156,11 +94,7 @@ export default function Blog({ paras, topics, rankedparas }) {
         </div>
         </div>
         </div>
-        <div className="hidden sm:block">
-        <Link href={'/blog/' + paras.para_slug}><a>
-          <img className="h-32 w-48 m-6 rounded-lg" src={paras.pic.url} alt="" />
-          </a></Link>
-        </div>
+        
         </div>
             </div>
           )
@@ -177,4 +111,22 @@ export default function Blog({ paras, topics, rankedparas }) {
     
     </>
   )
+}
+
+export const getStaticProps = async () => {
+
+  const parasresponse = await fetch(process.env.PREVIEW_URL + '/api/paras')
+  const parasdata = await parasresponse.json()
+  const paras = parasdata.reverse()
+  const rankedparasresponse = await fetch(process.env.PREVIEW_URL + '/api/rankedparas')
+  const rankedparas = await rankedparasresponse.json()
+  const topicsdataresponse = await fetch(process.env.PREVIEW_URL + '/api/blogtopics')
+  const topics = await topicsdataresponse.json()
+  return { 
+    props: {
+      paras,
+      topics,
+      rankedparas
+    }
+  }
 }

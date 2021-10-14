@@ -35,7 +35,7 @@ export default function Org_Id({ internship }) {
 }
 
 export async function getServerSideProps(pageContext) {
-  const response = await fetch('https://teenternz.online/api/internships')
+  const response = await fetch(process.env.PROD_URL + '/api/internships')
   const data = await response.json()
   const internship = data.filter(orgs => orgs.id == pageContext.query.orgid)
   

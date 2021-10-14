@@ -34,7 +34,7 @@ export default function CategorySlug({ cats, slug }) {
 }
 
 export async function getServerSideProps(pageContext) {
-  const response = await fetch('https://teenternz.online/api/internships')
+  const response = await fetch(process.env.PROD_URL + '/api/internships')
   const data = await response.json()
   function filterByCategory() {
     if ('content-writing' == pageContext.query.categorySlug) {

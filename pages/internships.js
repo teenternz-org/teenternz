@@ -33,6 +33,7 @@ export default function Internships({ internships, categories }) {
         	})}
 				</div>
         </div>
+        {/* 
 <div>
 <div className="hidden md:block -mt-24 fixed">
         <h1 className="text-2xl font-medium ml-8">
@@ -55,7 +56,7 @@ export default function Internships({ internships, categories }) {
         </div>
 </div>
 </div>
-        
+        */}
 
 </div>
     </>
@@ -66,13 +67,13 @@ export const getStaticProps = async () => {
   const response = await fetch('https://teenternz.online/api/internships')
   const data = await response.json()
   const internships = data
-  const categoriesresponse = await fetch('https://teenternz.vercel.app/api/categories')
-  const categories = await categoriesresponse.json()
+  //const categoriesresponse = await fetch('https://teenternz.vercel.app/api/categories')
+  //const categories = await categoriesresponse.json()
 
   return { 
     props: {
         internships,
-        categories
+    //    categories
   }
   }
 }

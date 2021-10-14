@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Link from 'next/link'
-
+import ThemeSwitcher from "./themeswitcher";
 class Navbar extends Component {
   state = {
     active: false
@@ -24,10 +24,18 @@ class Navbar extends Component {
           <Link href="/events" passHref><div className="text-base p-2 text-white hover:scale-110 transition-transform font-normal hover:font-semibold cursor-pointer">Events</div></Link>
           <Link href="/blog" passHref><div className="text-base p-2 font-normal text-white hover:scale-110 transition-transform hover:font-semibold cursor-pointer">Blog</div></Link>
           <Link href="/services" passHref><div className="text-base p-2 hover:font-semibold font-normal text-white hover:scale-110 transition-transform cursor-pointer">Services</div></Link>
+          <ThemeSwitcher />
+        </div>
+    
+
+        
+        <div className="ml-auto mr-10 py-1 sm:hidden mt-1">
+        <ThemeSwitcher />
         </div>
         <div className="text-white py-1 mx-2 sm:hidden cursor-pointer menu-icon" onClick={this.handleClick}><svg xmlns="http://www.w3.org/2000/svg" className="sm:hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
-</svg></div>
+</svg>
+</div>
 <div>
 <div>
   

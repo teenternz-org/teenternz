@@ -1,39 +1,21 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
-import { useTheme } from 'next-themes'
 
 export default function Home() {
-  const {systemTheme, theme, setTheme} = useTheme()
   return (
-    <>
+    <div className="dark:bg-black">
       <Head>
         <title>Teenternz</title>
         <meta name="description" content="Platform to find remote internships and volunteer opportunities by NGOs" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <div className=" md:p-16 dark:bg-black p-8 sm:my-24 my-16 align-middle justify-items-center">
+      
+      <div className=" md:p-16 p-8 sm:my-24 my-16 align-middle justify-items-center">
         <h1 className="font-bold dark:text-white md:text-5xl text-center text-3xl sm:text-4xl">
         Platform to find <span className={styles.gredientText}>remote internships and volunteer opportunities</span> by NGOs
         </h1>
-        <p className="font-normal text-center mt-4 mb-8 sm:text-lg text-gray-700">Teenternz helps Students find Remote Internships and volunteer opportunites from around the globe. Apart from that Students can find various resources such as articles, books.</p>
-        {theme != 'dark' && <button className="text-black" onClick={() => setTheme('dark')}>
-         
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-  <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
-</svg>
-          
-        
-        </button>}
-        {theme != 'light' && <button className="text-white" onClick={() => setTheme('light')}>
-          
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-  <path fillRule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clipRule="evenodd" />
-</svg>
-        
-        
-        </button>}
+        <p className="font-normal text-center mt-4 mb-8 sm:text-lg dark:text-gray-700">Teenternz helps Students find Remote Internships and volunteer opportunites from around the globe. Apart from that Students can find various resources such as articles, books.</p>
       <div className="flex flex-1 justify-center">
         <Link href="/internships" passHref><div className="bg-blue-500 text-white rounded-lg font-medium hover:scale-110 hover:shadow-xl hover:font-semibold transition-transform cursor-pointer shadow-md text-base p-2.5 my-0.5">Find opportunities</div></Link>
       </div>
@@ -57,6 +39,6 @@ export default function Home() {
       </div>
       {/* Extra space */}
       <div className="h-16"></div>
-    </>
+    </div>
   )
 }

@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import Head from 'next/head'
-import { categoryList } from '../data/internship-categories'
 
 export default function Internships({ internships, categories }) {
 	return (
@@ -43,11 +42,11 @@ export default function Internships({ internships, categories }) {
             </h1>
 <div className="flex flex-wrap">
   {
-    categories.map(category => {
+    categories.map(categoryList => {
       return (
-        <div key={category.id}>
-        <Link href="/internships/category/content-writing" passHref>
-            <div className="bg-pink-200 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">{category.category}</div>
+        <div key={categoryList.id}>
+        <Link href={"/internships/category/" + categoryList.category.replace(/\s+/g, '-').toLowerCase()} passHref>
+            <div className="bg-pink-200 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">{categoryList.category}</div>
           </Link>
           </div>
       )
@@ -68,7 +67,7 @@ export const getStaticProps = async () => {
   const data = await response.json()
   const internships = data
   const categoriesresponse = await fetch('https://teenternz.vercel.app/api/categories')
-  const categories = categoriesresponse.json()
+  const categories = await categoriesresponse.json()
 
   return { 
     props: {

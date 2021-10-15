@@ -8,11 +8,12 @@
   width: 100%;
   height: screen;
   color: white;
-  background-color: #111827;
+  background-color: rgb(17,24,39, 0.7);
+  backdrop-filter: blur(10px);
   position: absolute;
   top: 68px;
   left: -100%;
-  opacity: 1;
+  opacity: 0.3;
   transition: all 0.2s ease;
 }
 

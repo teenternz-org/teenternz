@@ -29,12 +29,18 @@ class Navbar extends Component {
     
 
         
-        <div className="ml-auto mr-10 sm:mr-0 sm:ml-4 md:ml-6 py-1 mt-1">
+        <div className="ml-auto mr-10 sm:mr-0 sm:ml-4 md:ml-6 py-1 mt-1" onClick={this.state.active ? this.handleClick: this.state.inactive}>
         <ThemeSwitcher />
         </div>
-        <div className="text-white py-1 mx-2 sm:hidden cursor-pointer menu-icon" onClick={this.handleClick}><svg xmlns="http://www.w3.org/2000/svg" className="sm:hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
-</svg>
+        <div className="text-white py-1 mx-2 sm:hidden cursor-pointer menu-icon" onClick={this.handleClick}>
+          { 
+          this.state.active ?
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+          </svg> :
+          <svg xmlns="http://www.w3.org/2000/svg" className="sm:hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" />
+          </svg> }
 </div>
 <div>
 <div>

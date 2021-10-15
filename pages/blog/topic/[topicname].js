@@ -26,7 +26,7 @@ export default function TopicName({ topic, topics, reverseparas }) {
         {para.topic_reference.map(topic => {
           return (
             <div key={topic.slug_of_topic}>
-            <Link href="/blogs/topic/self-help" passHref><p className="bg-pink-200 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">{topic.topic_name}</p></Link>
+            <Link href="/blogs/topic/self-help" passHref><p className="bg-pink-200 dark:bg-pink-800 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">{topic.topic_name}</p></Link>
           </div>
           )
         })}

@@ -25,7 +25,7 @@ export default function Blog({ paras, topics, rankedparas }) {
               </div>
               <p className="text-2xl cursor-pointer font-semibold mx-6"><Link href={"/blog/" + paras.para_slug}>{paras.title}</Link></p>
               <div className="flex mx-8 mb-8 flex-1">
-            <p className="text-sm font-normal text-gray-800 mt-3"><Time_Ago date={paras.date}/></p>
+            <p className="text-sm font-normal text-gray-800 dark:text-gray-200 mt-3"><Time_Ago date={paras.date}/></p>
               <div className="flex flex-wrap">
               <Link href={'/blog/topic/' + paras.para_slug} passHref>
         <div className="flex flex-wrap">
@@ -34,7 +34,7 @@ export default function Blog({ paras, topics, rankedparas }) {
             return (
               <div key={topic.slug_of_topic}>
                 <Link href={"/blog/topic/" + (topic.slug_of_topic)} passHref>
-              <p className="bg-pink-200 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">
+              <p className="bg-pink-200 dark:bg-pink-800 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">
                 {topic.topic_name}
                 </p></Link>
               </div>
@@ -72,9 +72,9 @@ export default function Blog({ paras, topics, rankedparas }) {
         </div>
         <div className="text-2xl font-semibold p-6 sm:w-2/3 w-full">
             <p><Link href={'/blog/' + paras.para_slug}><a>{paras.title}</a></Link></p>
-            <p className="text-base sm:block hidden font-light text-gray-800 mt-3"><Link href={'/blog/' + paras.para_slug}><a>{paras.para_first_25}..</a></Link></p>
+            <p className="text-base sm:block hidden font-light text-gray-800 dark:text-gray-200 mt-3"><Link href={'/blog/' + paras.para_slug}><a>{paras.para_first_25}..</a></Link></p>
             <div className="flex mx-2 flex-1">
-            <p className="text-sm font-normal text-gray-800 mt-3"><Time_Ago date={paras.date}/></p>
+            <p className="text-sm font-normal text-gray-800 dark:text-gray-200 mt-3"><Time_Ago date={paras.date}/></p>
             <div className="flex flex-wrap">
         <Link href={'/blog/topic/' + paras.para_slug} passHref>
         <div className="flex flex-wrap">
@@ -83,7 +83,7 @@ export default function Blog({ paras, topics, rankedparas }) {
             return (
               <div key={topic.slug_of_topic}>
                 <Link href={"/blog/topic/" + (topic.slug_of_topic)} passHref>
-              <p className="bg-pink-200 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">
+              <p className="bg-pink-200 dark:bg-pink-800 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">
                 {topic.topic_name}
                 </p></Link>
               </div>

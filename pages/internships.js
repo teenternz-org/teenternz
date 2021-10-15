@@ -25,7 +25,7 @@ export default function Internships({ internships, categories }) {
 										<div className="m-2">
                     <Link href={"/internships/id/" + org.id}>
 										<p className="text-lg font-medium cursor-pointer">{org.position}</p></Link>
-											<h1 className="text sm">{org.org_name}</h1>
+											<h1 className="text-sm text-gray-800 dark:text-gray-200">{org.org_name}</h1>
 										</div>
 										</div>
         	        </div>           
@@ -46,7 +46,7 @@ export default function Internships({ internships, categories }) {
       return (
         <div key={categoryList.id}>
         <Link href={"/internships/category/" + categoryList.category.replace(/\s+/g, '-').toLowerCase()} passHref>
-            <div className="bg-pink-200 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">{categoryList.category}</div>
+            <div className="bg-pink-200 dark:bg-pink-800 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">{categoryList.category}</div>
           </Link>
           </div>
       )

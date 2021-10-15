@@ -10,8 +10,8 @@ export default function BlogName({ para, paras }) {
               <div className="grid grid-cols-12 mt-16">
                 <div className="grid col-start-2  space-x-8 sm:space-x-4 md:space-x-3 lg:space-x-0 grid-cols-2"><div className="h-10 rounded-full overflow-hidden w-10"><img src={para.writer_pic.url} alt="picture" /></div>
                 <div className="grid w-max grid-cols-1">
-                <p className="text-sm px-1">{para.writer_name}</p>
-                <p className="px-1 text-sm w-max"><Time_Ago date={para.date}/></p>
+                <p className="text-sm text-gray-800 dark:text-gray-200 px-1">{para.writer_name}</p>
+                <p className="px-1 text-sm text-gray-800 dark:text-gray-200 w-max"><Time_Ago date={para.date}/></p>
         </div>
       </div>
     </div>
@@ -79,9 +79,9 @@ export default function BlogName({ para, paras }) {
         </div>
         <div className="text-2xl font-semibold p-6 sm:w-2/3 w-full">
             <p><Link href={'/blog/' + paras.para_slug}><a>{paras.title}</a></Link></p>
-            <p className="text-base font-light text-gray-800 mt-3"><Link href={'/blog/' + paras.para_slug}><a>{paras.para_first_25}</a></Link></p>
+            <p className="text-base font-light text-gray-800 dark:text-gray-200 mt-3"><Link href={'/blog/' + paras.para_slug}><a>{paras.para_first_25}</a></Link></p>
             <div className="flex flex-1">
-            <p className="text-sm font-normal text-gray-800 mt-3"><Time_Ago date={paras.date}/></p>
+            <p className="text-sm font-normal text-gray-800 dark:text-gray-200 mt-3"><Time_Ago date={paras.date}/></p>
             <div className="flex flex-wrap">
         <Link href={'/blog/topic/' + paras.para_slug} passHref>
         <div className="flex flex-wrap">
@@ -90,7 +90,7 @@ export default function BlogName({ para, paras }) {
             return (
               <div key={topic.slug_of_topic}>
                 <Link href={"/blog/topic/" + (topic.slug_of_topic)} passHref>
-                <p className="bg-pink-200 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">
+                <p className="bg-pink-200 dark:bg-pink-800 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">
                 {topic.topic_name}
                 </p></Link>
               </div>

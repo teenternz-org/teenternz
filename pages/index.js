@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className="dark:bg-black">
+    <>
       <Head>
         <title>Teenternz</title>
         <meta name="description" content="Platform to find remote internships and volunteer opportunities by NGOs" />
@@ -15,7 +15,7 @@ export default function Home() {
         <h1 className="font-bold dark:text-white md:text-5xl text-center text-3xl sm:text-4xl">
         Platform to find <span className={styles.gredientText}>remote internships and volunteer opportunities</span> by NGOs
         </h1>
-        <p className="font-normal text-center mt-4 mb-8 sm:text-lg dark:text-gray-700">Teenternz helps Students find Remote Internships and volunteer opportunites from around the globe. Apart from that Students can find various resources such as articles, books.</p>
+        <p className="font-normal text-center mt-4 mb-8 sm:text-lg">Teenternz helps Students find Remote Internships and volunteer opportunites from around the globe. Apart from that Students can find various resources such as articles, books.</p>
       <div className="flex flex-1 justify-center">
         <Link href="/internships" passHref><div className="bg-blue-500 text-white rounded-lg font-medium hover:scale-110 hover:shadow-xl hover:font-semibold transition-transform cursor-pointer shadow-md text-base p-2.5 my-0.5">Find opportunities</div></Link>
       </div>
@@ -39,6 +39,6 @@ export default function Home() {
       </div>
       {/* Extra space */}
       <div className="h-16"></div>
-    </div>
+    </>
   )
 }

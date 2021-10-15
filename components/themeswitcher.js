@@ -1,7 +1,8 @@
 import { useTheme } from 'next-themes'
 
 const ThemeSwitcher = () => {
-  const {systemTheme, theme, setTheme} = useTheme()
+  const {systemTheme, theme, setTheme} = useTheme('dark')
+
   return (
     <>
       {theme != 'dark' ? <button className="text-white" onClick={() => setTheme('dark')}>   

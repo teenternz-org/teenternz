@@ -1,7 +1,7 @@
 import { useTheme } from 'next-themes'
 
 const ThemeSwitcher = () => {
-  const {systemTheme, theme, setTheme} = useTheme('dark')
+  const {systemTheme, theme, setTheme} = useTheme('light')
 
   return (
     <>

@@ -13,7 +13,7 @@ export default function Blog({ paras, topics, rankedparas }) {
       </Head>
       <div className="grid grid-cols-3">
     <div className="sm:col-span-2 col-span-3">
-      <div className="grid grid-cols-1 divide-y-2 sm:grid-cols-4">
+      <div className="grid grid-cols-1 sm:grid-cols-4">
         {
           rankedparas.paras.map((paras) => {
             return (

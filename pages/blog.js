@@ -115,12 +115,12 @@ export default function Blog({ paras, topics, rankedparas }) {
 
 export const getStaticProps = async () => {
 
-  const parasresponse = await fetch(process.env.PREVIEW_URL + '/api/paras')
+  const parasresponse = await fetch(process.env.PROD_URL + '/api/paras')
   const parasdata = await parasresponse.json()
   const paras = parasdata.reverse()
-  const rankedparasresponse = await fetch(process.env.PREVIEW_URL + '/api/rankedparas')
+  const rankedparasresponse = await fetch(process.env.PROD_URL + '/api/rankedparas')
   const rankedparas = await rankedparasresponse.json()
-  const topicsdataresponse = await fetch(process.env.PREVIEW_URL + '/api/blogtopics')
+  const topicsdataresponse = await fetch(process.env.PROD_URL + '/api/blogtopics')
   const topics = await topicsdataresponse.json()
   return { 
     props: {

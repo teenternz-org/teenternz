@@ -8,7 +8,7 @@ TimeAgo.addDefaultLocale(en)
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ThemeProvider enableSystem={true} attribute="class">
+    <ThemeProvider enableSystem={false} attribute="class">
       <Layout>
         <Component {...pageProps} />
       </Layout>

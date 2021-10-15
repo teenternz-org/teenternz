@@ -1,7 +1,7 @@
 import { useTheme } from 'next-themes'
 
-const ThemeSwitcher = () => {
-  const {systemTheme, theme, setTheme} = useTheme('light')
+const ThemeChanger = () => {
+  const { theme, setTheme } = useTheme('light')
 
   return (
     <>
@@ -18,4 +18,4 @@ const ThemeSwitcher = () => {
   )
 }
 
-export default ThemeSwitcher
+export default ThemeChanger

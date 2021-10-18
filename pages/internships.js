@@ -34,8 +34,8 @@ export default function Internships({ internships, categories }) {
 				</div>
         </div>
 <div>
-<div className="hidden md:block -mt-24 fixed">
-        <h1 className="text-2xl font-medium ml-8">
+<div className="hidden sm:block overflow-y-auto scrollbar-hide -mt-24 fixed h-80">
+        <h1 className="text-2xl mb-2 font-medium ml-8">
            
             Categories
            
@@ -45,10 +45,10 @@ export default function Internships({ internships, categories }) {
     categories.map(categoryList => {
       return (
         <div key={categoryList.id}>
-        <Link href={"/internships/category/" + categoryList.category.replace(/\s+/g, '-').toLowerCase()} passHref>
-            <div className="bg-pink-200 dark:bg-pink-800 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer px-auto mt-6">{categoryList.category}</div>
+          <Link href={"/internships/category/" + categoryList.category.replace(/\s+/g, '-').toLowerCase()} passHref>
+            <div className="bg-pink-200 dark:bg-pink-800 p-1 ml-3 text-sm rounded-full cursor-pointer px-auto mt-3">{categoryList.category}</div>
           </Link>
-          </div>
+        </div>
       )
     })
   }

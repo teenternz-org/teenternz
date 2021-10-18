@@ -21,12 +21,12 @@ export default function TopicName({ topic, topics, reverseparas }) {
             <p><Link href={'/blog/' + para.para_slug}><a>{para.title}</a></Link></p>
             <p className="text-base font-light text-gray-800 mt-3"><Link href={'/blog/' + para.para_slug}><a>{para.para_first_25}</a></Link></p>
             <div className="flex flex-1">
-            <p className="text-sm font-normal text-gray-800 mt-3"><Time_Ago date={para.date}/></p>
+            <p className="text-sm text-gray-800 mt-3"><Time_Ago date={para.date}/></p>
             <div className="flex flex-wrap">
         {para.topic_reference.map(topic => {
           return (
             <div key={topic.slug_of_topic}>
-            <Link href="/blogs/topic/self-help" passHref><p className="bg-pink-200 dark:bg-pink-800 p-1 ml-4 text-sm font-medium rounded-full text-center cursor-pointer mt-2 px-auto">{topic.topic_name}</p></Link>
+            <Link href="/blogs/topic/self-help" passHref><p className="bg-pink-200 dark:bg-pink-800 p-1 ml-4 text-sm rounded-full text-center cursor-pointer mt-2 px-auto">{topic.topic_name}</p></Link>
           </div>
           )
         })}

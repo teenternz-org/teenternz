@@ -4,10 +4,10 @@ import React from 'react';
 class Footer extends React.Component {
   render() {
   return (
-    <div className="bg-gray-900 mt-36">
+    <div className="bg-gray-900">
       <div className="grid grid-cols-5">
         <div className="mx-6 md:block hidden">
-          <img src="/img/footer.svg" className="h-36 w-36" alt="" />
+          <img src="/img/footer.svg" className="h-24 w-24" alt="" />
         </div>
         <div className=" md:col-span-4 col-span-5 md:flex hidden flex-1 md:pt-0 my-auto md:space-x-6 justify-center md:justify-end mx-16">
           <Link href="/about" passHref><div className="text-base p-2 text-white font-normal cursor-pointer">About Us</div></Link>
@@ -28,9 +28,9 @@ class Footer extends React.Component {
       </div>
       <div className="grid grid-cols-2">
         <div className="mx-6 md:hidden block">
-          <img src="/img/footer.svg" className="h-32 w-32" alt="" />
+          <img src="/img/footer.svg" className="h-24 w-24" alt="" />
         </div>
-        <div className="flex md:hidden ml-auto mr-12 flex-col space-y-2 my-8">
+        <div className="flex md:hidden ml-auto mr-12 flex-col space-y-2 my-6">
           <Link href="/about" passHref><div className="text-white cursor-pointer font-normal">About Us</div></Link>
           <Link href="/career" passHref><div className="text-white cursor-pointer font-normal">Career</div></Link>
           </div>

@@ -15,24 +15,24 @@ class Navbar extends Component {
     return (
       <>
       <div className="mt-0 shadow flex bg-gradient-to-tr from-gray-900 via-blue-900 to-gray-900 sticky top-0 flex-1 md:px-12 px-6 py-4 md:py-4">
-        <Link href="/" passHref><div onClick={this.state.active ? this.handleClick: this.state.active} className="font-bold text-3xl text-white hover:scale-110 transition-transform cursor-pointer">Teenternz</div></Link>
+        <Link href="/" passHref><div onClick={this.state.active ? this.handleClick: this.state.active} className="font-bold text-3xl -my-2 text-white hover:scale-110 transition-transform cursor-pointer">Teenternz</div></Link>
         <div className="hidden md:flex ml-10 space-x-4">
         </div>
 
         <div className="space-x-8 hidden flex-1 sm:flex justify-end">
-        <Link href="/internships" passHref><div className="text-base text-white hover:scale-110 transition-transform p-2 font-normal hover:font-semibold cursor-pointer">Internships</div></Link>
-          <Link href="/events" passHref><div className="text-base p-2 text-white hover:scale-110 transition-transform font-normal hover:font-semibold cursor-pointer">Events</div></Link>
-          <Link href="/blog" passHref><div className="text-base p-2 font-normal text-white hover:scale-110 transition-transform hover:font-semibold cursor-pointer">Blog</div></Link>
-          <Link href="/services" passHref><div className="text-base p-2 hover:font-semibold font-normal text-white hover:scale-110 transition-transform cursor-pointer">Services</div></Link>
+        <Link href="/internships" passHref><div className="text-base text-white hover:scale-110 transition-transform  font-normal hover:font-semibold cursor-pointer">Internships</div></Link>
+          <Link href="/events" passHref><div className="text-base  text-white hover:scale-110 transition-transform font-normal hover:font-semibold cursor-pointer">Events</div></Link>
+          <Link href="/blog" passHref><div className="text-base  font-normal text-white hover:scale-110 transition-transform hover:font-semibold cursor-pointer">Blog</div></Link>
+          <Link href="/services" passHref><div className="text-base  hover:font-semibold font-normal text-white hover:scale-110 transition-transform cursor-pointer">Services</div></Link>
     
         </div>
     
 
         
-        <div className="ml-auto mr-10 sm:mr-0 sm:ml-4 md:ml-6 py-1 mt-1" onClick={this.state.active ? this.handleClick: this.state.inactive}>
+        <div className="ml-auto mr-10 sm:mr-0 sm:ml-4 md:ml-6" onClick={this.state.active ? this.handleClick: this.state.inactive}>
         <ThemeSwitcher />
         </div>
-        <div className="text-white py-1 mx-2 sm:hidden cursor-pointer menu-icon" onClick={this.handleClick}>
+        <div className="text-white mx-2 sm:hidden cursor-pointer menu-icon" onClick={this.handleClick}>
           { 
           this.state.active ?
           <svg xmlns="http://www.w3.org/2000/svg" className="sm:hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">

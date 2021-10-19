@@ -1,7 +1,6 @@
 import '../styles/globals.css'
 import TimeAgo from 'javascript-time-ago'
 import en from 'javascript-time-ago/locale/en'
-import '../styles/Navbar.css'
 import MainLayout from '../layouts/mainLayout'
 import { ThemeProvider } from 'next-themes'
 

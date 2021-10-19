@@ -177,7 +177,7 @@ const Career = () => {
               - Software Developer Intern
             </div>
         </div>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZ2-9cyqHvyp5HwHrqv-RvmBjSRWJav_sofKA8rP1mkaRPBg/viewform" target="_blank" rel="noreferrer"><button className="bg-blue-500 text-white rounded-lg font-medium hover:scale-110 hover:shadow-xl hover:font-semibold transition-transform cursor-pointer mx-24 mt-8 shadow-md text-base p-2">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZ2-9cyqHvyp5HwHrqv-RvmBjSRWJav_sofKA8rP1mkaRPBg/viewform" target="_blank" rel="noreferrer"><button className="bg-gradient-to-br from-pink-400 to-yellow-400 text-black rounded-lg font-medium hover:scale-110 hover:shadow-xl transition-transform cursor-pointer mx-24 mt-8 shadow-md text-base p-2">
           Apply
         </button></a>
       </div>

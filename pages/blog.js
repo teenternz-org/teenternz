@@ -6,7 +6,7 @@ import { gql, GraphQLClient } from 'graphql-request'
 
 export default function Blog({ paras, topics, rankedparas }) {
   return (
-    <div className="mt-8">
+    <>
       <Head>
         <title>Blog</title>
         <link rel="icon" href="/favicon.ico" />
@@ -113,7 +113,7 @@ export default function Blog({ paras, topics, rankedparas }) {
     </div>
     </div>
     
-    </div>
+    </>
   )
 }
 

@@ -33,7 +33,7 @@ const Navbar = () => {
 
   return (
     <div className="relative">
-    <div className={ navbarBlur ? 'mt-0 shadow flex backdrop-blur-lg w-full fixed top-0 flex-1 md:px-12 px-6 py-4 md:py-4' : 'mt-0 flex w-full fixed top-0 flex-1 md:px-12 px-6 py-4 md:py-4'}>
+    <div className={ navbarBlur ? 'mt-0 shadow flex backdrop-blur-lg dark:backdrop-brightness-50 backdrop-brightness-90 w-full fixed top-0 flex-1 md:px-12 px-6 py-4 md:py-4' : 'mt-0 flex w-full fixed top-0 flex-1 md:px-12 px-6 py-4 md:py-4'}>
         <Link href="/" passHref><div onClick={ active ? handleClose : active } className={ navbarBlur ? 'font-bold text-3xl -my-2 hover:scale-110 transition-transform cursor-pointer' : 'font-bold text-3xl -my-2 hover:scale-110 transition-transform cursor-pointer'}>Teenternz</div></Link>
         <div className="hidden md:flex ml-10 space-x-4">
         </div>
@@ -75,7 +75,7 @@ const Navbar = () => {
         </div>
         
         { active ? 
-      <div className="inset-0 navback h-screen backdrop-blur-md fixed" onClick={handleClose}>
+      <div className="inset-0 navback h-screen backdrop-blur-md backdrop-brightness-50 fixed" onClick={handleClose}>
             <div className="dark:bg-gray-900 bg-gray-300 h-screen fixed p-10 w-max">
           <OutsideClickHandler onOutsideClick={() => {handleClose}}>
             <div className="text-base p-2 text-center dark:text-white font-normal cursor-pointer"><Link href="/internships"><a onClick={handleClick}>Internships</a></Link></div>

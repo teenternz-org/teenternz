@@ -64,10 +64,10 @@ const Navbar = () => {
       <div className="inset-0 navback h-screen backdrop-blur-md fixed" onClick={handleClose}>
             <div className="bg-gray-900 h-screen fixed p-10 w-max">
           <OutsideClickHandler onOutsideClick={() => {handleClose}}>
-            <div className="text-base p-2 text-center text-white font-normal cursor-pointer"><Link href="/    internships"><a onClick={handleClick}>Internships</a></Link></div>
-            <div className="text-base p-2 font-normal text-white text-center cursor-pointer"><Link href="/    events"><a onClick={handleClick}>Events</a></Link></div>
+            <div className="text-base p-2 text-center text-white font-normal cursor-pointer"><Link href="/internships"><a onClick={handleClick}>Internships</a></Link></div>
+            <div className="text-base p-2 font-normal text-white text-center cursor-pointer"><Link href="/events"><a onClick={handleClick}>Events</a></Link></div>
             <div className="text-base p-2 text-center text-white font-normal cursor-pointer"><Link href="/blog"><a    onClick={handleClick}>Blog</a></Link></div>
-            <div className="text-base p-2 text-center text-white font-normal cursor-pointer"><Link href="/    services"><a onClick={handleClick}>Services</a></Link></div>
+            <div className="text-base p-2 text-center text-white font-normal cursor-pointer"><Link href="/services"><a onClick={handleClick}>Services</a></Link></div>
             {/* Height Screen */}
             <div className="h-screen"></div>
           </OutsideClickHandler>

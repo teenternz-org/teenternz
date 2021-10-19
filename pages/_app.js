@@ -2,16 +2,16 @@ import '../styles/globals.css'
 import TimeAgo from 'javascript-time-ago'
 import en from 'javascript-time-ago/locale/en'
 import '../styles/Navbar.css'
-import Layout from '../components/layouts/layout'
+import MainLayout from '../components/layouts/mainLayout'
 import { ThemeProvider } from 'next-themes'
 TimeAgo.addDefaultLocale(en)
 
 function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider enableSystem={false} attribute="class">
-      <Layout>
+      <MainLayout>
         <Component {...pageProps} />
-      </Layout>
+      </MainLayout>
     </ThemeProvider>
   )
 }

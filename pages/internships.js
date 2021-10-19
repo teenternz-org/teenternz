@@ -34,7 +34,7 @@ export default function Internships({ internships, categories }) {
 				</div>
         </div>
 <div>
-<div className="hidden sm:block overflow-y-auto scrollbar-hide -mt-24 fixed h-80">
+<div className="hidden sm:block overflow-y-auto scrollbar-hide -mt-16 fixed h-80">
         <h1 className="text-2xl mb-2 font-medium ml-8">
            
             Categories

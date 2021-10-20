@@ -1,7 +1,6 @@
 import { useState } from "react"
 import { useTheme } from 'next-themes'
 import Link from "next/link"
-import OutsideClickHandler from 'react-outside-click-handler';
 
 const Navbar = () => {
 
@@ -74,18 +73,16 @@ const Navbar = () => {
         </div>
         
         { active ? 
-      <div className="inset-0 navback h-screen backdrop-blur-md backdrop-brightness-50 fixed" onClick={handleClose}>
+      <div className="inset-0 navback h-screen flex flex-col backdrop-blur-md backdrop-brightness-50 fixed">
             <div className="dark:bg-gray-900 bg-gray-300 h-screen fixed p-10 w-max">
-          <OutsideClickHandler onOutsideClick={() => {handleClose}}>
-            <div className="text-base p-2 text-center dark:text-white font-normal cursor-pointer"><Link href="/internships"><a onClick={handleClick}>Internships</a></Link></div>
-            <div className="text-base p-2 font-normal dark:text-white text-center cursor-pointer"><Link href="/events"><a onClick={handleClick}>Events</a></Link></div>
-            <div className="text-base p-2 text-center dark:text-white font-normal cursor-pointer"><Link href="/blog"><a    onClick={handleClick}>Blog</a></Link></div>
-            <div className="text-base p-2 text-center dark:text-white font-normal cursor-pointer"><Link href="/services"><a onClick={handleClick}>Services</a></Link></div>
+            <div className="text-base p-2 text-center dark:text-white font-normal cursor-pointer"><Link href="/internships"><a onClick={handleClose}>Internships</a></Link></div>
+            <div className="text-base p-2 font-normal dark:text-white text-center cursor-pointer"><Link href="/events"><a onClick={handleClose}>Events</a></Link></div>
+            <div className="text-base p-2 text-center dark:text-white font-normal cursor-pointer"><Link href="/blog"><a    onClick={handleClose}>Blog</a></Link></div>
+            <div className="text-base p-2 text-center dark:text-white font-normal cursor-pointer"><Link href="/services"><a onClick={handleClose}>Services</a></Link></div>
             {/* Height Screen */}
             <div className="h-screen"></div>
-          </OutsideClickHandler>
         </div>
-
+            <div className="h-screen" onClick={handleClose}></div>
       </div>
          : handleClose }
     </div>

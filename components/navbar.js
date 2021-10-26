@@ -38,7 +38,7 @@ const Navbar = () => {
         </div>
 
         <div className="space-x-8 hidden flex-1 sm:flex justify-end">
-          <Link href="/internships" passHref><div className="text-base hover:scale-110 transition-transform  font-normal hover:font-semibold cursor-pointer">Internships</div></Link>
+          <Link href="/opportunities" passHref><div className="text-base hover:scale-110 transition-transform  font-normal hover:font-semibold cursor-pointer">Opportunities</div></Link>
           <Link href="/events" passHref><div className="text-base hover:scale-110 transition-transform font-normal hover:font-semibold cursor-pointer">Events</div></Link>
           <Link href="/blog" passHref><div className="text-base  font-normal hover:scale-110 transition-transform hover:font-semibold cursor-pointer">Blog</div></Link>
           <Link href="/services" passHref><div className="text-base  hover:font-semibold font-normal hover:scale-110 transition-transform cursor-pointer">Services</div></Link>
@@ -75,10 +75,10 @@ const Navbar = () => {
       {active ?
         <div className="inset-0 navback h-screen flex flex-col backdrop-blur-md backdrop-brightness-50 fixed">
           <div className="dark:bg-gray-900 bg-gray-300 h-screen fixed p-10 w-max">
-            <div className="text-base p-2 text-center dark:text-white font-normal cursor-pointer"><Link href="/internships"><a onClick={handleClose}>Internships</a></Link></div>
-            <div className="text-base p-2 font-normal dark:text-white text-center cursor-pointer"><Link href="/events"><a onClick={handleClose}>Events</a></Link></div>
-            <div className="text-base p-2 text-center dark:text-white font-normal cursor-pointer"><Link href="/blog"><a onClick={handleClose}>Blog</a></Link></div>
-            <div className="text-base p-2 text-center dark:text-white font-normal cursor-pointer"><Link href="/services"><a onClick={handleClose}>Services</a></Link></div>
+            <div className="text-base p-2 dark:text-white font-normal cursor-pointer"><Link href="/opportunities"><a onClick={handleClose}>Opportunities</a></Link></div>
+            <div className="text-base p-2 font-normal dark:text-white cursor-pointer"><Link href="/events"><a onClick={handleClose}>Events</a></Link></div>
+            <div className="text-base p-2 dark:text-white font-normal cursor-pointer"><Link href="/blog"><a onClick={handleClose}>Blog</a></Link></div>
+            <div className="text-base p-2 dark:text-white font-normal cursor-pointer"><Link href="/services"><a onClick={handleClose}>Services</a></Link></div>
             {/* Height Screen */}
             <div className="h-screen"></div>
           </div>

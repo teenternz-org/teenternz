@@ -1,12 +1,12 @@
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 
-const MainLayout = ( { children }) => {
+const MainLayout = ({ children }) => {
   return (
     <>
       <Navbar />
       <div className="h-16"></div>
-      { children }
+      {children}
       <Footer />
     </>
   )

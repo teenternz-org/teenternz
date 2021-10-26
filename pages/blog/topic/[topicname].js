@@ -1,57 +1,65 @@
 import Link from 'next/link';
-import Blog_Subsection from '../../../components/blog-subsection'
 import Time_Ago from '../../../components/other/time-ago'
 import { gql, GraphQLClient } from 'graphql-request'
 
-export default function TopicName({ topic, topics, reverseparas }) {
+export default function TopicName({ topic, reverseparas }) {
   return (
-    <>
-      <h1 className="text-3xl max-w-max font-semibold md:ml-36 sm:ml-16 ml-8 my-8">
+    <div className="mb-36">
+      <div className="m-16 text-2xl font-medium">
         {topic.topic_name}
-      </h1>
-    <div className="grid grid-cols-3">
-    <div className="sm:col-span-2 divide-y-2 col-span-3">
+      </div>
+      <div className="grid grid-cols-6">
+        <div className="lg:col-span-4 divide-y-2 lg:col-start-2 col-start-1 col-span-6">
 
-    {
-        reverseparas.map(para => {
-          return (
-            <div key={para.id}>
-              <div className="flex flex-1 m-8 justify-center">
-        <div className="text-2xl font-semibold p-6 sm:w-2/3 w-full">
-            <p><Link href={'/blog/' + para.para_slug}><a>{para.title}</a></Link></p>
-            <p className="text-base font-light text-gray-800 mt-3"><Link href={'/blog/' + para.para_slug}><a>{para.para_first_25}</a></Link></p>
-            <div className="flex flex-1">
-            <p className="text-sm text-gray-800 mt-3"><Time_Ago date={para.date}/></p>
-            <div className="flex flex-wrap">
-        {para.topic_reference.map(topic => {
-          return (
-            <div key={topic.slug_of_topic}>
-            <Link href="/blogs/topic/self-help" passHref><p className="bg-pink-200 dark:bg-pink-800 p-1 ml-4 text-sm rounded-full text-center cursor-pointer mt-2 px-auto">{topic.topic_name}</p></Link>
-          </div>
-          )
-        })}
-        </div>
-        </div>
-        </div>
-        <div className="hidden sm:block">
-        <Link href="/blogs/how-to-find-your-passion"><a>
-          <img className="h-32 w-48 m-6 rounded-lg" src={para.pic.url} alt="" />
-          </a></Link>
-        </div>
-        </div>
-            </div>
-          )
-        }
-          )
-      } 
-    </div>
-    <div>
+          {
+            reverseparas.map(paras => {
+              return (
+                <div key={paras.id}>
+                  <div className="flex flex-col sm:flex-row justify-center">
+                    <div className="m-6 sm:hidden block rounded-md overflow-hidden">
+                      <Link href={"/blog/" + paras.para_slug}><a>
+                        <img src={paras.pic.url} alt="" />
+                      </a></Link>
+                    </div>
+                    <div className="hidden sm:block">
+                      <Link href={'/blog/' + paras.para_slug}><a>
+                        <img className="h-32 w-48 m-4 rounded-lg" src={paras.pic.url} alt="" />
+                      </a></Link>
+                    </div>
+                    <div className="text-2xl p-6 sm:w-2/3 w-full">
+                      <div className="font-semibold"><Link href={'/blog/' + paras.para_slug}><a>{paras.title}</a></Link></div>
+                      <p className="text-base sm:block hidden font-light text-gray-800 dark:text-gray-200 mt-3"><Link href={'/blog/' + paras.para_slug}><a>{paras.para_first_25}..</a></Link></p>
+                      <div className="flex mx-2 flex-1">
+                        <p className="text-sm text-gray-800 dark:text-gray-200 mt-3"><Time_Ago date={paras.date} /></p>
+                        <div className="flex flex-wrap">
+                          <Link href={'/blog/topic/' + paras.para_slug} passHref>
+                            <div className="flex flex-wrap">
+                              {
+                                paras.topic_reference.map(topic => {
+                                  return (
+                                    <div key={topic.slug_of_topic}>
+                                      <Link href={"/blog/topic/" + (topic.slug_of_topic)} passHref>
+                                        <p className="bg-pink-200 dark:bg-pink-800 p-1 ml-4 text-sm rounded-full text-center cursor-pointer mt-2 px-auto">
+                                          {topic.topic_name}
+                                        </p></Link>
+                                    </div>
+                                  )
+                                })}
+                            </div>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
 
-    <Blog_Subsection topics={topics} />
-      
+                  </div>
+                </div>
+              )
+            }
+            )
+          }
+        </div>
+      </div>
     </div>
-    </div>
-    </>
   )
 }
 
@@ -60,12 +68,12 @@ export async function getServerSideProps(pageContext) {
   const graphQLClient = new GraphQLClient(url, {
     headers: {
       authorization: process.env.GRAPH_CMS_TOKEN
-  }
-})
+    }
+  })
 
-const topicSlug = pageContext.query.topicname
+  const topicSlug = pageContext.query.topicname
 
-const topicQuery = gql`
+  const topicQuery = gql`
 query($topicSlug: String!) {
   topic(where: {slug_of_topic: $topicSlug}) {
     topic_name
@@ -85,28 +93,17 @@ query($topicSlug: String!) {
     }
   }
 }`
-const variables = {
-  topicSlug
-}
-
-const topicsQuery = gql`
-query {
-  topics {
-    topic_name
-    slug_of_topic
+  const variables = {
+    topicSlug
   }
-}`
 
-const topicdata = await graphQLClient.request(topicQuery, variables) 
-const topic = topicdata.topic
-const topicsdata = await graphQLClient.request(topicsQuery)
-const topics = topicsdata.topics
-const reverseparas = topic.paras.reverse()
-return { 
-  props: {
-    topic,
-    topics,
-    reverseparas
-}
-}
+  const topicdata = await graphQLClient.request(topicQuery, variables)
+  const topic = topicdata.topic
+  const reverseparas = topic.paras.reverse()
+  return {
+    props: {
+      topic,
+      reverseparas
+    }
+  }
 }

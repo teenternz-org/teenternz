@@ -19,10 +19,10 @@ export default function Internships({ opportunities }) {
             <div key={post.id}>
               <div className="m-4 grid grid-cols-2">
                 <div className="h-20 w-20 m-2 rounded-full overflow-hidden cursor-pointer">
-                  <Link href={"/opportunities/id/" + post.id} passHref><img src={"/opportunities/" + post.org_profile_url} alt="" /></Link>
+                  <Link href={"/opportunity/id/" + post.id} passHref><img src={"/opportunities/" + post.org_profile_url} alt="" /></Link>
                 </div>
                 <div className="m-2">
-                  <Link href={"/opportunities/id/" + post.id} passHref>
+                  <Link href={"/opportunity/id/" + post.id} passHref>
                     <p className="text-lg font-medium cursor-pointer">{post.position}</p></Link>
                   <h1 className="text-sm text-gray-800 dark:text-gray-200">{post.org_name}</h1>
                 </div>

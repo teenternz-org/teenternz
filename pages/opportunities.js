@@ -2,11 +2,11 @@ import Link from 'next/link'
 import Head from 'next/head'
 import { server } from '../components/url'
 
-export default function Internships({ opportunities }) {
+export default function Opportunities({ opportunities }) {
   return (
     <>
       <Head>
-        <title>Internships</title>
+        <title>Opportunities</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="m-16 text-2xl font-medium">

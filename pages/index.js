@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Head>
         <title>Teenternz</title>
-        <meta name="description" content="Platform to find remote internships and volunteer opportunities by NGOs" />
+        <meta name="description" content="Platform to find Volunteer Opportunities and Remote Internships by NGOs" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

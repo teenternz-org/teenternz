@@ -1,12 +1,25 @@
-.gredientAnimation {
+.gredientAnimationDark {
   transform: rotate(45deg);
   color:transparent;
   background: linear-gradient(270deg,#6fb2ff,#3fffdc,#8df840,#ff8181, #be6fff, #6fb2ff);
-  animation:rainbow 60s linear infinite;
+  animation:rainbowdark 60s linear infinite;
   background-size: 60% 100%;
   background-clip:text;
 }
-@keyframes rainbow{
+@keyframes rainbowdark{
+  0%{background-position-x:0}
+  to{background-position-x:10240px}
+}
+
+.gredientAnimationLight {
+  transform: rotate(45deg);
+  color:transparent;
+  background: linear-gradient(270deg,#2a71c2,#1dc9a9,#59b816,#b83535, #7025ad, #2a71c2);
+  animation:rainbowlight 60s linear infinite;
+  background-size: 60% 100%;
+  background-clip:text;
+}
+@keyframes rainbowlight{
   0%{background-position-x:0}
   to{background-position-x:10240px}
 }

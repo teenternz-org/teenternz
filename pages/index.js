@@ -12,14 +12,14 @@ export default function Home() {
       </Head>
 
       <div className="md:p-16 p-8 sm:my-24 my-10 align-middle justify-items-center">
-        <h1 className="font-extrabold text-4xl md:text-5xl dark:hidden block text-center">
+        <h1 className="font-bold text-4xl md:text-5xl dark:hidden block text-center">
           Platform to find <span className={styles.gredientAnimation}>Volunteer Opportunities and Remote Internships</span> by NGOs
         </h1>
-        <h1 className="font-extrabold text-4xl md:text-5xl dark:block hidden text-center">
+        <h1 className="font-bold text-4xl md:text-5xl dark:block hidden text-center">
           Platform to find <span className={styles.gredientAnimation}>Volunteer Opportunities and Remote Internships</span> by NGOs
         </h1>
         <div className="flex flex-1 justify-center">
-          <Link href="/opportunities" passHref><div className="bg-gradient-to-br from-pink-400 to-yellow-400 text-black font-medium rounded-lg hover:scale-110 hover:shadow-xl hover:font-medium transition-transform cursor-pointer shadow-md text-base py-2 px-4 my-14">Find</div></Link>
+          <Link href="/opportunities" passHref><div className="bg-gradient-to-br from-pink-400 to-yellow-400 text-black font-medium rounded-lg hover:scale-110 hover:shadow-xl hover:font-medium transition-transform cursor-pointer shadow-md text-base py-2 px-4 my-16">Find</div></Link>
         </div>
 
       </div>

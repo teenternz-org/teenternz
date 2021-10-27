@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className=" md:p-16 p-8 sm:my-24 my-16 align-middle justify-items-center">
+      <div className=" md:p-16 p-8 sm:my-24 my-8 align-middle justify-items-center">
         <h1 className="font-semibold md:text-5xl dark:hidden block text-center">
           Platform to find <span className={styles.gredientAnimation}>Volunteer Opportunities and Remote Internships</span> by NGOs
         </h1>

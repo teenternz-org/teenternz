@@ -13,10 +13,10 @@ export default function Home() {
 
       <div className=" md:p-16 p-8 sm:my-24 my-16 align-middle justify-items-center">
         <h1 className="font-bold md:text-5xl dark:hidden block text-center text-3xl sm:text-4xl">
-          Platform to find <span className={styles.gredientTextLight}>Volunteer Opportunities and Remote Internships</span> by NGOs
+          Platform to find <span className={styles.gredientAnimation}>Volunteer Opportunities and Remote Internships</span> by NGOs
         </h1>
         <h1 className="font-bold md:text-5xl dark:block hidden text-center text-3xl sm:text-4xl">
-          Platform to find <span className={styles.gredientTextDark}>Volunteer Opportunities and Remote Internships</span> by NGOs
+          Platform to find <span className={styles.gredientAnimation}>Volunteer Opportunities and Remote Internships</span> by NGOs
         </h1>
         <p className="font-normal text-center mt-4 mb-8 sm:text-lg">Teenternz helps Students find Volunteer Opportunites and Remote Internships from around the globe. Apart from that Students can find various resources such as articles, books.</p>
         <div className="flex flex-1 justify-center">

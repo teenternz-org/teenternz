@@ -50,7 +50,7 @@ export default function Org_Id({ post }) {
 export async function getServerSideProps(pageContext) {
   const response = await fetch(`${server}/api/opportunities`)
   const data = await response.json()
-  const post = data.filter(orgs => orgs.id == pageContext.query.orgid)
+  const post = data.filter(orgs => orgs.id == pageContext.query.postid)
 
   return {
     props: {

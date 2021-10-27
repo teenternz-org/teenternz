@@ -1,10 +1,12 @@
-.gredientTextLight {
-  background: linear-gradient(to right, #00aac0, #c200c2);
-  background-clip: text;
-  color:  transparent;
+.gredientAnimation {
+  transform: rotate(45deg);
+  color:transparent;
+  background: linear-gradient(270deg,#1e5799,#2ce0bf,#76dd2c,#dba62b,#ff1493,#1e5799);
+  animation:rainbow 40s linear infinite;
+  background-size: 60% 100%;
+  background-clip:text;
 }
-.gredientTextDark {
-  background: linear-gradient(to right, #25bbcf, #e022e0);
-  background-clip: text;
-  color:  transparent;
+@keyframes rainbow{
+  0%{background-position-x:0}
+  to{background-position-x:10240px}
 }

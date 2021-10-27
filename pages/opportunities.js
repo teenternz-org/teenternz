@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Head from 'next/head'
 import { server } from '../components/url'
+import Time_Ago from '../components/other/time-ago'
 
 export default function Opportunities({ opportunities }) {
   return (
@@ -25,6 +26,7 @@ export default function Opportunities({ opportunities }) {
                   <Link href={"/opportunity/id/" + post.id} passHref>
                     <p className="text-lg font-medium cursor-pointer">{post.position}</p></Link>
                   <h1 className="text-sm text-gray-800 dark:text-gray-200">{post.org_name}</h1>
+                  <div className="text-gray-800 dark:text-gray-200 text-sm"><Time_Ago date={post.date} /></div>
                 </div>
               </div>
             </div>

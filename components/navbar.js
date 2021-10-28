@@ -1,9 +1,10 @@
 import { useState } from "react"
 import { useTheme } from 'next-themes'
 import Link from "next/link"
+import { useRouter } from 'next/router'
 
 const Navbar = () => {
-
+  const router = useRouter()
   const { theme, setTheme } = useTheme()
   const [active, setActive] = useState(false)
   const [navbarBlur, setNavbarBlur] = useState(false)
@@ -29,7 +30,6 @@ const Navbar = () => {
     window.addEventListener('scroll', changeNavbarBlur)
   }
 
-
   return (
     <div className="relative">
       <div className={navbarBlur ? 'mt-0 flex backdrop-blur-lg dark:backdrop-brightness-50 backdrop-brightness-90 w-full fixed top-0 flex-1 md:px-12 px-6 py-4 md:py-4' : 'mt-0 flex w-full fixed top-0 flex-1 md:px-12 px-6 py-4 md:py-4'}>
@@ -38,10 +38,10 @@ const Navbar = () => {
         </div>
 
         <div className="space-x-8 hidden flex-1 sm:flex justify-end">
-          <Link href="/opportunities" passHref><div className="text-base hover:scale-110 transition-transform  font-normal hover:font-semibold cursor-pointer">Opportunities</div></Link>
-          <Link href="/events" passHref><div className="text-base hover:scale-110 transition-transform font-normal hover:font-semibold cursor-pointer">Events</div></Link>
-          <Link href="/blog" passHref><div className="text-base  font-normal hover:scale-110 transition-transform hover:font-semibold cursor-pointer">Blog</div></Link>
-          <Link href="/services" passHref><div className="text-base  hover:font-semibold font-normal hover:scale-110 transition-transform cursor-pointer">Services</div></Link>
+          <Link href="/opportunities" passHref><div className={router.pathname == "/opportunities" ? "text-base hover:scale-110 transition-transform hover:font-semibold dark:text-pink-300 underline text-pink-700 font-bold cursor-pointer" : "text-base hover:scale-110 transition-transform hover:font-semibold font-normal cursor-pointer"}>Opportunities</div></Link>
+          <Link href="/events" passHref><div className={router.pathname == "/events" ? "text-base hover:scale-110 transition-transform hover:font-semibold dark:text-pink-300 underline text-pink-700 font-bold cursor-pointer" : "text-base hover:scale-110 transition-transform hover:font-semibold font-normal cursor-pointer"}>Events</div></Link>
+          <Link href="/blog" passHref><div className={router.pathname == "/blog" ? "text-base hover:scale-110 transition-transform hover:font-semibold dark:text-pink-300 underline text-pink-700 font-bold cursor-pointer" : "text-base hover:scale-110 transition-transform hover:font-semibold font-normal cursor-pointer"}>Blog</div></Link>
+          <Link href="/services" passHref><div className={router.pathname == "/services" ? "text-base hover:scale-110 transition-transform hover:font-semibold dark:text-pink-300 underline text-pink-700 font-bold cursor-pointer" : "text-base hover:scale-110 transition-transform hover:font-semibold font-normal cursor-pointer"}>Services</div></Link>
         </div>
         <div className="sm:hidden cursor-pointer menu-icon" onClick={active ? handleClose : handleClick}>
           {

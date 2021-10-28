@@ -1,25 +1,25 @@
-.gredientAnimationDark {
+.gredientAnimationdarkVO {
   transform: rotate(45deg);
   color:transparent;
-  background: linear-gradient(270deg,#6fb2ff,#3fffdc,#8df840,#ff8181, #be6fff, #6fb2ff);
-  animation:rainbowdark 60s linear infinite;
+  background: linear-gradient(270deg,#6fb2ff,#4eb2f5,#5cf4ff,#81ffe0, #94fd74, #6fb2ff);
+  animation:rainbowdarkvo 60s linear infinite;
   background-size: 60% 100%;
   background-clip:text;
 }
-@keyframes rainbowdark{
+@keyframes rainbowdarkvo{
   0%{background-position-x:0}
   to{background-position-x:10240px}
 }
 
-.gredientAnimationLight {
+.gredientAnimationdarkRI {
   transform: rotate(45deg);
   color:transparent;
-  background: linear-gradient(270deg,#2a71c2,#1dc9a9,#59b816,#b83535, #7025ad, #2a71c2);
-  animation:rainbowlight 60s linear infinite;
+  background: linear-gradient(270deg,#f86b9a,#ff69cd,#ee3bdf,#be3ecf, #ab6bff, #f86b9a);
+  animation:rainbowdarkri 80s linear infinite;
   background-size: 60% 100%;
   background-clip:text;
 }
-@keyframes rainbowlight{
+@keyframes rainbowdarkri{
   0%{background-position-x:0}
   to{background-position-x:10240px}
 }

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
+import { FcSearch } from 'react-icons/fc'
 
 export default function Home() {
   return (
@@ -11,15 +12,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="md:p-16 p-8 sm:my-24 my-10 align-middle justify-items-center">
+      <div className="md:p-16 p-8 sm:my-24 my-14 align-middle justify-items-center">
         <h1 className="font-bold text-4xl md:text-5xl dark:hidden block text-center">
-          Platform to find <span className={styles.gredientAnimationLight}>Volunteer Opportunities and Remote Internships</span> by NGOs
+          Explore <span className={styles.gredientAnimationLight}>Volunteer Opportunities</span> and <span className={styles.gredientAnimationLight}>Remote Internships</span> by NGOs
         </h1>
         <h1 className="font-bold text-4xl md:text-5xl dark:block hidden text-center">
-          Platform to find <span className={styles.gredientAnimationDark}>Volunteer Opportunities and Remote Internships</span> by NGOs
+          Explore <span className={styles.gredientAnimationdarkVO}>Volunteer Opportunities</span> and <span className={styles.gredientAnimationdarkRI}>Remote Internships</span> by NGOs
         </h1>
         <div className="flex flex-1 justify-center">
-          <Link href="/opportunities" passHref><div className="bg-gradient-to-br from-pink-400 to-yellow-400 text-black font-medium rounded-lg hover:scale-110 hover:shadow-xl hover:font-medium transition-transform cursor-pointer shadow-md text-base py-2 px-4 my-16">Find</div></Link>
+          <Link href="/opportunities" passHref><div className="hover:scale-110  transition-transform cursor-pointer p-8 my-16"><FcSearch size="70" /></div></Link>
         </div>
 
       </div>

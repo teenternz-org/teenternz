@@ -18,7 +18,7 @@
 .gredientAnimationlightVO {
   transform: rotate(45deg);
   color:transparent;
-  background: linear-gradient(270deg,#3a79c2,#2073aa,#29abb4,#27bd97, #439b28, #3a79c2);
+  background: linear-gradient(270deg,#3a79c2,#2073aa,#149099,#108f49, #348d19, #3a79c2);
   animation:colours 60s linear infinite;
   background-size: 60% 100%;
   background-clip:text;
@@ -26,7 +26,7 @@
 .gredientAnimationlightRI {
   transform: rotate(45deg);
   color:transparent;
-  background: linear-gradient(270deg,#bd3965,#c03b94,#b61da9,#b027c2, #6226b1, #bd3965);
+  background: linear-gradient(270deg,#af6432,#a73131,#b8354a,#901994, #6323b6, #af6432);
   animation:colours 80s linear infinite;
   background-size: 60% 100%;
   background-clip:text;

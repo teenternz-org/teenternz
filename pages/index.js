@@ -20,7 +20,7 @@ export default function Home() {
           Explore <span className={styles.gredientAnimationdarkVO}>Volunteer Opportunities</span> and <span className={styles.gredientAnimationdarkRI}>Remote Internships</span> by NGOs
         </h1>
         <div className="flex flex-1 justify-center">
-          <Link href="/opportunities" passHref><div className="hover:scale-110 drop-shadow-md filter transition-transform cursor-pointer p-8 my-16"><FcSearch size="50" /></div></Link>
+          <Link href="/opportunities" passHref><div className="hover:scale-110 transition-transform cursor-pointer p-8 my-16"><FcSearch size="50" /></div></Link>
         </div>
 
       </div>

@@ -9,7 +9,7 @@
 .gredientAnimationdarkRI {
   transform: rotate(45deg);
   color:transparent;
-  background: linear-gradient(270deg,#f86b9a,#ff69cd,#ee3bdf,#be3ecf, #ab6bff, #f86b9a);
+  background: linear-gradient(270deg,#ffbc8f,#ff7c7c,#ff6d85,#fa5eff, #b47aff, #ffbc8f);
   animation:colours 80s linear infinite;
   background-size: 60% 100%;
   background-clip:text;

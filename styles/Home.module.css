@@ -1,7 +1,7 @@
 .gredientAnimationdarkVO {
   transform: rotate(45deg);
   color:transparent;
-  background: linear-gradient(270deg,#6fb2ff,#4eb2f5,#5cf4ff,#81ffe0, #94fd74, #6fb2ff);
+  background: linear-gradient(270deg,#6db1ff,#56bafc,#54f4ff,#50ff9f, #7dff56, #6db1ff);
   animation:colours 60s linear infinite;
   background-size: 60% 100%;
   background-clip:text;

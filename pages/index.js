@@ -14,7 +14,7 @@ export default function Home() {
 
       <div className="md:p-16 p-8 sm:my-24 my-14 align-middle justify-items-center">
         <h1 className="font-bold text-4xl md:text-5xl dark:hidden block text-center">
-          Explore <span className={styles.gredientAnimationLight}>Volunteer Opportunities</span> and <span className={styles.gredientAnimationLight}>Remote Internships</span> by NGOs
+          Explore <span className={styles.gredientAnimationlightVO}>Volunteer Opportunities</span> and <span className={styles.gredientAnimationlightRI}>Remote Internships</span> by NGOs
         </h1>
         <h1 className="font-bold text-4xl md:text-5xl dark:block hidden text-center">
           Explore <span className={styles.gredientAnimationdarkVO}>Volunteer Opportunities</span> and <span className={styles.gredientAnimationdarkRI}>Remote Internships</span> by NGOs

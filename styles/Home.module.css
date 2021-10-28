@@ -2,24 +2,36 @@
   transform: rotate(45deg);
   color:transparent;
   background: linear-gradient(270deg,#6fb2ff,#4eb2f5,#5cf4ff,#81ffe0, #94fd74, #6fb2ff);
-  animation:rainbowdarkvo 60s linear infinite;
+  animation:colours 60s linear infinite;
   background-size: 60% 100%;
   background-clip:text;
 }
-@keyframes rainbowdarkvo{
-  0%{background-position-x:0}
-  to{background-position-x:10240px}
-}
-
 .gredientAnimationdarkRI {
   transform: rotate(45deg);
   color:transparent;
   background: linear-gradient(270deg,#f86b9a,#ff69cd,#ee3bdf,#be3ecf, #ab6bff, #f86b9a);
-  animation:rainbowdarkri 80s linear infinite;
+  animation:colours 80s linear infinite;
   background-size: 60% 100%;
   background-clip:text;
 }
-@keyframes rainbowdarkri{
+
+.gredientAnimationlightVO {
+  transform: rotate(45deg);
+  color:transparent;
+  background: linear-gradient(270deg,#3a79c2,#2073aa,#29abb4,#27bd97, #439b28, #3a79c2);
+  animation:colours 60s linear infinite;
+  background-size: 60% 100%;
+  background-clip:text;
+}
+.gredientAnimationlightRI {
+  transform: rotate(45deg);
+  color:transparent;
+  background: linear-gradient(270deg,#bd3965,#c03b94,#b61da9,#b027c2, #6226b1, #bd3965);
+  animation:colours 80s linear infinite;
+  background-size: 60% 100%;
+  background-clip:text;
+}
+@keyframes colours{
   0%{background-position-x:0}
   to{background-position-x:10240px}
 }

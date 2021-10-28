@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="md:p-16 p-8 sm:my-24 my-14 align-middle justify-items-center">
+      <div className="md:p-16 p-8 sm:my-28 my-16 align-middle justify-items-center">
         <h1 className="font-bold text-4xl md:text-5xl dark:hidden block text-center">
           Explore <span className={styles.gredientAnimationlightVO}>Volunteer Opportunities</span> and <span className={styles.gredientAnimationlightRI}>Remote Internships</span> by NGOs
         </h1>
@@ -20,7 +20,7 @@ export default function Home() {
           Explore <span className={styles.gredientAnimationdarkVO}>Volunteer Opportunities</span> and <span className={styles.gredientAnimationdarkRI}>Remote Internships</span> by NGOs
         </h1>
         <div className="flex flex-1 justify-center">
-          <Link href="/opportunities" passHref><div className="hover:scale-110  transition-transform cursor-pointer p-8 my-16"><FcSearch size="50" /></div></Link>
+          <Link href="/opportunities" passHref><div className="hover:scale-110 drop-shadow-md filter transition-transform cursor-pointer p-8 my-16"><FcSearch size="50" /></div></Link>
         </div>
 
       </div>

@@ -26,7 +26,7 @@ export default function Home() {
       </div>
       <h1 className="md:text-3xl text-2xl text-center mb-12 font-medium pt-6" id="#explore">What we Offer?</h1>
 
-      <div className="md:mx-16 mx-4 grid sm:grid-cols-2 space-x-8 grid-cols-1">
+      <div className="md:mx-16 mx-4 grid sm:grid-cols-2 sm:space-x-8 grid-cols-1">
 
         <div className="my-14">
           <svg
@@ -168,7 +168,7 @@ export default function Home() {
         </div>
         <div><p className="md:text-xl my-14 md:py-8 sm:py-6 lg:py-28 text-lg text-center">Teenternz provides internships for students, young professionals and young entrepreneurs. We have a large network of NGOs and Non-profit organisations who are willing to offer internships to our students.</p></div>
 
-        <div><p className="md:text-xl my-14 md:py-8 sm:py-6 lg:py-20 text-lg text-center">We bring young achievers in our events, where you can watch them and ask your questions. These events are open to all, and we are always looking for new events to add.</p></div>
+        <div><p className="md:text-xl my-14 md:py-8 sm:py-6 lg:py-20 text-lg text-center ml-0">We bring young achievers in our events, where you can watch them and ask your questions. These events are open to all, and we are always looking for new events to add.</p></div>
         <div className="row-start-3 my-14 sm:col-start-2 sm:row-start-2">
           <svg
             data-name="Layer 1"

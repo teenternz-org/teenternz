@@ -75,10 +75,10 @@ const Navbar = () => {
       {active ?
         <div className="inset-0 navback h-screen flex flex-col backdrop-blur-md backdrop-brightness-50 fixed">
           <div className="dark:bg-gray-900 bg-gray-300 h-screen fixed p-10 w-max">
-            <div className="text-base p-2 dark:text-white font-normal cursor-pointer"><Link href="/opportunities"><a onClick={handleClose}>Opportunities</a></Link></div>
-            <div className="text-base p-2 font-normal dark:text-white cursor-pointer"><Link href="/events"><a onClick={handleClose}>Events</a></Link></div>
-            <div className="text-base p-2 dark:text-white font-normal cursor-pointer"><Link href="/blog"><a onClick={handleClose}>Blog</a></Link></div>
-            <div className="text-base p-2 dark:text-white font-normal cursor-pointer"><Link href="/services"><a onClick={handleClose}>Services</a></Link></div>
+            <div className={router.pathname == "/opportunities" ? "text-base p-2 dark:text-pink-300 text-pink-700 underline font-normal cursor-pointer" : "text-base p-2 dark:text-white font-normal cursor-pointer"}><Link href="/opportunities"><a onClick={handleClose}>Opportunities</a></Link></div>
+            <div className={router.pathname == "/events" ? "text-base p-2 dark:text-pink-300 text-pink-700 underline font-normal cursor-pointer" : "text-base p-2 dark:text-white font-normal cursor-pointer"}><Link href="/events"><a onClick={handleClose}>Events</a></Link></div>
+            <div className={router.pathname == "/blog" ? "text-base p-2 dark:text-pink-300 text-pink-700 underline font-normal cursor-pointer" : "text-base p-2 dark:text-white font-normal cursor-pointer"}><Link href="/blog"><a onClick={handleClose}>Blog</a></Link></div>
+            <div className={router.pathname == "/services" ? "text-base p-2 dark:text-pink-300 text-pink-700 underline font-normal cursor-pointer" : "text-base p-2 dark:text-white font-normal cursor-pointer"}><Link href="/services"><a onClick={handleClose}>Services</a></Link></div>
             {/* Height Screen */}
             <div className="h-screen"></div>
           </div>

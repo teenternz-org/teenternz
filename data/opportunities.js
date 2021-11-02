@@ -1,5 +1,19 @@
 export const posts = [
   {
+    id: 87,
+    position: "Content Creator",
+    date: "2021-11-02",
+    responsibilities: "Not found.",
+    skills: "Comfortable with Canva for Insta posts, Comfortable with showing their faces for reels",
+    org_profile_url: "edify.png",
+    org_name: "Edify",
+    publisher_name: "Edify’s Team",
+    publisher_position: "The team",
+    links: [{ link1: "https://instagram.com/_.edify._" }, { link2: "https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=edify.org101@gmail.com&hl=en" },],
+    about: "Edify is a youth run non profit organization, aiming to induce conversations on tabooed subjects through educating underprivileged children. Providing them knowledge about their own bodies and minds such that they make more informed decisions in their lives can make a huge impact on their future as well as lifestyle. The various  topics included in our curriculum are menstruation, gender equality and puberty. We further plan to work on mental health and sex education as well. By inculcating games into the content we have added the flavour of fun for teaching the kids. Thus, ensuring longer retention and positive association with the subject. We believe that schools are not doing a good job with eradicating stereotypes. Thus, we, along with Sitaara, our sister organization have taken up the responsibility to do so. We have already organized various workshops with them. We also aim to spread knowledge by taking to our Instagram and posting informative content , advocating more on these subjects. And to make this a success we need volunteers as well as tutors.But why volunteer at Edify? •EDUCATE: As stated previously, legit education isn't available for many, let's take the initiative and turn the situation around! •ENLIGHTEN: On one hand, there are many who aren't aware of the fact that education on tabooed topics is required, and on the other, many believe that it isn't required. It is our responsibility as citizens to eradicate this ethos. •IMPROVE: Nobody's perfect, we aren't either. There's a lot of room for improvement. You can contribute by educating, researching etc. This will also help sharpen your skills and knowledge. •INSPIRE: By volunteering, you encourage others to volunteer for a good cause. We don't just tell stories, we change lives (Dhar mann ;)) Besides, volunteering also carries weightage in college and work resumes. And edify seems to be the near perfect place for that. Volunteers at edify are extremely kind and cooperative, no doubt you'll have fun! Edify is growing and so are we as humans! Take the initiative and construct a better society for the needy, thank you!",
+    apply_url: "https://forms.gle/cwuf211oHMFX7Hsd7"
+  },
+  {
     id: 86,
     position: "Executive Assistant",
     date: "2021-10-26",

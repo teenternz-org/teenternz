@@ -38,10 +38,10 @@ const Navbar = () => {
         </div>
 
         <div className="space-x-8 hidden flex-1 sm:flex justify-end">
-          <Link href="/opportunities" passHref><div className={router.pathname == "/opportunities" ? "text-base hover:scale-110 transition-transform hover:font-semibold dark:text-pink-300 underline text-pink-700 font-bold cursor-pointer" : "text-base hover:scale-110 transition-transform hover:font-semibold font-normal cursor-pointer"}>Opportunities</div></Link>
-          <Link href="/events" passHref><div className={router.pathname == "/events" ? "text-base hover:scale-110 transition-transform hover:font-semibold dark:text-pink-300 underline text-pink-700 font-bold cursor-pointer" : "text-base hover:scale-110 transition-transform hover:font-semibold font-normal cursor-pointer"}>Events</div></Link>
-          <Link href="/blog" passHref><div className={router.pathname == "/blog" ? "text-base hover:scale-110 transition-transform hover:font-semibold dark:text-pink-300 underline text-pink-700 font-bold cursor-pointer" : "text-base hover:scale-110 transition-transform hover:font-semibold font-normal cursor-pointer"}>Blog</div></Link>
-          <Link href="/services" passHref><div className={router.pathname == "/services" ? "text-base hover:scale-110 transition-transform hover:font-semibold dark:text-pink-300 underline text-pink-700 font-bold cursor-pointer" : "text-base hover:scale-110 transition-transform hover:font-semibold font-normal cursor-pointer"}>Services</div></Link>
+          <Link href="/opportunities" passHref><div className={router.pathname == "/opportunities" ? "text-base hover:scale-110 transition-transform hover:font-semibold dark:text-blue-300 underline text-blue-900 font-bold cursor-pointer" : "text-base hover:scale-110 transition-transform hover:font-semibold font-normal cursor-pointer"}>Opportunities</div></Link>
+          <Link href="/events" passHref><div className={router.pathname == "/events" ? "text-base hover:scale-110 transition-transform hover:font-semibold dark:text-blue-300 underline text-blue-900 font-bold cursor-pointer" : "text-base hover:scale-110 transition-transform hover:font-semibold font-normal cursor-pointer"}>Events</div></Link>
+          <Link href="/blog" passHref><div className={router.pathname == "/blog" ? "text-base hover:scale-110 transition-transform hover:font-semibold dark:text-blue-300 underline text-blue-900 font-bold cursor-pointer" : "text-base hover:scale-110 transition-transform hover:font-semibold font-normal cursor-pointer"}>Blog</div></Link>
+          <Link href="/services" passHref><div className={router.pathname == "/services" ? "text-base hover:scale-110 transition-transform hover:font-semibold dark:text-blue-300 underline text-blue-900 font-bold cursor-pointer" : "text-base hover:scale-110 transition-transform hover:font-semibold font-normal cursor-pointer"}>Services</div></Link>
         </div>
         <div className="sm:hidden cursor-pointer menu-icon" onClick={active ? handleClose : handleClick}>
           {
@@ -74,11 +74,11 @@ const Navbar = () => {
 
       {active ?
         <div className="inset-0 navback h-screen flex flex-col backdrop-blur-md backdrop-brightness-50 fixed">
-          <div className="dark:bg-gray-900 bg-gray-300 h-screen fixed p-10 w-max">
-            <div className={router.pathname == "/opportunities" ? "text-base p-2 dark:text-pink-300 text-pink-700 underline font-normal cursor-pointer" : "text-base p-2 dark:text-white font-normal cursor-pointer"}><Link href="/opportunities"><a onClick={handleClose}>Opportunities</a></Link></div>
-            <div className={router.pathname == "/events" ? "text-base p-2 dark:text-pink-300 text-pink-700 underline font-normal cursor-pointer" : "text-base p-2 dark:text-white font-normal cursor-pointer"}><Link href="/events"><a onClick={handleClose}>Events</a></Link></div>
-            <div className={router.pathname == "/blog" ? "text-base p-2 dark:text-pink-300 text-pink-700 underline font-normal cursor-pointer" : "text-base p-2 dark:text-white font-normal cursor-pointer"}><Link href="/blog"><a onClick={handleClose}>Blog</a></Link></div>
-            <div className={router.pathname == "/services" ? "text-base p-2 dark:text-pink-300 text-pink-700 underline font-normal cursor-pointer" : "text-base p-2 dark:text-white font-normal cursor-pointer"}><Link href="/services"><a onClick={handleClose}>Services</a></Link></div>
+          <div className="dark:bg-bgcolor-dark bg-bgcolor-light h-screen fixed p-10 w-max">
+            <div className={router.pathname == "/opportunities" ? "text-base p-2 dark:text-blue-300 text-blue-900 underline font-normal cursor-pointer" : "text-base p-2  font-normal cursor-pointer"}><Link href="/opportunities"><a onClick={handleClose}>Opportunities</a></Link></div>
+            <div className={router.pathname == "/events" ? "text-base p-2 dark:text-blue-300 text-blue-900 underline font-normal cursor-pointer" : "text-base p-2  font-normal cursor-pointer"}><Link href="/events"><a onClick={handleClose}>Events</a></Link></div>
+            <div className={router.pathname == "/blog" ? "text-base p-2 dark:text-blue-300 text-blue-900 underline font-normal cursor-pointer" : "text-base p-2  font-normal cursor-pointer"}><Link href="/blog"><a onClick={handleClose}>Blog</a></Link></div>
+            <div className={router.pathname == "/services" ? "text-base p-2 dark:text-blue-300 text-blue-900 underline font-normal cursor-pointer" : "text-base p-2  font-normal cursor-pointer"}><Link href="/services"><a onClick={handleClose}>Services</a></Link></div>
             {/* Height Screen */}
             <div className="h-screen"></div>
           </div>

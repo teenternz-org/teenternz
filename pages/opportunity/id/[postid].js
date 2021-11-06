@@ -23,7 +23,7 @@ export default function Org_Id({ post }) {
             <p className="mx-12 md:mx-20 my-6">{post.skills}</p>
             <div className="font-medium mx-14">About:</div>
             <p className="mx-12 md:mx-20 my-6">{post.about}</p>
-            <button className="mx-4 md:mx-24 bg-purple-200 dark:bg-purple-800 p-2 my-4 rounded-md shadow-md">
+            <button className="mx-4 md:mx-24 bg-blue-300 dark:bg-blue-800 p-2 my-4 rounded-md shadow-md">
               <a href={post.apply_url} rel="noreferrer" target="_blank">
                 Apply</a>
             </button>

@@ -7,7 +7,7 @@ const Services = () => {
         <title>Services</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="md:mx-16 mx-4 grid sm:grid-cols-2 space-x-8 grid-cols-1">
+      <div className="md:mx-16 mx-4 grid sm:grid-cols-2 sm:space-x-8 grid-cols-1">
 
         <div className="my-14">
           <svg

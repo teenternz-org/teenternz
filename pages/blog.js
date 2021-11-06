@@ -37,7 +37,7 @@ export default function Blog({ paras, rankedparas }) {
                                 return (
                                   <div key={topic.slug_of_topic}>
                                     <Link href={"/blog/topic/" + (topic.slug_of_topic)} passHref>
-                                      <p className="bg-pink-200 dark:bg-pink-800 p-1 ml-4 text-sm rounded-full text-center cursor-pointer mt-2 px-auto">
+                                      <p className="bg-blue-300 dark:bg-blue-800 p-1 ml-4 text-sm rounded-full text-center cursor-pointer mt-2 px-auto">
                                         {topic.topic_name}
                                       </p></Link>
                                   </div>
@@ -86,7 +86,7 @@ export default function Blog({ paras, rankedparas }) {
                                   return (
                                     <div key={topic.slug_of_topic}>
                                       <Link href={"/blog/topic/" + (topic.slug_of_topic)} passHref>
-                                        <p className="bg-pink-200 dark:bg-pink-800 p-1 ml-4 text-sm rounded-full text-center cursor-pointer mt-2 px-auto">
+                                        <p className="bg-blue-300 dark:bg-blue-800 p-1 ml-4 text-sm rounded-full text-center cursor-pointer mt-2 px-auto">
                                           {topic.topic_name}
                                         </p></Link>
                                     </div>
